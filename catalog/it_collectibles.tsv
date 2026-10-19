@@ -1,0 +1,719 @@
+1	+0,7 lacrime.
+2	Spara tre lacrime insieme, con cadenza di tiro ridotta.
+3	Le lacrime si dirigono automaticamente verso i nemici.
+4	+0,5 danni e moltiplicatore danni x1,5.
+5	Lacrime boomerang. +1,5 danni, -1 fortuna; aumenta gittata e velocità delle lacrime.
+6	+1,5 lacrime, ma riduce molto la gittata.
+7	+1 danno. Le lacrime diventano di sangue.
+8	Famiglio che segue Isaac e spara lacrime da 3,5 danni.
+9	Rende innocue o meno pericolose diverse mosche nemiche.
+10	Due mosche orbitanti bloccano i proiettili nemici.
+11	Una vita extra: rinasci nella stanza precedente con salute piena.
+12	+1 contenitore rosso, +0,3 danni, danni x1,5, +2,5 gittata, +0,3 velocità. Cura completa.
+13	Avvelena al contatto; +0,2 velocità.
+14	+0,3 velocità e +2,5 gittata.
+15	+1 contenitore di cuore rosso e cura completa.
+16	+2 contenitori di cuore rosso e cura completa.
+17	Porta le chiavi a 99.
+18	Dà 100 monete.
+19	Dà 10 bombe.
+20	Permette di volare.
+21	Mostra le stanze speciali sulla mappa, escluse le stanze segrete.
+22	+1 contenitore rosso pieno; cura anche 1 cuore rosso aggiuntivo.
+23	+1 contenitore rosso pieno; cura anche 1 cuore rosso aggiuntivo.
+24	+1 contenitore rosso pieno; cura anche 1 cuore rosso aggiuntivo.
+25	+1 contenitore rosso pieno; cura anche 1 cuore rosso aggiuntivo.
+26	+1 contenitore rosso pieno; cura anche 1 cuore rosso aggiuntivo.
+27	+0,3 velocità.
+28	+0,3 velocità.
+29	+2,5 gittata; genera 3-6 mosche blu alla raccolta.
+30	+2,5 gittata. Infligge 12 danni ai nemici che toccano Isaac.
+31	+3,75 gittata; genera un cuore alla raccolta.
+32	+0,7 lacrime.
+33	Volo nella stanza. Uccide Mom, Mom's Heart e It Lives!; usarla contro Satan uccide Isaac.
+34	+2 danni nella stanza; aumenta la probabilità di stanza del Diavolo/Angelo.
+35	Infligge 40 danni a tutti i nemici nella stanza.
+36	Genera una cacca e respinge i nemici vicini; può contenere risorse.
+37	Piazza una bomba da 185 danni.
+38	Spara 10 lacrime a cerchio con gli effetti di Isaac e +25 danni ciascuna.
+39	Pietrifica i nemici della stanza per 4 secondi.
+40	Esplosione attorno a Isaac: danneggia anche lui e distrugge gli ostacoli.
+41	Spaventa i nemici per 4 secondi e genera una mosca blu.
+42	Bomba velenosa da lanciare; esplode all'impatto.
+44	Teletrasporta in una stanza casuale del piano, escluse I AM ERROR.
+45	Cura 1 cuore rosso.
+46	+1 fortuna; migliora vari eventi casuali. Converte le pillole negative in positive senza identificarle.
+47	Mira con i tasti di sparo; dopo 2 secondi un missile esplode sul bersaglio.
+48	Lacrime penetranti: attraversano i nemici, ma non gli ostacoli.
+49	Spara un laser dalla bocca con il doppio dei danni delle lacrime.
+50	+1 danno.
+51	+1 danno; +10% probabilità di stanza del Diavolo/Angelo.
+52	Spara bombe invece delle lacrime; applica i potenziamenti delle bombe.
+53	Attira le risorse a terra verso Isaac.
+54	Mostra la disposizione del piano, senza tipi di stanza né stanze segrete.
+55	Possibilità di sparare anche dalla nuca.
+56	Lascia una pozza gialla che danneggia i nemici a terra.
+57	Mosca orbitante che infligge 75 danni al secondo al contatto.
+58	Scudo di invulnerabilità per 10 secondi nella stanza.
+60	Permette di attraversare buchi larghi una casella.
+62	Cura mezzo cuore rosso ogni 13 nemici uccisi; +0,3 danni.
+63	Gli attivi possono accumulare due cariche complete: puoi usarli due volte prima di ricaricarli.
+64	Dimezza i prezzi dei negozi.
+65	Genera 6 bombe troll nella stanza.
+66	Rallenta i nemici della stanza per 8 secondi.
+67	Famiglio che segue Isaac e spara lacrime da 6 danni.
+68	Sostituisce le lacrime con un laser che attraversa i nemici, a gittata illimitata.
+69	Lacrime caricabili: una carica completa infligge più danni.
+70	+1 danno e +0,2 velocità.
+71	Rimpicciolisce Isaac; +0,3 velocità e +2,5 gittata.
+72	+3 cuori dell'anima e +0,5 lacrime. The Bible può comparire tra gli oggetti di qualsiasi categoria.
+73	Famiglio orbitante; altre copie lo fanno sparare, inseguire i nemici e infliggere più danni.
+74	Dà 25 monete.
+75	Identifica le pillole e converte le negative in positive. Genera una pillola, cura 2 cuori rossi e migliora le macchine del sangue.
+76	Rivela e apre gli ingressi delle stanze segrete e super segrete.
+77	Invulnerabilità e danni al contatto per 6 secondi; impedisce di sparare.
+78	Dà 1 cuore dell'anima e può sostituire il boss con un Cavaliere; migliora le probabilità Diavolo/Angelo.
+79	+1 cuore nero, +1 danno e +0,2 velocità.
+80	+2 cuori neri, +0,5 danni e +0,7 lacrime.
+81	Porta i contenitori rossi a 1. Dà 9 vite extra, ciascuna con 1 contenitore rosso.
+82	Volo e +0,3 velocità.
+83	Dà mezzo cuore nero. Per la stanza: +2 danni, -0,18 velocità; Isaac rompe rocce e danneggia toccando i nemici.
+84	Crea una botola al piano successivo. Una volta per piano, su caselle decorate crea invece un cunicolo sotterraneo.
+85	Genera una carta casuale.
+86	Monstro colpisce un nemico per 120 danni ad area. Senza nemici prende di mira Isaac.
+87	Possibilità di sparare contemporaneamente nelle quattro direzioni.
+88	Famiglio che carica davanti a Isaac e danneggia i nemici al contatto.
+89	Possibilità di lacrime che rallentano nemici e loro proiettili.
+90	+1 danno, +0,2 lacrime e -0,2 velocità.
+91	Rivela stanze, anche segrete, fino a due stanze di distanza; protegge dai proiettili che cadono dall'alto.
+92	+1 contenitore rosso pieno e 2 cuori dell'anima.
+93	Trasformazione per 6,5 secondi: invulnerabilità, paura e possibilità di curarsi uccidendo nemici.
+94	Famiglio che genera una moneta ogni 2 stanze completate.
+95	Famiglio che spara laser al posto delle lacrime, come Technology.
+96	Famiglio che genera mezzo cuore rosso ogni 3 stanze; il primo dopo 2.
+97	Genera una risorsa, batteria, pillola o carta casuale.
+98	Famiglio che genera cuori dell'anima dopo aver completato stanze.
+99	Famiglio che spara lacrime rallentanti.
+100	Famiglio che spara lacrime guidate verso i nemici, da 3,5 danni.
+101	+1 contenitore rosso, +0,3 danni, +0,2 lacrime, +1,5 gittata, +0,3 velocità; cura anche 1 cuore rosso aggiuntivo.
+102	Genera una pillola casuale.
+103	Possibilità di lacrime velenose, con danni nel tempo.
+104	Le lacrime si dividono in due all'impatto.
+105	Sostituisce gli oggetti sui piedistalli con altri casuali, scelti dalla categoria della stanza.
+106	+5 bombe; bombe più grandi, potenti e con raggio maggiore.
+107	Volo nella stanza; il corpo si separa e insegue i nemici.
+108	Riduce a mezzo cuore la maggior parte dei danni superiori a mezzo cuore.
+109	+0,04 danni per moneta posseduta, fino a +3,96 con 99 monete.
+110	+1,5 gittata; possibilità di lacrime pietrificanti.
+111	Scoreggia che danneggia e avvelena i nemici vicini.
+112	Famiglio orbitante che blocca colpi e danneggia al contatto; accelera gli altri orbitali.
+113	Famiglio che spara automaticamente ai nemici vicini.
+114	Sostituisce le lacrime con un coltello che attraversa i nemici; caricarlo aumenta gittata e potenza.
+115	Lacrime spettrali che attraversano gli ostacoli; +0,5 lacrime.
+116	Fornisce una carica dopo l'uso degli attivi; quelli da una carica si ricaricano col tempo.
+117	Dopo aver subito danno, un uccello insegue i nemici per la stanza.
+118	Raggio di sangue caricabile che attraversa nemici e ostacoli.
+119	+1 contenitore rosso pieno, recupera cuori rossi e dà +0,3 velocità.
+120	+1,7 lacrime, +0,3 velocità; riduce leggermente i danni.
+121	+1 contenitore rosso pieno, +1 danno, +1,5 gittata, -0,2 velocità.
+122	Con mezzo cuore rosso o meno: +1,5 danni e +0,3 velocità.
+123	Genera un famiglio per il piano corrente.
+124	Attiva l'effetto di un oggetto attivo casuale da una lista prestabilita.
+125	+5 bombe; le bombe inseguono lentamente i nemici.
+126	Costa 1 cuore e dà +1,2 danni nella stanza; usi successivi costano mezzo cuore.
+127	Rigenera il piano con una nuova mappa, conservando gli oggetti già raccolti.
+128	Mosca orbitante distante che infligge 30 danni al secondo al contatto.
+129	+2 contenitori rossi e -0,2 velocità.
+130	Volo e velocità minima 1,5; all'uso carica in avanti con invulnerabilità.
+131	Famiglio che genera una bomba ogni 3 stanze completate.
+132	I danni delle lacrime aumentano con la distanza percorsa.
+133	Converte 1 contenitore rosso in 3 cuori dell'anima.
+134	Le ricompense delle stanze diventano più spesso forzieri, oppure scompaiono.
+135	Sacrifica salute per generare monete.
+136	Esca che attira i nemici ed esplode dopo 5 secondi.
+137	+5 bombe; le bombe piazzate esplodono solo all'uso del detonatore.
+138	+0,3 danni e 1 contenitore rosso pieno; cura anche 1 cuore rosso aggiuntivo.
+139	Uno slot trinket aggiuntivo; genera un trinket.
+140	+5 bombe velenose che lasciano nubi; immunità al veleno.
+141	Genera 7 monete casuali e un trinket legato alle monete.
+142	Una volta per stanza, a mezzo cuore di salute dà 1 cuore dell'anima.
+143	+0,3 velocità e +0,2 velocità delle lacrime.
+144	Famiglio che raccoglie monete e restituisce risorse; può dare oggetti da mendicante.
+145	Genera 2-4 mosche blu alleate.
+146	Dà 1 cuore eterno.
+147	Piccone per attaccare e rompere ostacoli; consumata la carica, torna disponibile al piano successivo.
+148	Subire danno genera 2-6 mosche blu.
+149	Spara proiettili ad arco velenosi ed esplosivi: possono ferire Isaac.
+150	Possibilità di sparare denti che infliggono danni x3,2.
+151	Le lacrime possono generare mosche blu quando colpiscono un nemico.
+152	L'occhio destro spara continuamente un laser che attraversa i nemici, con danni ridotti.
+153	Spara quattro lacrime insieme, con cadenza di tiro ridotta.
+154	+2 danni alle lacrime dell'occhio sinistro.
+155	Occhio famiglio che danneggia al contatto; +35% danni all'occhio sinistro di Isaac.
+156	Subire danno aggiunge una carica all'oggetto attivo.
+157	Subire danno aumenta i danni, fino a 6 volte per piano; bonus azzerato al piano successivo.
+158	Rivela la mappa, escluse super/ultra segrete; genera cuore dell'anima o carta/runa. Favorisce i Planetarium.
+159	Volo; le lacrime attraversano gli ostacoli.
+160	Genera 5 fasci di luce che danneggiano i nemici.
+161	Una vita extra: rinasci come ??? con 3 cuori dell'anima.
+162	Possibilità di uno scudo di 7 secondi dopo aver subito danno.
+163	Famiglio che spara lacrime capaci di attraversare gli ostacoli.
+164	Lancia una fiamma blu che danneggia ciò che attraversa.
+165	+1 danno e +0,23 velocità delle lacrime.
+166	Sostituisce risorse, forzieri e trinket nella stanza con altri casuali.
+167	Famiglio che spara due lacrime a V.
+168	Mira un bersaglio; dopo 1,5 secondi cade un missile esplosivo.
+169	Lacrime enormi e potenti, ma meno frequenti; se uccidono un nemico, il danno avanzato prosegue oltre la vittima.
+170	Un'ombra segue Isaac e schiaccia periodicamente i nemici per 40 danni.
+171	10 danni a tutti i nemici e rallentamento per 4 secondi; le vittime generano ragni blu.
+172	Pugnale orbitante che blocca colpi e infligge alti danni al contatto.
+173	Possibilità di sostituire i cuori rossi generati con cuori dell'anima.
+174	Famiglio che spara lacrime con effetti casuali.
+175	Apre quasi tutte le porte della stanza, incluse segrete e Mega Satan.
+176	+1 contenitore rosso pieno e +0,16 velocità delle lacrime; cura anche 1 cuore rosso aggiuntivo.
+177	Consuma una moneta per tentare di ottenere una risorsa casuale.
+178	Bottiglia famiglio che si lancia quando spari; all'impatto crea una pozza che pietrifica i nemici.
+179	Volo e 1 cuore eterno.
+180	Subire danno genera scoregge e nubi velenose che respingono i nemici.
+181	Volo e velocità minima 1,5; carica invulnerabile con fasci di luce all'uso.
+182	Dà 1 contenitore di cuore rosso. Lacrime guidate; danni x2,3 e +1. -0,4 lacrime, -0,25 velocità delle lacrime.
+183	+0,7 lacrime e +0,16 velocità delle lacrime.
+184	Volo e 1 contenitore rosso pieno; cura anche 1 cuore rosso aggiuntivo.
+185	Volo; le lacrime attraversano gli ostacoli.
+186	Sacrifica 1 cuore per 40 danni a tutti i nemici; usi successivi costano mezzo cuore.
+187	Palla di pelo da oscillare contro i nemici; blocca colpi e cresce uccidendo.
+188	Famiglio che si muove in modo speculare a Isaac e spara verso di lui.
+189	+1 contenitore rosso; aumenta danni, lacrime, velocità e gittata. Cura rossa completa.
+190	Dà 99 bombe.
+191	Effetti delle lacrime casuali che cambiano ogni pochi secondi.
+192	Per la stanza: +3 gittata e lacrime che si dirigono automaticamente verso i nemici.
+193	+1 contenitore rosso pieno, +0,3 danni; cura anche 1 cuore rosso aggiuntivo.
+194	+0,16 velocità delle lacrime, genera una carta e favorisce i Planetarium.
+195	Genera 4 pillole casuali.
+196	+0,4 lacrime e genera 2 cuori dell'anima.
+197	+0,5 danni e +1,5 gittata.
+198	Genera moneta, chiave, bomba, cuore, carta/runa, pillola e trinket.
+199	+2 chiavi; i forzieri contengono più risorse.
+200	Possibilità di lacrime che ammaliano i nemici.
+201	+0,3 danni; possibilità di lacrime che confondono i nemici.
+202	Pietrifica e trasforma in oro i nemici al contatto; ucciderli così genera monete.
+203	50% di possibilità di raddoppiare bombe, chiavi, monete e cuori rossi generati.
+204	Possibilità di generare una risorsa dopo aver subito danno.
+205	Sacrifica salute per ricaricare completamente l'oggetto attivo.
+206	La testa diventa un orbitale che blocca colpi e spara; +1 danno e +0,5 cadenza di tiro.
+207	Orbitale; altre copie sparano lacrime ammalianti e poi inseguono i nemici.
+208	Dà +1 danno; aumenta del 15% la possibilità di nemici campioni, cioè varianti potenziate.
+209	+5 bombe; le esplosioni danneggiano e confondono tutti i nemici.
+210	Restare immobili senza sparare rende invulnerabili; muoversi o sparare interrompe l'effetto.
+211	Genera ragni blu quando Isaac subisce danno.
+212	A ogni morte, 50% di possibilità di rinascere con mezzo cuore rosso.
+213	Le lacrime distruggono proiettili nemici; -0,15 velocità delle lacrime.
+214	+1,5 gittata; dopo un danno lascia una scia rossa per la stanza.
+215	Garantisce stanze del Diavolo/Angelo dopo i boss, sui piani in cui possono apparire.
+216	+3 cuori neri e +1 danno.
+217	Possibilità di generare ragni blu sparando; cura 1 cuore rosso.
+218	+1 contenitore rosso pieno; può rigenerare mezzo cuore rosso ogni minuto.
+219	+1 contenitore rosso vuoto; possibilità di generare cuori rossi dopo un danno.
+220	+5 bombe; le esplosioni lanciano 10 lacrime con gli effetti di Isaac.
+221	Le lacrime rimbalzano su muri, nemici e ostacoli.
+222	Dà +1 cadenza di tiro; tenendo premuto lo sparo, le lacrime restano sospese. Rilasciandolo, partono.
+223	+5 bombe; immunità a esplosioni e fuoco. Le esplosioni curano Isaac.
+224	+0,5 cadenza di tiro, gittata ridotta; le lacrime si dividono in quattro più piccole.
+225	Subire danno può generare cuori dell'anima; i nemici possono lasciare mezzi cuori rossi.
+226	+1 contenitore rosso, 1 cuore dell'anima e 1 cuore nero.
+227	Dà 3 monete; subire danno genera altre monete.
+228	+0,5 cadenza di tiro; possibilità di lacrime che spaventano i nemici.
+229	Carica una raffica di 14 lacrime, come Monstro.
+230	Dà +1,5 danni e +0,2 velocità; converte i contenitori rossi in cuori neri e ne aggiunge 2. Le lacrime possono spaventare.
+231	Lacrime occasionalmente rallentanti; lascia una scia che rallenta i nemici.
+232	+0,3 velocità; rallenta nemici e proiettili nelle stanze.
+233	Le lacrime orbitano attorno a Isaac e attraversano gli ostacoli; gittata molto aumentata.
+234	I nemici uccisi generano ragni blu alleati.
+236	Trasforma in cacca i nemici che toccano Isaac.
+237	Dà +1,5 danni e -0,3 lacrime; spara grandi falci che attraversano i nemici.
+238	Con Key Piece 2 apre la porta dorata di Mega Satan.
+239	Con Key Piece 1 apre la porta dorata di Mega Satan.
+240	Aumenta quattro statistiche casuali e ne riduce altre due.
+241	Raddoppia molte ricompense delle stanze, ma aumenta la possibilità di non riceverne.
+242	50% di possibilità di bloccare proiettili da qualsiasi direzione.
+243	Scudo che blocca i proiettili nella direzione di sparo.
+244	Spara occasionalmente laser che attraversano i nemici insieme alle lacrime, anche con effetti variabili.
+245	Spara due lacrime insieme; danni x0,8.
+246	Mostra stanze segrete e super segrete sulla mappa.
+247	Aumenta dimensioni ed efficacia della maggior parte dei famigli.
+248	Raddoppia i danni di mosche e ragni blu; potenzia anche i famigli di questi tipi.
+249	Dopo i boss appaiono due oggetti: prenderne uno fa sparire l'altro.
+250	Le bombe normali generate diventano pacchi da due.
+251	Due slot carte; le pillole vengono sostituite con carte.
+252	Due slot pillole; carte e rune vengono sostituite con pillole.
+253	+1 contenitore rosso pieno, +1 fortuna; cura anche 1 cuore rosso aggiuntivo.
+254	L'occhio sinistro ha +1 danno e +2,75 gittata.
+255	+0,5 lacrime e +0,2 velocità delle lacrime.
+256	+5 bombe; le esplosioni lasciano fiamme.
+257	Lacrime incendiarie che possono esplodere all'impatto, ferendo anche Isaac.
+258	Rende casuali oggetti passivi e statistiche alla raccolta e a ogni nuovo piano.
+259	+1 danno; possibilità di lacrime che spaventano.
+260	Impedisce le maledizioni, dà 1 cuore nero e favorisce stanze del Diavolo/Angelo.
+261	Lacrime inizialmente grandi e potenti, che si indeboliscono rapidamente con la distanza.
+262	+1 cuore nero; danno ad area quando resti a poca salute. Potenzia cuori neri ed effetti tipo Necronomicon.
+263	Usa l'effetto della runa o pietra dell'anima tenuta senza consumarla; ricarica variabile. Genera una runa alla raccolta.
+264	Mosca orbitante che blocca colpi; dopo un danno insegue e attacca i nemici.
+265	Famiglio che blocca proiettili e può attivare un danno ad area quando ne intercetta uno.
+266	Famiglio con scia rallentante; genera 1-2 ragni blu dopo le stanze.
+267	Famiglio controllato dai tasti di sparo; spara laser ai nemici sulla sua linea.
+268	Famiglio che genera una mosca blu alla volta quando spari.
+269	Famiglio che lascia una scia di sangue dannosa.
+270	Sanguisuga famiglio che insegue i nemici; ogni sua uccisione cura mezzo cuore rosso.
+271	Famiglio che genera una risorsa ogni 5-6 stanze.
+272	Mosca esplosiva che vaga nella stanza; può ferire Isaac e ricompare dopo 10 secondi.
+273	Cervello famiglio che carica ed esplode sui nemici, avvelenandoli; può ferire Isaac.
+274	Dopo un danno, una mosca orbitante veloce attacca per la stanza.
+275	Famiglio che carica e spara un piccolo raggio Brimstone.
+276	Isaac diventa immune, ma subisce il danno ricevuto dal cuore famiglio; il cuore può caricare attacchi.
+277	Fantasma famiglio che insegue, danneggia e spaventa i nemici.
+278	Famiglio che raccoglie cuori rossi; dà una ricompensa ogni 1,5 cuori raccolti.
+279	Grande mosca orbitante lenta che blocca colpi e danneggia al contatto; rallenta gli altri orbitali.
+280	Ragno famiglio che genera ragni blu e ammalia brevemente al contatto.
+281	Esca vagante: i nemici la prendono di mira se è più vicina di Isaac.
+282	Salta nella direzione di movimento, superando nemici e ostacoli.
+283	Combina più dadi: cambia casualmente oggetti a terra e passivi posseduti, risorse, nemici e statistiche.
+284	Sostituisce tutti i passivi posseduti da Isaac con altri oggetti casuali.
+285	Sostituisce i nemici della stanza con versioni più deboli.
+286	Usa l'effetto della carta tenuta senza consumarla; le cariche richieste dipendono dalla carta.
+287	Un effetto di mappa per il piano; con tutte le mappe dà X-Ray Vision, che apre le segrete. Evidenzia rocce speciali nella stanza.
+288	Genera ragni blu alleati.
+289	Lancia una fiamma rossa che danneggia nemici e blocca colpi.
+290	Con salute piena conserva fino a 4 cuori rossi; all'uso li lascia a terra.
+291	Trasforma i nemici comuni in cacca; uccide subito boss di cacca e allaga la stanza.
+292	Dà 1 cuore nero; l'oggetto del boss sul piano diventa un patto del Diavolo.
+293	Spara raggi Brimstone nelle quattro direzioni.
+294	Scoreggia che respinge nemici e proiettili; i nemici sbattuti contro ostacoli subiscono danno.
+295	Consuma una moneta per danneggiare tutti i nemici nella stanza.
+296	Converte 1 cuore dell'anima o nero in 1 contenitore rosso pieno.
+297	Ricompense diverse secondo il piano; si consuma all'uso.
+298	Invulnerabilità e velocità per 6 secondi; impedisce di sparare.
+299	-0,3 velocità; accelera combattendo fino a diventare temporaneamente invulnerabile e attaccare al contatto.
+300	+0,25 velocità; correre contro i nemici infligge danni e protegge dal loro contatto.
+301	+3 cuori dell'anima; dopo un danno riduce i successivi a mezzo cuore per la stanza.
+302	Rompe le rocce camminandoci sopra.
+303	Può dare uno scudo di 10 secondi dopo un danno; converte pillole negative in positive.
+304	Dà 6 monete, 6 bombe e 6 chiavi; bilancia le statistiche.
+305	Lacrime velenose che infliggono danni nel tempo.
+306	Dà +0,2 velocità; le lacrime attraversano i nemici.
+307	+1 contenitore rosso; aumenta danni, velocità, gittata e cadenza di tiro. Dà bomba, moneta e chiave.
+308	Scia blu dannosa che eredita danni e molti effetti delle lacrime.
+309	Dà +0,5 cadenza di tiro; lacrime più grandi che spingono molto indietro i nemici.
+310	Raddoppia i danni; cadenza di tiro x0,66 e velocità delle lacrime molto ridotta.
+311	Una vita extra: rinasci come Black Judas con 2 cuori neri.
+312	+1 contenitore rosso; raddoppia la cura dei cuori rossi e cura alla raccolta.
+313	Annulla il primo danno ostile in ogni stanza.
+314	Rompe rocce al contatto; +1 contenitore rosso e velocità ridotta.
+315	Le lacrime attirano risorse, trinket e nemici.
+316	Carica una raffica di 5 lacrime. Subire danno durante una carica parziale teletrasporta Isaac.
+317	Le lacrime lasciano piccole pozze dannose all'impatto o a fine gittata.
+318	Famiglio legato a Isaac che attacca i nemici vicini al contatto.
+319	Occhio famiglio che spara in direzioni casuali copiando lacrime e danni di Isaac.
+320	Mosca controllata coi tasti di sparo; infligge 15 danni al secondo al contatto.
+321	Palla e catena che danneggia nemici, blocca colpi e distrugge ostacoli.
+322	Famiglio che alterna gli attacchi degli altri famigli posseduti.
+323	Spara 8 lacrime con gli effetti di Isaac e +5 danni; si ricarica sparando.
+324	Teletrasporta in stanza segreta, super segreta, tesoro o I AM ERROR.
+325	La testa diventa un famiglio fisso; il corpo spara una fontana di sangue per la stanza.
+326	Tenendo premuto l'uso, svuota la carica e rende invulnerabile quando arriva a zero. Tenerlo oltre ferisce Isaac; può creare fasci di luce.
+327	Scudo dopo un danno con mezzo cuore rosso o meno; permette l'accesso a Chest e Home.
+328	+1 danno; a poca salute rossa, subire danno danneggia tutti i nemici. Accesso a Dark Room e Home.
+329	Una singola lacrima controllabile che danneggia continuamente i nemici su cui resta.
+330	Cadenza altissima, ma lacrime più piccole e danni molto ridotti.
+331	Lacrime guidate con un'aura che danneggia i nemici. +0,5 danni, -0,3 lacrime e -0,3 velocità delle lacrime.
+332	Alla morte rinasci come Lazarus Risen con un contenitore rosso in meno e bonus; torna Lazarus al piano seguente.
+333	Rivela tutta la mappa, incluse stanze speciali e segrete.
+334	Dà 3 contenitori di cuore rosso.
+335	+2 cuori dell'anima; aura che respinge nemici e proiettili.
+336	Lacrime più grandi che attraversano nemici e ostacoli, ma con gittata e velocità molto ridotte.
+337	Ogni quarta stanza nuova rallenta i nemici; può invece accelerarli.
+338	Boomerang che attraversa i nemici, li danneggia e pietrifica per 2 secondi; recupera anche risorse.
+339	+1 cuore nero, +2,5 gittata e +0,16 velocità delle lacrime.
+340	+0,3 velocità, rimpicciolisce Isaac e genera una pillola.
+341	+0,7 lacrime e +0,16 velocità delle lacrime.
+342	+1 contenitore rosso pieno, +0,7 lacrime e -0,16 velocità delle lacrime; cura anche 1 cuore rosso aggiuntivo.
+343	+1 cuore dell'anima, +1 fortuna e 2 chiavi.
+344	+1 cuore nero e 2-3 bombe; può generare Match Stick.
+345	+1 danno e +2,5 gittata.
+346	+1 contenitore rosso pieno; cura anche 1 cuore rosso aggiuntivo.
+347	Duplica tutti gli oggetti e le risorse nella stanza; si consuma.
+348	Usa l'effetto della pillola tenuta senza consumarla; le cariche richieste dipendono dalla pillola.
+349	Circa 50% di possibilità di generare una moneta; altrimenti non fa nulla.
+350	All'ingresso avvelena i nemici con danni basati su Isaac; le vittime lasciano pozze velenose.
+351	Pietrifica tutti i nemici, avvelena quelli vicini e lancia un'onda di rocce in avanti.
+352	Spara una lacrima potente che attraversa nemici e ostacoli. Subire danno rompe il cannone e infligge danni extra a Isaac.
+353	+5 bombe; esplosioni grandi a forma di croce.
+354	+1 contenitore rosso pieno e un trinket casuale; cura anche 1 cuore rosso aggiuntivo.
+355	+2,5 gittata, +1 fortuna e 1 cuore dell'anima.
+356	Gli oggetti attivi si attivano due volte a ogni uso.
+357	Duplica i famigli per la stanza; senza famigli genera Demon Baby temporaneo.
+358	Spara diagonalmente da entrambi gli occhi; le lacrime attraversano gli ostacoli.
+359	Dà +1,5 danni; spara chiodi che spingono molto indietro i nemici.
+360	Famiglio che copia gli attacchi e gli effetti delle lacrime di Isaac.
+361	Testa famiglio che spara copiando danni ed effetti delle lacrime di Isaac.
+362	Forziere famiglio che può generare risorse o trinket completando stanze.
+363	Orbitale che attira e blocca colpi; dopo 10 colpi bloccati nella stanza dà un cuore eterno.
+364	Mosca orbitante che infligge 45 danni al secondo al contatto.
+365	Mosca che segue muri e ostacoli, danneggia al contatto e attira l'attenzione dei nemici.
+366	+5 bombe; ogni esplosione genera 2-4 minibombe.
+367	+5 bombe adesive; uccidendo generano ragni blu e lasciano una pozza rallentante.
+368	Sparare nella stessa direzione aumenta la cadenza di tiro; cambiare direzione o fermarsi azzera il bonus.
+369	Lacrime con più gittata: attraversano ostacoli e bordi della stanza, riapparendo sul lato opposto.
+370	+0,7 lacrime, +2,5 gittata; genera 3 cuori casuali.
+371	Subire danno genera 6 bombe troll nella stanza.
+372	Famiglio che può generare batterie, dare cariche o pietrificare i nemici.
+373	Colpire consecutivamente aumenta i danni; i colpi mancati possono azzerare il bonus.
+374	Possibilità di lacrime che creano fasci di luce dannosi colpendo nemici.
+375	Immunità alle esplosioni; copricapo che può bloccare proiettili e rispondere con lacrime.
+376	I negozi riforniscono subito gli acquisti; fuori da Greed i prezzi successivi aumentano.
+377	I ragni nemici non prendono più di mira Isaac né lo feriscono al contatto.
+378	Sparare continuativamente per 2,35 secondi lascia una bomba che può ferire Isaac.
+379	Lacrime larghe a forma di arco, capaci di attraversare gli ostacoli.
+380	+5 monete; porte, forzieri e blocchi chiusi si aprono con monete anziché chiavi.
+381	+0,7 lacrime; un oggetto casuale all'inizio della prossima run.
+382	Cattura un nemico lanciandogli la palla; puoi poi liberarlo come alleato persistente.
+383	Divide le lacrime in volo in 6 lacrime ciascuna.
+384	Famiglio che si carica sparando, poi rimbalza infliggendo danni al contatto.
+385	Famiglio che raccoglie monete e cresce: ottiene corpo, lacrime e poi attacchi al contatto.
+386	Sostituisce la maggior parte degli ostacoli della stanza con altri casuali.
+387	Famiglio con aura che rallenta nemici e proiettili.
+388	Famiglio che consuma chiavi e restituisce forzieri casuali.
+389	Famiglio che genera rune dopo aver completato stanze.
+390	Angelo famiglio che spara lacrime guidate verso i nemici, da 10 danni.
+391	I nemici possono danneggiarsi tra loro e vendicarsi su chi li ha colpiti.
+392	A ogni piano dà l'effetto di un diverso oggetto dello zodiaco, scelto casualmente.
+393	Lacrime occasionalmente velenose e veleno al contatto; i nemici avvelenati possono lasciare cuori neri.
+394	Spara automaticamente verso un bersaglio controllabile; +0,7 lacrime e gittata aumentata.
+395	Spara anelli laser che attraversano i nemici; caricarli ne aumenta l'efficacia.
+396	Crea due portali persistenti: entrarne in uno porta all'altro.
+397	Le lacrime seguono un raggio nella direzione di tiro; +1 cadenza di tiro, +2,5 gittata, +0,16 velocità delle lacrime.
+398	Possibilità di rimpicciolire i nemici: scappano e puoi schiacciarli camminandoci sopra.
+399	Carica sparando, poi libera un anello nero dannoso; +1 danno.
+400	Lancia davanti a Isaac che infligge danni doppi delle lacrime al contatto e può spaventare.
+401	Possibilità di lacrime adesive che esplodono sui nemici, potendo ferire Isaac.
+402	Gli oggetti possono provenire da categorie casuali, anziché da quella abituale della stanza. Genera 1-6 risorse.
+403	Mostra danni e salute dei nemici; ragno famiglio che applica effetti e può dare batterie o ragni blu.
+404	Famiglio che blocca proiettili e può emettere scoregge ammalianti, velenose o respingenti.
+405	Un doppio tocco di sparo lancia il famiglio; cambia casualmente il primo nemico o la prima risorsa colpita.
+406	Rende casuali danni, lacrime, gittata e velocità.
+407	Aura con bonus a una statistica; subire danno la spegne e la stanza successiva ne cambia il colore.
+408	Le uccisioni possono creare un anello nero dannoso, secondo la fortuna.
+409	+2 cuori neri; senza salute rossa dà volo e periodici scudi di invulnerabilità.
+410	Possibilità di sparare occhi che avanzano e sparano nella stessa direzione di Isaac.
+411	Ogni uccisione aumenta i danni fino a uscire dalla stanza.
+412	Subire danno abbastanza volte genera famigli demoniaci permanenti.
+413	Raccogliere abbastanza cuori genera famigli angelici permanenti.
+414	Due oggetti in ogni stanza del tesoro; prenderne uno fa sparire l'altro.
+415	+2 cuori dell'anima; con salute rossa piena raddoppia i danni. Subire danno spegne il bonus per la stanza.
+416	Limite monete a 999; una stanza senza ricompensa genera 1-3 monete.
+417	Famiglio con aura dannosa; dentro l'aura Isaac ottiene danni x1,5.
+418	Ogni lacrima ha un effetto casuale diverso.
+419	Teletrasporta in una stanza non esplorata, dando priorità a stanze comuni e poi speciali.
+420	Lascia polvere nera; camminare in cerchio crea un pentacolo dannoso.
+421	Scoreggia che ammalia i nemici vicini.
+422	Riavvolge alla stanza precedente annullando quanto accaduto; usi limitati per piano, poi funziona come The Hourglass.
+423	Aura che danneggia i nemici e può convertire i proiettili nemici in lacrime alleate guidate verso i nemici.
+424	Genera un sacco; varie risorse possono comparire come sacchi.
+425	Cono di luce nella direzione di movimento che rallenta nemici e proiettili.
+426	Mosca che segue i movimenti con ritardo e danneggia al contatto.
+427	Piazza una cassa TNT spostabile; riusarlo nella stessa stanza la fa esplodere.
+428	+4 cuori dell'anima e cura completa.
+429	Lacrime a forma di moneta; colpire un nemico può generare una moneta.
+430	Mosca che segue con 3 secondi di ritardo e spara ai nemici vicini.
+431	Famiglio che segue con ritardo; attraversarlo duplica e accelera le lacrime.
+432	+5 bombe; le esplosioni possono generare risorse o ammaliare nemici.
+433	Ombra famiglio che genera Charger alleati quando un nemico la tocca.
+434	Conserva fino a 20 mosche dalle uccisioni; all'uso le libera come mosche blu.
+435	Loki famiglio che spara nelle quattro direzioni.
+436	Dopo un danno il latte si rovescia e aumenta la cadenza di tiro per la stanza.
+437	Riavvia la stanza con i nemici, permettendo nuove ricompense.
+438	+1 cuore dell'anima, +0,75 lacrime; rimpicciolisce Isaac.
+439	Mentre lo tieni: +1 fortuna e trinket potenziati. All'uso genera un trinket.
+440	Periodicamente carica e spara un calcolo che attraversa i nemici, seguito da una raffica. Riduce velocità e gittata.
+441	Grande raggio Brimstone per circa 15 secondi, persistente tra stanze; spinge Isaac all'indietro.
+442	Con esattamente 1 cuore rosso: +2 cadenza di tiro, +1,5 gittata e +0,2 velocità delle lacrime.
+443	+0,3 lacrime; possibilità di lame con danni x4.
+444	Ogni 15 lacrime spara una raffica molto potente.
+445	Dà +0,3 danni e +0,1 velocità; suoni segnalano stanze segrete e cunicoli sotterranei non ancora scoperti.
+446	Sparare crea un'aura velenosa attorno a Isaac.
+447	Sparare continuamente genera nubi dannose che puoi spostare con le lacrime.
+448	Subire danno avvia un sanguinamento offensivo che può ferire Isaac; raccogliere un cuore rosso lo ferma.
+449	Dà 1 cuore dell'anima; può riflettere proiettili nemici trasformandoli in lacrime che confondono i nemici.
+450	Ogni 20 lacrime consuma una moneta e spara una lacrima dorata; le vittime dorate lasciano monete.
+451	Genera una carta; raddoppia gli effetti dei tarocchi.
+452	Subire danno libera un anello di 10 lacrime potenti.
+453	Aumenta la gittata; spara ossa che si spezzano in 1-3 frammenti.
+454	Due slot carte/pillole; genera una carta, runa o pillola casuale.
+455	+2,5 gittata e genera una moneta fortunata.
+456	+1 contenitore rosso pieno; cura anche 1 cuore rosso aggiuntivo.
+457	+1 cuore dell'anima; possibilità di ignorare il danno ricevuto.
+458	Genera un trinket e aggiunge uno slot trinket.
+459	Possibilità di lacrime adesive che danneggiano i nemici nel tempo.
+460	Possibilità di lacrime che confondono i nemici a lungo.
+461	Possibilità di sacche d'uova che rallentano e generano mosche o ragni blu.
+462	Le lacrime attraversano i nemici; dopo il primo colpito, inseguono gli altri e infliggono danni doppi.
+463	+0,3 danni; lacrime acide occasionali che rompono ostacoli e aprono porte.
+464	Dà 2 cuori dell'anima; adatta le ricompense di stanze e nemici campioni alle risorse che possiedi.
+465	+0,35 lacrime; permette di sparare diagonalmente.
+466	La prima uccisione nella stanza genera una nube velenosa; il contagio si propaga dalle vittime.
+467	Dito famiglio che danneggia rapidamente i nemici indicati nella direzione di sparo.
+468	Ombra che segue con ritardo e danneggia al contatto; dopo abbastanza danni viene assorbita e genera Charger alleati.
+469	Nuvola famiglio con scia dannosa; può creare fasci di luce sui nemici toccati.
+470	Hush famiglio che rimbalza e danneggia al contatto; si ferma mentre spari.
+471	Monstro famiglio che carica raffiche di lacrime.
+472	Famiglio che guida gli altri famigli e li tiene fermi in posizione mentre spari.
+473	Famiglio che carica quando spari, bloccando colpi e danneggiando al contatto.
+474	Versione rotta di Glass Cannon; dopo la ricarica, usarla ripristina Glass Cannon.
+475	Uccide tutti i nemici della stanza, poi uccide Isaac dopo 3 secondi.
+476	Duplica una risorsa casuale della stanza; la copia può essere una variante diversa dello stesso tipo.
+477	Assorbe gli oggetti sui piedistalli: i passivi danno bonus alle statistiche; gli attivi aggiungono i loro effetti a Void.
+478	Congela i nemici finché non premi un tasto di sparo.
+479	Assorbe il trinket tenuto, rendendone permanente l'effetto.
+480	Raddoppia mosche e ragni blu; converte le risorse della stanza in mosche o ragni.
+481	Distorce la grafica; aumenta una statistica casuale e ne riduce un'altra.
+482	Cambia personaggio casualmente e può rimuovere l'ultimo oggetto raccolto.
+483	Esplosione potente in ogni nuova stanza del piano; rompe ostacoli e apre porte bombardabili.
+484	Scoreggia con onda circolare di rocce che rompe ostacoli e danneggia nemici.
+485	50% di possibilità di duplicare oggetti e risorse; se fallisce, li elimina e lascia una moneta.
+486	Simula un danno senza perdere salute, attivando gli effetti che reagiscono al danno.
+487	Sacrifica un contenitore rosso per danni, gittata e un Cube of Meat.
+488	Dà l'effetto di un oggetto casuale fino all'uscita dalla stanza.
+489	Copia un dado selezionabile con il tasto di rilascio, escluso Spindown Dice.
+490	Genera due oggetti casuali della categoria della stanza, poi si consuma. Inizia completamente scarico.
+491	Famiglio che genera pillole; usarne una avvelena tutti i nemici della stanza.
+492	Dà +1 fortuna; una fatina indica stanze segrete, cunicoli sotterranei e rocce segnate da una X.
+493	I contenitori rossi vuoti aumentano i danni.
+494	Le lacrime generano scintille elettriche all'impatto.
+495	Possibilità di sparare fiamme blu insieme alle lacrime.
+496	Possibilità di aghi che uccidono i nemici comuni e fanno danni tripli ai boss; le vittime esplodono in altri colpi.
+497	Mimetizzazione all'ingresso: confonde nemici comuni e aumenta velocità; sparare la rompe e dà bonus offensivi.
+498	Fa comparire insieme porte del Diavolo e dell'Angelo; puoi entrarne solo una.
+499	Garantisce stanze dell'Angelo dopo i boss, sui piani in cui possono apparire.
+500	Famiglio che genera sacchi completando stanze.
+501	Un contenitore rosso ogni 25 monete possedute.
+502	Possibilità di colpi a danno doppio che lasciano scia bianca rallentante.
+503	Possibilità di lacrime che evocano una mano: uccide nemici comuni e danneggia molto i boss.
+504	Genera una mosca torretta fissa che spara ai nemici per la stanza.
+505	Entrare in una stanza con nemici può generare un nemico alleato persistente.
+506	Colpire i nemici da dietro fa danni doppi e causa sanguinamento.
+507	Danneggia tutti i nemici; può generare mezzo cuore rosso colpendo.
+508	Rasoio orbitante che infligge danni al contatto e sanguinamento.
+509	Occhio orbitante che blocca colpi, danneggia al contatto e spara ai nemici.
+510	Evoca un boss alleato per la stanza; le cariche dipendono dal boss evocato.
+511	Mosca che orbita attorno a un nemico e danneggia gli altri al contatto.
+512	Lancia un buco nero che attira e danneggia nemici e distrugge ostacoli.
+513	+0,1 danni e 1 cuore dell'anima; può ammaliare o spaventare nemici e generare cacca arcobaleno dopo un danno.
+514	Blocca brevemente nemici, proiettili e risorse a intervalli casuali; talvolta duplica la ricompensa della stanza.
+515	Genera un oggetto casuale della categoria della stanza; può invece dare A Lump of Coal o The Poop.
+516	Torretta irrigatore che ruota e spara copiando statistiche ed effetti di Isaac.
+517	+7 bombe; piazzamento rapido e bombe che non si respingono tra loro.
+518	Famiglio con lacrime casuali, diverso a ogni piano.
+519	Famiglio che cambia forma ogni 10 secondi.
+520	Una carica all'oggetto attivo ogni 15 nemici uccisi.
+521	Garantisce uno sconto nel negozio; all'uso rende gratuito un oggetto casuale della stanza.
+522	Per 3 secondi ferma i proiettili vicini e poi li rilancia.
+523	Conserva fino a 10 oggetti o risorse per trasportarli in un'altra stanza.
+524	Collega le lacrime con elettricità dannosa.
+525	Subire danno genera fino a 3 orbitali che bloccano colpi; si distruggono dopo abbastanza impatti.
+526	Famiglio Cavaliere che cambia ogni 10 secondi e genera locuste con effetti diversi.
+527	Evoca un fantasma controllabile che interagisce col bersaglio indicato.
+528	Prisma orbitante: attraversarlo divide le lacrime in quattro.
+529	Spara occhi che rimbalzano tra loro; scompaiono fermandosi o colpendo ostacoli e nemici.
+530	Una risorsa o statistica se uccidi tutti i nemici nell'ordine indicato.
+531	Grandi lacrime di sangue ad arco che si frantumano all'impatto; cadenza di tiro ridotta.
+532	Le lacrime rallentano e si dividono in 8; sparare in altre lacrime le potenzia.
+533	Spara fasci bianchi che attraversano i nemici: danni ridotti a ogni colpo, ma possono colpire più volte.
+534	Permette di tenere due oggetti attivi.
+535	+1 cuore dell'anima; scudo che annulla un colpo nelle stanze dei boss.
+536	Sacrifica fino a 2 famigli per oggetti; converte mosche e ragni alleati in monete.
+537	Genera una pillola e un famiglio che sputa pozze; usare pillole cambia il tipo di pozza.
+538	Genera 3 trinket; subire danno può assorbire quello tenuto rendendolo permanente.
+539	Uovo famiglio che si schiude dopo un danno; l'alleato migliora completando stanze senza danni.
+540	Le lacrime rimbalzano sul pavimento, creando schizzi che danneggiano l'area vicina.
+541	+1 cuore d'osso e genera 3 cuori rossi.
+542	Osso orbitante che riflette i proiettili nemici.
+543	Dopo un danno il famiglio diventa cacca bianca; nella sua aura aumentano tiro e danni, le lacrime sono guidate e può bloccare colpi.
+544	Osso davanti a Isaac che danneggia al contatto secondo i suoi danni.
+545	Le uccisioni nella stanza permettono di evocare nemici ossei alleati e ossa orbitanti.
+546	Anello attorno a Isaac che pietrifica i nemici toccati.
+547	+1 cuore d'osso, +0,7 lacrime; genera Mysterious Paper.
+548	Mascella famiglio che si lancia sparando, infligge 7 danni al contatto e recupera risorse.
+549	Converte i contenitori rossi in 6 cuori d'osso vuoti; perderli spara ossa e aumenta permanentemente la cadenza di tiro.
+550	Mom tenta continuamente di schiacciarti; all'uso si ferma per la stanza/ondata. Primo pezzo di Mom's Shovel.
+551	Secondo pezzo di Mom's Shovel; da solo non ha effetto.
+552	Crea una botola al piano successivo; sul tumulo di Dark Room sblocca The Forgotten.
+553	Spore adesive che esplodono dopo pochi secondi, avvelenano e generano altre spore.
+554	Spaventa i nemici vicini a Isaac.
+555	Dà 5 monete alla raccolta; consuma 5 monete per +1,2 danni nella stanza.
+556	Per la stanza dà Brimstone: un raggio di sangue caricabile.
+557	Genera un messaggio di fortuna o una ricompensa: cuore dell'anima, carta, runa o trinket.
+558	Possibilità di sparare lacrime aggiuntive in direzioni casuali.
+559	Fulmina ripetutamente i nemici vicini.
+560	Subire danno libera un anello di lacrime e aumenta la cadenza di tiro per la stanza.
+561	Cadenza x4, danni x0,3; le lacrime hanno movimenti casuali.
+562	Impedisce la diminuzione delle statistiche.
+563	+5 bombe; ogni bomba ottiene 1-4 effetti casuali.
+564	+0,5 lacrime e +0,2 velocità delle lacrime.
+565	Cucciolo famiglio che cresce uccidendo e può diventare ostile; danneggiarlo abbastanza lo calma.
+566	Tra i piani mostra tesoro e boss del piano successivo; mezzo cuore dell'anima entrando nel nuovo piano.
+567	+0,4 cadenza di tiro per stanza consecutiva senza danni, fino a 5 bonus.
+568	Doppio tocco di sparo crea uno scudo che respinge nemici e riflette proiettili e laser.
+569	All'inizio del piano prosciuga salute rossa per bonus a danni e velocità sul piano.
+570	Lacrime multicolori, ciascuna con un diverso effetto di stato sui nemici.
+571	Immunità a pozze dannose e spuntoni del pavimento; +0,3 velocità e 2 cuori dell'anima.
+572	+1 danno, +2 gittata, -0,16 velocità delle lacrime; puoi guidare le lacrime in volo.
+573	+1 contenitore rosso e cura completa; danni x1,2 e lacrime orbitanti occasionali.
+574	Aura attorno a Isaac che danneggia i nemici al suo interno.
+575	Ragno nella testa che spara lacrime rallentanti; dopo un danno può uscire e attaccare.
+576	Rompere cacche genera piccoli Dip alleati; il loro effetto cambia secondo il tipo di cacca.
+577	Raddoppia gli oggetti offerti sui piedistalli. Dopo il primo danno, la spada può cadere in qualsiasi momento e ucciderti subito.
+578	Crea una grande pozza gialla dannosa sotto Isaac.
+579	Sostituisce le lacrime con una spada; carica un attacco rotante e proiettili.
+580	Crea stanze rosse presso pareti con sagoma di porta; 10% di possibilità di stanza speciale.
+581	Mosca orbitante che intercetta e distrugge proiettili nemici.
+582	Aumenta lacrime, riduce velocità e distorce lo schermo; gli effetti crescono con gli usi e svaniscono completando stanze.
+583	+5 bombe; piazzarne una mentre spari lancia invece un razzo esplosivo.
+584	Usare attivi genera fuochi fatui orbitanti con effetti legati all'oggetto; bloccano colpi e sparano.
+585	Si carica raccogliendo 6 cuori dell'anima; all'uso genera cuori dell'anima e oggetti angelici, poi si consuma.
+586	Scala nella stanza iniziale di ogni piano verso un negozio angelico.
+588	Rivela la posizione del boss; sconfiggerlo cura con The Sun, ricarica l'attivo, rimuove maledizioni e dà danni/fortuna per il piano.
+589	Aggiunge una segreta e una super segreta; al loro interno una luce dà cadenza di tiro sul piano e mezzo cuore dell'anima.
+590	+0,4 velocità; le porte restano aperte anche con nemici nella stanza.
+591	Dà 1 contenitore rosso pieno e cura anche 1 cuore rosso aggiuntivo; ammalia i nemici vicini.
+592	Dà +1 danno; spara rocce con danni variabili che spingono molto i nemici e rompono ostacoli.
+593	Doppio tocco di movimento esegue uno scatto invulnerabile che danneggia; breve ricarica.
+594	+2 contenitori rossi, -0,3 velocità; stare fermi accumula velocità e poi muoversi libera nubi velenose.
+595	Lacrime orbitanti entrando nelle stanze; può catturare proiettili nemici e renderli alleati.
+596	Lacrime gelide che rallentano e congelano le vittime; i corpi scivolano e si rompono in schegge.
+597	Non sparare accumula lacrime; riprendere il tiro le libera rapidamente.
+598	+0,7 lacrime; rimpicciolisce molto Isaac, facilitando schivate e passaggi stretti.
+599	Una stanza maledetta aggiuntiva per piano; stanze maledette migliorate.
+600	L'occhio sinistro spara più rapidamente dell'altro.
+601	+0,7 lacrime e cuore eterno; permette stanze dell'Angelo dopo patti del Diavolo e riduce la penalità del danno rosso.
+602	Botola nei negozi verso un secondo negozio con assortimento speciale e prezzi maggiorati.
+603	Ricarica l'attivo e genera 2-4 batterie.
+604	Permette di sollevare e lanciare rocce, TNT, cacche, bombe e altri ostacoli.
+605	Evoca The Peeper per la stanza, con scia di sangue.
+606	Possibilità di lacrime che creano vortici: attirano nemici, risorse e colpi e infliggono danni.
+607	Famiglio che spara raffiche caotiche in tutte le direzioni.
+608	Famiglio che spara ghiaccio, può pietrificare e congelare le vittime.
+609	Sostituisce gli oggetti sui piedistalli con altri casuali; ciascuno ha il 25% di possibilità di sparire.
+610	Al primo danno nella stanza, un uccello schiaccia un nemico e libera rocce, poi insegue gli altri.
+611	Urlo che danneggia e respinge; più cariche significano più potenza. Subire danno aggiunge una carica.
+612	Fantasma che muore con un colpo; se sopravvive al cambio di piano dà cuori o oggetti.
+614	+1 contenitore rosso e cura; le bombe lasciano sangue. Senza bombe puoi piazzarle spendendo mezzo cuore.
+615	Famiglio che respinge nemici e proiettili prima di un colpo, poi si addormenta; avvicinati per svegliarlo.
+616	Possibilità di fiamme insieme alle lacrime, che bloccano colpi e danneggiano nemici.
+617	Possibilità di magnetizzare nemici: attirano risorse, nemici e proiettili.
+618	Possibilità di marcare nemici come esca, facendoli attaccare dagli altri.
+619	Effetto specifico del personaggio, che ne potenzia le abilità particolari.
+621	Cura completa; enorme bonus ai danni che diminuisce nel tempo.
+622	Rimuove inventario e risorse; in una stanza speciale scegli un oggetto tra tre per ogni oggetto perso.
+623	+5 chiavi; puoi lanciarle per danneggiare, rompere ostacoli e aprire porte.
+624	Genera 5 carte casuali.
+625	Gigante invulnerabile per 30 secondi: schiaccia ostacoli e nemici, con più danni e gittata ma meno lacrime.
+626	Con Knife Piece 2 forma un coltello famiglio che apre la porta verso Corpse.
+627	Con Knife Piece 1 forma un coltello famiglio che apre la porta verso Corpse.
+628	Porta in una Home speciale con tutti gli oggetti; scegline uno per tornare alla stanza di partenza.
+629	Mosca orbitante che spara lacrime scudo contro i proiettili nemici.
+631	Divide tutti i nemici in due versioni più piccole e con meno salute.
+632	+2 fortuna; immunità a bruciatura, confusione, paura e veleno.
+633	Dopo lo scontro con Dogma: volo, +2 danni, velocità minima 1,1, salute fino a 6 cuori e uno scudo per la stanza.
+634	Crepe rosse nelle stanze ostili; camminarci sopra libera fantasmi che esplodono sui nemici.
+635	Famiglio guidato dallo sparo; all'uso Isaac scambia posizione con lui.
+636	Torna al primo piano conservando statistiche e oggetti posseduti.
+637	Possibilità di pugni che respingono molto e confondono i nemici.
+638	Cancella un nemico comune per il resto della run; ai boss fa 15 danni e li cancella solo se letale. Un uso per piano.
+639	Dà un cuore marcio.
+640	Urna che spara fiamme blu; le uccisioni raccolgono il carburante necessario.
+641	Scia di lacrime sanguigne dietro Isaac nelle stanze ostili; esplodono al contatto con nemici.
+642	Sacrifica salute per ottenere un oggetto e un cuore spezzato permanente. Dopo l'uso, se non lo tieni, può rimpiazzare oggetti futuri.
+643	Volo, 2 cuori dell'anima e un potente laser sacro caricabile insieme alle lacrime.
+644	Aumenta la statistica più bassa; genera monete, bomba o chiave secondo ciò che manca.
+645	Teratoma orbitante che blocca colpi; si divide subendo danni e infine genera ragni blu.
+646	+5 bombe; le esplosioni sparano Brimstone nelle quattro direzioni.
+647	Gli attivi si caricano infliggendo danno ai nemici anziché completando stanze.
+649	Baby Plum famiglio che si muove diagonalmente e spara dietro di sé.
+650	Evoca Baby Plum alleato per circa 10 secondi.
+651	Stella che guida verso il boss; nella sua aura aumentano danni e frequenza di tiro, e le lacrime sono guidate.
+652	Cubo di ghiaccio da spingere: rallenta, danneggia al contatto e congela le vittime.
+653	I nemici lasciano fantasmi alla morte; all'uso esplodono e i nemici fantasma sotto metà salute muoiono subito.
+654	Identifica le pillole e rende negative quelle positive. Le pillole negative danno anche bonus aggiuntivi. Dà 1 cuore nero.
+655	Orbitale che blocca colpi; all'uso per 3 secondi +0,5 velocità e orbitali più rapidi e potenti.
+657	I nemici esplodono in lacrime alla morte, ereditando gli effetti di Isaac.
+658	Subire danno genera piccoli Isaac che inseguono e sparano ai nemici.
+659	+2,5 gittata e lacrime più grandi.
+660	Due portali all'inizio del piano verso boss, tesoro o stanza segreta.
+661	Le prime 5 uccisioni nella stanza generano famigli sparanti fissi nei punti di morte.
+663	Periodicamente diventa una statua spinosa, invulnerabile e dannosa al contatto.
+664	Dà 1 contenitore rosso e cura completa. I piedistalli alternano l'oggetto originale con cibo, che dà danni temporanei e bonus permanenti.
+665	Mostra i contenuti di forzieri, fuochi, sacchi e negozianti prima di aprirli o distruggerli.
+667	Keeper secondario controllabile; se muore genera ragni blu e viene rimosso.
+668	Avvia la risalita dei piani verso Home.
+669	+1 contenitore rosso e cura completa; aumenta tutte le statistiche e favorisce Diavolo, Angelo e Planetarium.
+670	Due ricompense a scelta dopo le stanze; prenderne una elimina l'altra.
+671	Curarsi con cuori rossi raccolti dà bonus permanenti alle statistiche.
+672	Patti del Diavolo pagati con monete; oggetti dei negozi pagati con salute. I consumabili sono gratis, ma circondati da spuntoni.
+673	Lasciare una stanza del Diavolo senza prendere o aprire nulla dà +1 danno e un cuore dell'anima al piano seguente.
+674	Un danno letale lascia il fantasma vivo per 10 secondi con mezzo cuore; poi si ricarica ottenendo un cuore dell'anima o nero.
+675	Subire danno sblocca porte e rivela una stanza casuale sulla mappa.
+676	Con 1 cuore rosso o meno all'inizio del piano, aggiunge un contenitore rosso vuoto.
+677	Dopo un danno in una stanza con nemici, assume forma fantasma: volo, lacrime attraverso gli ostacoli e protezione dal colpo successivo.
+678	Carica e spara feti che inseguono e danneggiano i nemici al contatto.
+679	Famiglio che carica un piccolo anello Maw Of The Void mentre spari.
+680	Sparare carica un corto raggio simile a Brimstone dietro Isaac.
+681	Famiglio che consuma risorse, cresce e genera mosche blu; ogni 4 risorse apre un portale verso una stanza inesplorata.
+682	Verme famiglio che emerge, afferra e danneggia i nemici nel tempo.
+683	I nemici morti generano ossa che bloccano colpi e danneggiano o respingono al contatto.
+684	Le uccisioni possono generare fantasmi che inseguono i nemici e poi esplodono.
+685	Genera fuochi fatui casuali che sparano e bloccano colpi; a ogni uso aumenta il numero generato.
+686	Raccogliere cuori dell'anima dà bonus permanenti alle statistiche.
+687	Genera un nemico alleato che imita movimenti e attacchi di Isaac.
+688	Una vita extra nella stanza corrente, con mezzo cuore rosso, dimensioni molto ridotte e +0,2 velocità.
+689	Ogni piedistallo cambia rapidamente tra 5 oggetti casuali; raccogli quello mostrato in quel momento.
+690	Respinge nemici al contatto, causando danni se urtano ostacoli o altri nemici; può deviare proiettili.
+691	Impedisce di trovare oggetti di qualità 0-1 e un terzo di quelli di qualità 2; gli oggetti di missione non sono coinvolti.
+692	Spuntoni speciali nelle stanze del Diavolo: sacrificare salute può dare ricompense.
+693	8 mosche orbitanti che diventano mosche blu bloccando un colpo; ogni stanza completata aggiunge un orbitale.
+694	+3 cuori spezzati e danni per ciascuno; i danni letali aggiungono altri 2 cuori spezzati finché c'è spazio.
+695	I primi 6 danni subiti sul piano aumentano velocità e cadenza di tiro fino al piano successivo.
+696	Alone che colpisce con fasci di luce; cresce con i danni subiti sul piano.
+697	Clona il boss in versione più debole; uccidere anche il clone dà un oggetto extra.
+698	Due famigli ai lati che sparano copiando statistiche ed effetti delle lacrime di Isaac.
+699	Ogni 4 stanze completate, all'ingresso successivo spara un grande raggio Brimstone.
+700	Usare carta, pillola o runa ripete anche i tre consumabili precedenti usati dopo averlo raccolto.
+701	Genera un Old Chest all'inizio di ogni piano.
+702	Subire danno genera fino a 6 fuochi fatui sparanti per il piano; non bloccano colpi.
+703	Alterna tra Isaac ed Esau Jr. con inventari e salute separati; morire con uno termina la run.
+704	Furia per 5 secondi con statistiche aumentate e arma da mischia; si carica infliggendo danno.
+705	Breve invulnerabilità e +1 velocità; attraversare nemici e colpi li colpisce o distrugge alla fine.
+706	Consuma gli oggetti sui piedistalli e li trasforma in locuste alleate, alcune con effetti speciali.
+707	+1 contenitore rosso pieno; cura anche 1 cuore rosso aggiuntivo.
+708	+1 danno; spara solo dall'occhio destro.
+709	Scatta, afferra un nemico e lo schianta, causando danni e un'onda di rocce.
+710	Raccoglie fino a 8 risorse per creare un oggetto; la qualità delle risorse determina quella dell'oggetto ottenuto.
+711	Scambia l'oggetto reale e quello fantasma sui piedistalli; con Tainted Lazarus cambia anche forma.
+712	Evoca un fuoco fatuo con l'effetto di un passivo casuale; mantiene l'effetto solo finché il fuoco resta vivo.
+713	Converte mezzo cuore in un grumo di sangue alleato che copia Isaac; all'uso recupera salute dai grumi. Tainted Eve li genera anche sparando.
+714	Richiama il corpo di Tainted Forgotten da qualsiasi distanza; effetto del suo Birthright.
+715	Tainted ??? può conservare una bomba di cacca per dopo.
+716	Comprare nei negozi aumenta danni, velocità o gittata; genera 3 monete e una chiave alla raccolta.
+717	Nelle stanze ostili gli ostacoli generano ragni blu col tempo e altri quando vengono distrutti.
+719	Genera un oggetto o risorsa da negozio, acquistabile al prezzo normale.
+720	Genera ricompense diverse in base alle cariche; a carica piena può attivare effetti speciali.
+721	I futuri oggetti diventano corrotti e hanno effetti completamente casuali.
+722	Incatenamento del nemico più vicino per 5 secondi: non può muoversi né attaccare.
+723	Sostituisce ogni oggetto sui piedistalli con quello che ha l'ID interno precedente: ID -1.
+724	Dopo danni nemici o donazioni di salute lancia cuori rossi che spariscono dopo 1,5 secondi.
+725	Durante il combattimento può lanciare cacche, creare pozze di potenziamento o lasciare bombe.
+726	Doppio tocco di sparo starnutisce sangue; danneggia davanti e rende i nemici più vulnerabili ai raggi tipo Brimstone.
+727	Dà 5 bombe che attraversano gli ostacoli e generano fantasmi; questi danneggiano al contatto ed esplodono dopo 10 secondi.
+728	Famiglio demone per la stanza, legato a Isaac; movimento e tiro copiano direzione e statistiche di Isaac.
+729	Lancia la testa, che continua a sparare dal punto d'arrivo; riusalo o toccala per riattaccarla.
+730	+0,75 danni e +1 fortuna.
+731	L'occhio destro ha +28% danni, +6,5 gittata e -0,3 velocità delle lacrime.
+732	+1 danno; genera una runa o pietra dell'anima casuale alla raccolta.

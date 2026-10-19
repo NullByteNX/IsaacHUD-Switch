@@ -1,0 +1,188 @@
+1	Subire danno genera una moneta.
+2	Aumenta molto la possibilità di risorse rompendo cacche.
+3	Completa automaticamente l'ultima carica degli oggetti attivi.
+4	Usare un attivo teletrasporta in una stanza casuale.
+5	Aumenta la possibilità di nemici e boss campioni, cioè versioni potenziate.
+6	Attira solo le monete verso Isaac.
+7	Favorisce The Bible in biblioteche/negozi e le stanze dell'Angelo.
+8	Dopo un danno può attivare Gamekid: invulnerabilità e attacchi al contatto temporanei.
+9	Le lacrime pulsano di dimensione durante il volo.
+10	Lacrime ondulate che attraversano gli ostacoli; +0,4 lacrime.
+11	Lacrime a spirale rapida che attraversano gli ostacoli; +0,4 lacrime.
+12	Lacrime più larghe che spingono più lontano i nemici.
+13	Il prossimo acquisto nel negozio è gratis; poi il trinket scompare.
+14	Protegge da pozze dannose e spuntoni comuni.
+15	Le rocce distrutte hanno il 33% di possibilità di lasciare una moneta.
+16	Periodicamente il piede di Mom schiaccia un punto casuale della stanza.
+17	Aumenta la possibilità di cuori neri.
+18	Aumenta la possibilità di cuori eterni.
+19	Apre i forzieri chiusi senza chiavi.
+20	A mezzo cuore dopo un danno, genera un cuore nero; massimo 3 volte, poi scompare.
+21	Alterna gli effetti di A Missing Page, Polaroid, Negative e Missing Poster.
+22	Riduce i cuori generati, spesso sostituendoli con chiavi; quelli non specifici possono diventare neri.
+23	Morire in una stanza sacrificale sblocca The Lost; se già sbloccato, una rinascita come The Lost.
+24	Raccogliere monete fa scoreggiare; più monete nelle cacche.
+25	Isaac scoreggia o genera cacca a intervalli casuali.
+26	Le lacrime seguono una traiettoria a gradini; +0,4 lacrime e +1,5 al valore di gittata.
+27	+0,5 velocità delle lacrime.
+28	22,22% di possibilità di rinascere come ???; può accadere più volte.
+29	Subire danno genera una mosca blu.
+30	10% di possibilità di lacrime velenose.
+31	10% di possibilità di lacrime che attraversano sia i nemici sia gli ostacoli.
+32	Può dare un effetto fungo casuale entrando in una stanza.
+33	A poca salute può evocare Little Steven; subire danno può evocare Gemini per la stanza.
+34	Più cuori dalle ricompense delle stanze e dai forzieri.
+35	+2 danni.
+36	Più chiavi dalle ricompense delle stanze e dai forzieri.
+37	+0,15 velocità.
+38	Possibilità aggiuntiva di convertire cuori non specifici in cuori dell'anima.
+39	+1 cadenza di tiro.
+40	Dopo un danno può dare +1,8 danni per la stanza.
+41	Più bombe dalle ricompense delle stanze e dai forzieri.
+42	Dà +1 fortuna; può generare risorse extra da forzieri, macchine e rocce segnate da una X.
+43	Dopo un danno con meno di un cuore rosso, teletrasporta in una stanza casuale.
+44	Più pillole dalle ricompense delle stanze e dai forzieri.
+45	Più carte dalle ricompense delle stanze e dai forzieri.
+46	Completare una stanza può curare mezzo cuore rosso.
+48	Dopo un danno può attivare Necronomicon; potenzia di 40 i danni dei cuori neri e degli effetti simili.
+49	Raccogliere monete può generare mezzo cuore rosso.
+50	Raccogliere monete può generare una bomba.
+51	Raccogliere monete può generare una chiave.
+52	50% di possibilità che una moneta raccolta valga una moneta in più.
+53	Riduce la salute dei nemici resistenti e cura nel boss. Non puoi lasciarlo né sostituirlo normalmente.
+54	Testa famiglio che spara lacrime capaci di attraversare i nemici.
+55	Dà un cuore eterno all'inizio di ogni piano.
+56	I patti a cuori rossi costano solo 1 cuore; i prezzi in cuori dell'anima restano invariati.
+57	Famiglio vagante; spara lacrime guidate verso i nemici che attraversano gli ostacoli.
+58	Ogni uccisione può dare +0,5 danni per la stanza.
+59	All'inizio di un piano, 25% di possibilità di rivelare le icone delle stanze speciali, come The Compass.
+60	Le uccisioni possono generare Dead Bird per la stanza.
+61	Sostituisce i forzieri con forzieri rossi.
+62	Le rocce segnate da una X e quelle con un cunicolo sotterraneo lampeggiano periodicamente.
+63	Converte bombe troll in bombe raccoglibili; quelle grandi in pacchi da due.
+64	Un effetto verme diverso alle lacrime ogni 3 secondi.
+65	+3 gittata.
+66	-0,5 velocità delle lacrime.
+67	Subire danno può attivare casualmente D6, D8, D10, D12 o D20.
+68	Attira nemici e risorse verso Isaac.
+69	Mimetizzazione periodica che confonde i nemici; può aprire la porta speciale di Depths.
+70	Genera occasionalmente un ragno blu.
+71	Le bombe piazzate lasciano pozze verdi dannose.
+72	Più batterie piccole; completare stanze può dare una carica extra all'attivo.
+73	Le bombe esplose possono generare un'altra bomba raccoglibile.
+74	Aumenta la possibilità di scoprire un cunicolo sotterraneo rompendo rocce.
+75	Un effetto trinket casuale per ogni stanza.
+76	I forzieri possono dare più risorse oppure una mosca nemica; migliora alcune macchine e giochi.
+77	Le lacrime spingono più lontano i nemici colpiti.
+78	Gli effetti di stato sui nemici durano più a lungo.
+79	25% di possibilità di duplicare una pillola, carta o runa usata.
+80	Aumenta i danni per ogni oggetto o trinket malvagio posseduto.
+81	Prolunga l'invulnerabilità dopo un danno.
+82	+15% di possibilità di tesoro con due oggetti a scelta; ne puoi prendere uno.
+83	Apre i negozi senza chiavi.
+84	Impedisce Greed/Super Greed in negozi e segrete; favorisce ricompense in monete.
+85	Donare può curare cuori rossi, aumentare fortuna o generare un mendicante.
+86	Rompere una cacca genera una mosca blu.
+87	Usare una chiave cura mezzo cuore rosso; i mezzi cuori rossi generati diventano interi.
+88	Quando possibile, impedisce la generazione di oggetti attivi.
+89	Tiene i famigli più vicini tra loro.
+90	Le cacche esplodono quando vengono distrutte.
+91	Possibilità di cacche nere; romperle può dare cuori neri.
+92	Migliora del 20% i potenziamenti delle statistiche.
+93	In alcune stanze rende innocue o meno pericolose le mosche nemiche, come Skatole.
+94	Raddoppia mosche blu e locuste generate da oggetti e trinket.
+95	Possibilità di denti neri velenosi con danni doppi.
+96	Lacrime a grande spirale che attraversano gli ostacoli; alcune sono guidate verso i nemici. +0,4 lacrime.
+97	Subire danno può generare un famiglio Tonsil permanente che blocca colpi; massimo due, poi scompare.
+98	Possibilità di lacrime guidate che si attaccano ai nemici e li danneggiano nel tempo.
+99	Le lacrime possono rimbalzare su nemici e ostacoli.
+100	Aumenta le statistiche con l'attivo completamente carico.
+101	Aumenta le statistiche con l'attivo completamente scarico.
+102	Aggiunge una stanza segreta al piano.
+103	Quando monete, bombe e chiavi possedute sono in pari numero, le risorse singole a terra diventano doppie.
+104	Subire danno può consumarlo e generare un oggetto casuale.
+105	Subire danno può consumarlo e generare Lunch.
+106	Aumenta il raggio delle pozze create da Isaac.
+107	Il danno consuma salute rossa prima dei cuori dell'anima, neri e marci.
+108	Subire esplosioni può romperlo e generare varie risorse.
+109	Mantiene i famigli in posizione fissa rispetto a Isaac.
+110	Fa apparire negozi nel capitolo 4.
+111	Fa apparire stanze del tesoro nel capitolo 4.
+112	Nelle stanze del tesoro compaiono macchine che cambiano casualmente gli oggetti offerti.
+113	Entrando in una stanza ostile genera una locusta rossa esplosiva: può ferire Isaac.
+114	Entrando in una stanza ostile genera una locusta velenosa.
+115	Entrando in una stanza ostile genera una locusta rallentante.
+116	Entrando in una stanza ostile genera una locusta nera molto potente.
+117	Entrando in una stanza ostile genera 1-4 locuste bianche.
+118	Le uccisioni hanno il 5% di possibilità di dare volo per la stanza.
+119	Al piano successivo cura metà dei contenitori rossi vuoti.
+120	Ricarica completamente l'attivo entrando in un combattimento boss.
+121	Annulla il primo danno ricevuto per ogni piano.
+122	Usare un attivo lo lascia su un piedistallo; subire danno può far cadere un passivo.
+123	Gli angeli sconfitti lasciano oggetti angelici anziché pezzi di chiave.
+124	L'ultima porta attraversata resta aperta anche durante il combattimento.
+125	Elettricità dannosa collega Isaac e i famigli.
+126	Raccogliere una moneta genera una mosca blu.
+127	I colpi dei famigli cercano automaticamente i nemici.
+128	Subire danno può dare un cuore d'osso.
+129	Possibilità di denti con danni x3,2.
+130	Possibilità di lacrime che rallentano i nemici.
+131	Raccogliere una moneta può generare mezzo cuore dell'anima.
+132	Possibilità di un effetto siringa casuale per la stanza.
+133	Le bombe piazzate esplodono più rapidamente.
+134	Aumenta le dimensioni delle scoregge di Isaac.
+135	Entrare nelle stanze può incendiare i nemici.
+136	Le esplosioni possono aprire le serrature.
+137	Al nuovo piano porta nella stanza iniziale fino a 4 risorse non raccolte nel piano precedente.
+138	Dopo l'uso, l'attivo viene sostituito con un altro attivo casuale.
+139	Aumenta la possibilità degli effetti delle lacrime dipendenti dalla fortuna.
+140	Raccogliere cuori rossi può convertirli in ragni blu, anche consumando quelli necessari per curarsi.
+141	I famigli sparano più frequentemente.
+142	All'inizio del piano genera 4-8 fuochi fatui orbitanti che sparano.
+143	Gli attivi non si caricano completando stanze; aumenta la possibilità di batterie come ricompensa.
+144	Le lacrime curvano di 90 gradi verso nemici che avrebbero mancato.
+145	Dà +10 fortuna; quando subisci danno il trinket si distrugge e il bonus scompare.
+146	Le stanze del tesoro diventano tesori rossi: i loro oggetti si acquistano pagando salute, come nei patti del Diavolo.
+147	Raccogliere monete può dare una carica all'attivo.
+148	Fa orbitare i famigli attorno a Isaac.
+149	Attiva l'oggetto attivo appena prima di subire danno.
+150	Apre porte senza chiavi, ma attraversi una stanza intermedia con nemici.
+151	Ritrae molti spuntoni, incluse porte maledette, forzieri spinati e nemici spinosi.
+152	Favorisce i Planetarium, anche dopo averne visitato uno, e li permette nel capitolo 4.
+153	Un effetto casuale di un oggetto di Mom per ogni stanza.
+154	Entrare in una stanza può dare un dado consumabile temporaneo.
+155	Un tesoro e un negozio nella Cathedral.
+156	Dà un contenitore di cuore.
+157	Ogni 15 colpi spara una lacrima Ipecac boomerang, potenzialmente pericolosa per Isaac.
+158	Subire danno fa cadere 2 risorse tra monete, bombe e chiavi che possiedi.
+159	Dà 1 chiave; i nuovi forzieri diventano chiusi, esclusi Mega Chest e Old Chest.
+160	Genera un sacco al piano successivo.
+161	Un tesoro e un negozio a Sheol.
+162	Completare una stanza può trasformare in Azazel fino alla stanza completata successiva.
+163	Dopo una stanza completata genera un piccolo Dip alleato.
+164	Piazzare una bomba ne genera un'altra gratis.
+165	Dal capitolo 4 sostituisce chiavi e monete generate con risorse più utili.
+166	50% di possibilità di un passivo casuale temporaneo per stanza.
+167	25% di possibilità di un Bony alleato completando stanze.
+168	Dà un cuore d'osso vuoto a ogni nuovo piano.
+169	Conta come uno dei tre pezzi per la trasformazione Guppy finché tenuto.
+170	Completare stanze può aprire una stanza rossa vicina.
+171	Possibilità che i patti del Diavolo costino monete anziché salute.
+172	Raccogliere monete teletrasporta in una stanza casuale.
+173	Paga un patto del Diavolo al posto dei cuori; viene consumato.
+174	+10% probabilità Diavolo; impedisce Krampus e genera stanze del Diavolo speciali.
+175	Apre il passaggio verso Hush senza limite di tempo; Pandora's Box può consumarla per un effetto speciale.
+176	Grumo di sangue alleato che copia movimenti e lacrime di Isaac; se subisce troppo danno scompare fino alla stanza successiva.
+177	Forziere extra dopo una Challenge Room; oggetto boss extra dopo una Boss Challenge Room.
+178	Isaac esplode quando subisce danno.
+179	Controlli direttamente i famigli con gli stessi comandi di Isaac.
+180	Fantasma famiglio che copia movimenti e statistiche; se colpito muore fino al piano successivo.
+181	Una volta per stanza, usare un attivo attiva anche un altro effetto attivo casuale.
+182	Entrare in una stanza dell'Angelo genera 5 fuochi fatui; donare ai mendicanti può generarne altri.
+183	Entrare in una nuova stanza può duplicare un famiglio.
+184	I negozi possono vendere famigli, sempre scontati.
+185	Ogni uccisione ha 1 possibilità su 6 di generare una locusta casuale.
+186	Locusta alleata di Abyss che vola in avanti mentre spari.
+187	50% di possibilità di un oggetto nascosto extra nei tesori; sul percorso alternativo rivela invece le scelte extra.
+188	Può pietrificare i nemici all'ingresso; ucciderli pietrificati li congela.
+189	Ogni uccisione dà uno scudo invulnerabile per 1 secondo.

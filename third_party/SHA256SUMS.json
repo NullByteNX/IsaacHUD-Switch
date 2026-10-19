@@ -1,0 +1,19 @@
+{
+  "revisions": {
+    "Tesla Template": "241558db2dc009a213d784d291b2547f1f148ef2",
+    "libtesla": "e06d42503dd0717253c77734bd46f3c1addc3f9e",
+    "Atmosphère": "36cc9a9f490da37dd1d5f958ee9a256be132cc1d"
+  },
+  "files": {
+    "third_party/Atmosphere/LIBRARIES_LICENSE": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505",
+    "third_party/Atmosphere/LICENSE": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505",
+    "third_party/Atmosphere/dmnt/dmntcht.h": "e3d0fbf5f16df6a065f0e9d7de0025000b6a27afffc93e88c48d7b10e779339a",
+    "third_party/Atmosphere/dmnt/dmntcht.os.horizon.c": "85a3bc728a4a61a57eb89ec2dc0df24705317a9b10fc4c58e79a0acadcd4dfa9",
+    "third_party/Atmosphere/dmnt/service_guard.h": "2200c062ad6cf58d515ad58c9b02af10b2f850dee098febb82bbcef2f7b9d7c3",
+    "third_party/Tesla-Template/LICENSE": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+    "third_party/Tesla-Template/Makefile": "f16dbb28c97c4e822168f1613091158ce99411c23a6fc2b49e12c44f3a4d6949",
+    "third_party/libtesla/LICENSE": "189b1af95d661151e054cea10c91b3d754e4de4d3fecfb074c1fb29476f7167b",
+    "third_party/libtesla/include/stb_truetype.h": "6b2a14b6a186e8d32dbc42b7ae714dd278084bf5e1f31d837e1216355177ff31",
+    "third_party/libtesla/include/tesla.hpp": "ee932d99c51ed2a0c8f7e9352bd44159e3c1eba278f8cba90e045e0d7e0a3822"
+  }
+}

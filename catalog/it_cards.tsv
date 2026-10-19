@@ -1,0 +1,97 @@
+1	Teletrasporta nella stanza iniziale del piano.
+2	Per la stanza: +3 gittata e lacrime che si dirigono automaticamente verso i nemici.
+3	Il piede di Mom schiaccia il nemico più resistente per 300 danni. Senza nemici, o contro Mom, prende di mira Isaac.
+4	+1,5 danni e +0,3 velocità per la stanza.
+5	Teletrasporta nella stanza del boss.
+6	Genera 2 cuori dell'anima.
+7	Genera 2 cuori rossi pieni.
+8	Invulnerabilità e attacchi al contatto per 6 secondi; non puoi sparare.
+9	Genera un cuore, una chiave, una bomba e una moneta di tipi casuali.
+10	Teletrasporta nel negozio.
+11	Genera una slot machine o macchina della fortuna.
+12	Per la stanza: +1 contenitore rosso e bonus a danni, velocità e gittata, come Magic Mushroom; senza cura completa. Il contenitore resta se perderlo fosse letale.
+13	Volo per la stanza.
+14	Infligge 40 danni a tutti i nemici della stanza.
+15	Genera una macchina del sangue; in Greed genera invece un mendicante del Diavolo.
+16	+2 danni per la stanza.
+17	Genera 6 bombe troll nella stanza.
+18	Teletrasporta nel tesoro, oppure nel Planetarium se presente.
+19	Teletrasporta nella stanza segreta.
+20	Cura completa e 100 danni a tutti i nemici. Rivela la mappa, escluse super/ultra segrete, e rimuove Curse of Darkness, l'oscurità.
+21	Genera un mendicante casuale.
+22	Rivela il piano, escluse super segreta e ultra segreta.
+23	Raddoppia le bombe; se ne hai zero ne dà 2.
+24	Raddoppia le monete; se ne hai zero ne dà 2.
+25	Raddoppia le chiavi; se ne hai zero ne dà 2.
+26	Raddoppia la salute rossa corrente; con soli contenitori vuoti cura 1 cuore rosso.
+27	Trasforma risorse, trinket, forzieri e nemici comuni della stanza in bombe.
+28	Trasforma risorse, trinket, forzieri e nemici comuni della stanza in monete.
+29	Trasforma risorse, trinket, forzieri e nemici comuni della stanza in chiavi.
+30	Trasforma risorse, trinket, forzieri e nemici comuni della stanza in cuori.
+31	Teletrasporta nella stanza del Diavolo o dell'Angelo.
+32	Distrugge gli ostacoli rompibili della stanza, esclusi i blocchi con chiave.
+33	Duplica risorse e forzieri; non duplica Jera né trinket.
+34	Botola al piano successivo; su certe caselle decorate crea un cunicolo sotterraneo. Non funziona sul piano finale delle sfide.
+35	+1 cuore dell'anima; rimuove le maledizioni del piano, esclusa Curse of the Labyrinth.
+36	Rivela tutta la mappa, incluse segreta e super segreta; non elimina Curse of the Lost né rivela l'ultra segreta.
+37	Sostituisce tutti gli oggetti sui piedistalli della stanza con altri casuali, come The D6.
+38	Genera 3 mosche blu e 3 ragni blu.
+39	Scudo di invulnerabilità per 20 secondi.
+40	Effetto runa casuale; 25% di possibilità di generare un'altra Blank Rune.
+41	Infligge 40 danni a tutti i nemici. Consuma risorse per generare mosche/ragni blu e oggetti sui piedistalli per bonus casuali alle statistiche.
+42	Lancia nella direzione di movimento; apre porte, rompe ostacoli e uccide i bersagli vulnerabili colpiti.
+43	Rende gratis gli oggetti e le risorse della stanza che costano salute o monete.
+44	Mostra un suggerimento criptico; nessun bonus diretto.
+45	Riempie progressivamente la stanza di cacca; uscire interrompe il riempimento.
+46	Uccide Isaac e genera molte risorse, oggetti o forzieri nella stanza.
+47	Apre tutte le porte della stanza, come Dad's Key.
+48	Usa l'effetto dell'attivo tenuto senza consumarne la carica.
+49	Sostituisce con altri casuali sia gli oggetti sui piedistalli sia le risorse della stanza: effetti D6 e D20 insieme.
+50	Due mani di Mom afferrano nemici, danneggiandoli e immobilizzando i più resistenti.
+51	Annulla il prossimo danno ostile ricevuto.
+52	Per la stanza: +7 danni, +3 gittata, cresce e può schiacciare ostacoli.
+53	Genera 3 carte casuali.
+54	Per la stanza rallenta i nemici, dà +0,5 velocità e -1 velocità delle lacrime.
+55	Effetto runa casuale più debole; appare quando sono sbloccate meno di 6 rune.
+56	Lascia a terra salute, risorse e trinket posseduti; Isaac resta a mezzo cuore. Alcune risorse diventano oggetti.
+57	Aura che respinge fortemente nemici e proiettili per 1 minuto.
+58	Per 1 minuto il piede di Mom tenta ripetutamente di schiacciare Isaac.
+59	Per 1 minuto: 2 contenitori rossi temporanei, +1,5 cadenza di tiro e -0,1 velocità; non si accumula con se stessa.
+60	Teletrasporta in una stanza boss aggiuntiva con ricompensa; uscire riporta al punto d'uso.
+61	Genera 2 cuori d'osso.
+62	Genera un oggetto della categoria della stanza; converte 1 contenitore rosso o 2 cuori dell'anima in 1 cuore spezzato.
+63	Statua invulnerabile con cadenza di tiro x4 per 10 secondi; movimento quasi bloccato.
+64	Genera 2-4 forzieri chiusi.
+65	Vende gli oggetti, trinket e risorse della stanza per monete; se non c'è nulla dà una moneta.
+66	Attiva un effetto casuale di stanza dei dadi.
+67	Per massimo 1 minuto i nemici rallentano, subiscono danni doppi e infliggono mezzo cuore; uscire termina l'effetto.
+68	Per 30 secondi: triplo colpo e -0,1 velocità; le vittime lasciano monete.
+69	Le uccisioni già fatte nella stanza permettono di evocare alleati ossei e ossa orbitanti.
+70	Fa usare subito 5 pillole casuali, identificandone i tipi.
+71	Attiva The Bible e dà Seraphim per 30 secondi: volo e morte immediata di Mom; contro Satan può essere letale per Isaac.
+72	Genera 7 gruppi di rocce e ostacoli, spesso con rocce segnate da una X; i passaggi restano liberi.
+73	Consuma il primo passivo raccolto, esclusi quelli iniziali, e genera 2 oggetti della categoria della stanza. Senza passivi non fa nulla.
+74	Teletrasporta nell'ultra segreta, creando un percorso di stanze rosse per tornare.
+75	Per il piano: volo, lacrime attraverso gli ostacoli e +1,5 danni; contenitori rossi trasformati in cuori d'osso e oscurità temporanea.
+76	Genera una macchina che sostituisce gli oggetti sui piedistalli con altri casuali.
+77	Crea una botola che porta sempre a un cunicolo sotterraneo.
+78	Crea una stanza rossa presso una parete valida, come Red Key.
+79	Genera 1-20 cuori rossi pieni.
+80	Copia l'ultimo effetto usato di pillola, carta, runa, pietra dell'anima o attivo.
+81	Ogni piedistallo alterna l'oggetto iniziale con un altro casuale; ulteriori usi aggiungono altre scelte.
+82	Per la stanza le vittime lasciano mezzi cuori rossi che spariscono dopo 2 secondi.
+83	Apre le porte e crea stanze rosse sulle pareti valide; distrugge anche lo specchio di Downpour/Dross II.
+84	Invulnerabile per 3 secondi; attraversa nemici e colpi, poi li colpisce o distrugge ottenendo danni temporanei.
+85	Scoregge velenose, pozza che dà danni/cadenza di tiro e una scia di 7 bombe: attenzione alle esplosioni.
+86	Evoca 14 uccelli che attaccano per almeno 10 secondi finché restano nemici; spariscono uscendo.
+87	Furia per 10 secondi: arma da mischia, +0,4 velocità, più lacrime e +3 danni.
+88	Spara un enorme raggio di sangue per 7,5 secondi, come Mega Blast.
+89	Fa rinascere nella stessa stanza con mezzo cuore; si usa automaticamente al danno letale se tenuta.
+90	Cambia casualmente risorse, trinket e oggetti a terra; i nuovi oggetti possono provenire da categorie diverse.
+91	Per la stanza diventi The Lost: puoi volare, le lacrime attraversano gli ostacoli e assumi la sua salute.
+92	Dà un famiglio permanente scelto casualmente tra quelli possibili; puoi ricevere un doppione.
+93	Genera 1-25 monete casuali.
+94	Genera 15 locuste casuali.
+95	The Forgotten secondario per la stanza; controllato insieme a Isaac, può morire senza terminare la run.
+96	Genera 6 fuochi fatui di Book of Virtues con effetti casuali.
+97	Esau secondario per la stanza con oggetti casuali; è controllato insieme a Isaac e può morire senza conseguenze.

@@ -1,0 +1,50 @@
+0	Scoreggia che infligge 5 danni e avvelena i nemici vicini.	Il veleno colpisce tutti i nemici nella stanza.
+1	Toglie 1 cuore di salute; a 1 cuore o meno diventa Full Health. Non penalizza le probabilità Diavolo/Angelo.	Toglie 2 cuori; se sarebbe letale diventa Full Health.
+2	Dà 2 cuori dell'anima.	Dà 4 cuori dell'anima.
+3	Scambia il numero di bombe e chiavi, inclusi gli effetti di bomba dorata e chiave dorata.	Scambia bombe e chiavi aumentandone anche la quantità del 50%.
+4	Lascia 5 bombe accese dietro Isaac, una al secondo: possono ferirti.	Lascia più bombe potenti che inseguono i nemici: possono ferirti.
+5	Riempie tutti i contenitori di cuore rosso vuoti.	Riempie tutti i contenitori di cuore rosso vuoti e dà 3 cuori dell'anima.
+6	Rimuove 1 contenitore di cuore rosso; con 0-1 contenitori diventa Health Up. Chi non può avere contenitori rossi perde 1 cuore.	Può rimuovere 2 contenitori; con 0-1 diventa Health Up. Con soli 2 contenitori lascia mezzo cuore dell'anima.
+7	Dà 1 contenitore rosso vuoto.	Dà 2 contenitori rossi vuoti.
+8	Cambia solo l'espressione del volto.	Espressione del volto molto accentuata, permanente.
+9	Effetto estetico. Dopo 3 usi dà la trasformazione Adult e 1 contenitore rosso, una sola volta per partita.	Cambia il volto e aggiunge molta peluria.
+10	Dà una mosca che orbita attorno a Isaac e blocca i proiettili; massimo 3 mosche.	Dà una grande mosca orbitante Big Fan, senza limite di copie; non conta per la trasformazione Beelzebub.
+11	-1 gittata.	-2 gittata.
+12	+1,25 gittata.	+2,5 gittata.
+13	-0,12 velocità.	-0,24 velocità.
+14	+0,15 velocità.	+0,3 velocità.
+15	-0,28 lacrime.	-0,56 lacrime.
+16	+0,35 lacrime.	+0,7 lacrime.
+17	-1 fortuna.	-2 fortuna.
+18	+1 fortuna.	+2 fortuna.
+19	Teletrasporta in una stanza casuale; può portare in I AM ERROR o raramente al Black Market. Nella dimensione specchio può raggiungere l'ultra segreta.	=
+20	Ricarica l'attivo e genera 1-2 batterie piccole.	Ricarica l'attivo e genera 3-4 batterie.
+21	Porta la salute rossa a 1 cuore e genera 1-4 cuori rossi. Non conta come danno; può cambiare ricompense con personaggio o stanza.	Porta la salute rossa a 1 cuore e genera 4-7 cuori rossi.
+22	Blocca movimento e sparo per 2 secondi.	Blocca movimento e sparo per 4 secondi.
+23	Apre le entrate delle stanze segrete e super segrete sul piano.	Apre gli ingressi delle stanze segrete e super segrete e rivela tutta la mappa, come The Mind.
+24	Ammalia tutti i nemici della stanza, facendoli attaccare tra loro temporaneamente.	Trasforma i nemici in alleati permanenti.
+25	Nasconde la mappa fino al piano successivo: effetto Curse of the Lost.	=
+26	Crea una grande pozza gialla che danneggia i nemici a terra.	Crea una pozza gialla che danneggia i nemici a terra; al centro può coprire quasi tutta la stanza.
+27	Isaac spara in diagonale per 30 secondi, anche passando in altre stanze.	Isaac spara in diagonale per 60 secondi.
+28	Fino all'uscita dalla stanza, il danno subito viene ridotto a mezzo cuore per colpo.	=
+29	Fino all'uscita dalla stanza, ogni colpo subito toglie un cuore intero.	=
+30	Lascia cacche mentre ti muovi per qualche secondo.	Lascia cacche dietro Isaac mentre ti muovi, per molto più tempo della pillola normale.
+31	Impone Curse of the Maze sul piano; è un effetto distinto dalle pillole non identificate.	=
+32	Ingrandisce Isaac senza allargare l'area in cui può essere colpito; conta per la trasformazione Stompy.	Applica due volte l'ingrandimento di Isaac, senza allargare l'area in cui può essere colpito.
+33	Rimpicciolisce Isaac e l'area in cui può essere colpito, facilitando le schivate.	Applica due volte il rimpicciolimento di Isaac e dell'area in cui può essere colpito.
+34	Distrugge tutte le cacche e genera ragni blu sotto Isaac e sulle cacche distrutte.	Distrugge le cacche e genera ragni blu sotto Isaac e sulle cacche distrutte; il doppio rispetto alla pillola normale.
+35	Genera ragni blu in base ai nemici presenti nella stanza; se non ci sono nemici, genera 1-3 ragni.	Genera ragni blu in base ai nemici nella stanza; il doppio rispetto alla pillola normale. Senza nemici ne genera 2-6.
+36	Invulnerabilità temporanea, paura e attacchi al contatto; le uccisioni possono curare mezzo cuore rosso.	Invulnerabilità e attacchi al contatto temporanei. Aggiunge Huge Growth: +7 danni e +3 gittata, che restano dopo l'invulnerabilità.
+37	Filtro pixelato sullo schermo per 30 secondi.	Filtro pixelato per 90 secondi.
+38	Genera 3 mosche blu.	Genera 12 mosche blu.
+39	Crea una pozza marrone scivolosa sotto Isaac.	Crea sotto Isaac una pozza marrone scivolosa che dura molto più a lungo della versione normale.
+40	Crea una pozza nera che rallenta i nemici.	Crea una pozza nera che rallenta i nemici e dura molto più a lungo della versione normale.
+41	Rallenta nemici e ritmo del gioco per la stanza.	=
+42	Accelera nemici e ritmo del gioco; l'effetto si ripete altre tre volte.	=
+43	Assorbe i trinket tenuti, rendendone permanenti gli effetti.	Assorbe i trinket e ne rende permanenti gli effetti; cura 1 cuore rosso per ciascuno. Conta come due Gulp per Marbles.
+44	Spara una lacrima Ipecac esplosiva da 200 danni: può ferire Isaac.	Spara 6 lacrime esplosive molto potenti: possono ferire Isaac.
+45	Velocità e invulnerabilità per 6 secondi o fino all'uscita dalla stanza.	Attiva Gamekid: invulnerabilità temporanea e danni ai nemici toccati.
+46	Genera la pillola usata per ultima; senza precedenti genera Vurp stessa.	La pillola precedente, se normale, viene generata in versione gigante.
+47	-0,15 velocità delle lacrime.	-0,3 velocità delle lacrime.
+48	+0,15 velocità delle lacrime.	+0,3 velocità delle lacrime.
+49	Aumenta una statistica e ne riduce un'altra; PHD, Virgo, Lucky Foot e False PHD modificano i risultati.	Aumenta una statistica casuale e ne riduce un'altra; entrambi gli effetti hanno potenza doppia.

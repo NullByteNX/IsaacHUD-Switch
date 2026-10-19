@@ -1,0 +1,25 @@
+
+# Generated build files
+switch_build/
+out/
+
+# Compiled binaries
+*.ovl
+*.elf
+*.nro
+*.nso
+*.nacp
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp

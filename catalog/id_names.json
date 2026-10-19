@@ -1,0 +1,5229 @@
+{
+  "format": "isaac-hud-names-v1",
+  "game": "The Binding of Isaac: Repentance",
+  "data_scope": "Identifiers and in-game item names only. Italian descriptions are stored separately in TSV files.",
+  "entries": [
+    {
+      "variant": 100,
+      "id": 1,
+      "name": "The Sad Onion"
+    },
+    {
+      "variant": 100,
+      "id": 2,
+      "name": "The Inner Eye"
+    },
+    {
+      "variant": 100,
+      "id": 3,
+      "name": "Spoon Bender"
+    },
+    {
+      "variant": 100,
+      "id": 4,
+      "name": "Cricket's Head"
+    },
+    {
+      "variant": 100,
+      "id": 5,
+      "name": "My Reflection"
+    },
+    {
+      "variant": 100,
+      "id": 6,
+      "name": "Number One"
+    },
+    {
+      "variant": 100,
+      "id": 7,
+      "name": "Blood of the Martyr"
+    },
+    {
+      "variant": 100,
+      "id": 8,
+      "name": "Brother Bobby"
+    },
+    {
+      "variant": 100,
+      "id": 9,
+      "name": "Skatole"
+    },
+    {
+      "variant": 100,
+      "id": 10,
+      "name": "Halo of Flies"
+    },
+    {
+      "variant": 100,
+      "id": 11,
+      "name": "1up!"
+    },
+    {
+      "variant": 100,
+      "id": 12,
+      "name": "Magic Mushroom"
+    },
+    {
+      "variant": 100,
+      "id": 13,
+      "name": "The Virus"
+    },
+    {
+      "variant": 100,
+      "id": 14,
+      "name": "Roid Rage"
+    },
+    {
+      "variant": 100,
+      "id": 15,
+      "name": "<3"
+    },
+    {
+      "variant": 100,
+      "id": 16,
+      "name": "Raw Liver"
+    },
+    {
+      "variant": 100,
+      "id": 17,
+      "name": "Skeleton Key"
+    },
+    {
+      "variant": 100,
+      "id": 18,
+      "name": "A Dollar"
+    },
+    {
+      "variant": 100,
+      "id": 19,
+      "name": "Boom!"
+    },
+    {
+      "variant": 100,
+      "id": 20,
+      "name": "Transcendence"
+    },
+    {
+      "variant": 100,
+      "id": 21,
+      "name": "The Compass"
+    },
+    {
+      "variant": 100,
+      "id": 22,
+      "name": "Lunch"
+    },
+    {
+      "variant": 100,
+      "id": 23,
+      "name": "Dinner"
+    },
+    {
+      "variant": 100,
+      "id": 24,
+      "name": "Dessert"
+    },
+    {
+      "variant": 100,
+      "id": 25,
+      "name": "Breakfast"
+    },
+    {
+      "variant": 100,
+      "id": 26,
+      "name": "Rotten Meat"
+    },
+    {
+      "variant": 100,
+      "id": 27,
+      "name": "Wooden Spoon"
+    },
+    {
+      "variant": 100,
+      "id": 28,
+      "name": "The Belt"
+    },
+    {
+      "variant": 100,
+      "id": 29,
+      "name": "Mom's Underwear"
+    },
+    {
+      "variant": 100,
+      "id": 30,
+      "name": "Mom's Heels"
+    },
+    {
+      "variant": 100,
+      "id": 31,
+      "name": "Mom's Lipstick"
+    },
+    {
+      "variant": 100,
+      "id": 32,
+      "name": "Wire Coat Hanger"
+    },
+    {
+      "variant": 100,
+      "id": 33,
+      "name": "The Bible"
+    },
+    {
+      "variant": 100,
+      "id": 34,
+      "name": "The Book of Belial"
+    },
+    {
+      "variant": 100,
+      "id": 35,
+      "name": "The Necronomicon"
+    },
+    {
+      "variant": 100,
+      "id": 36,
+      "name": "The Poop"
+    },
+    {
+      "variant": 100,
+      "id": 37,
+      "name": "Mr. Boom"
+    },
+    {
+      "variant": 100,
+      "id": 38,
+      "name": "Tammy's Head"
+    },
+    {
+      "variant": 100,
+      "id": 39,
+      "name": "Mom's Bra"
+    },
+    {
+      "variant": 100,
+      "id": 40,
+      "name": "Kamikaze!"
+    },
+    {
+      "variant": 100,
+      "id": 41,
+      "name": "Mom's Pad"
+    },
+    {
+      "variant": 100,
+      "id": 42,
+      "name": "Bob's Rotten Head"
+    },
+    {
+      "variant": 100,
+      "id": 44,
+      "name": "Teleport!"
+    },
+    {
+      "variant": 100,
+      "id": 45,
+      "name": "Yum Heart"
+    },
+    {
+      "variant": 100,
+      "id": 46,
+      "name": "Lucky Foot"
+    },
+    {
+      "variant": 100,
+      "id": 47,
+      "name": "Doctor's Remote"
+    },
+    {
+      "variant": 100,
+      "id": 48,
+      "name": "Cupid's Arrow"
+    },
+    {
+      "variant": 100,
+      "id": 49,
+      "name": "Shoop da Whoop!"
+    },
+    {
+      "variant": 100,
+      "id": 50,
+      "name": "Steven"
+    },
+    {
+      "variant": 100,
+      "id": 51,
+      "name": "Pentagram"
+    },
+    {
+      "variant": 100,
+      "id": 52,
+      "name": "Dr. Fetus"
+    },
+    {
+      "variant": 100,
+      "id": 53,
+      "name": "Magneto"
+    },
+    {
+      "variant": 100,
+      "id": 54,
+      "name": "Treasure Map"
+    },
+    {
+      "variant": 100,
+      "id": 55,
+      "name": "Mom's Eye"
+    },
+    {
+      "variant": 100,
+      "id": 56,
+      "name": "Lemon Mishap"
+    },
+    {
+      "variant": 100,
+      "id": 57,
+      "name": "Distant Admiration"
+    },
+    {
+      "variant": 100,
+      "id": 58,
+      "name": "Book of Shadows"
+    },
+    {
+      "variant": 100,
+      "id": 60,
+      "name": "The Ladder"
+    },
+    {
+      "variant": 100,
+      "id": 62,
+      "name": "Charm of the Vampire"
+    },
+    {
+      "variant": 100,
+      "id": 63,
+      "name": "The Battery"
+    },
+    {
+      "variant": 100,
+      "id": 64,
+      "name": "Steam Sale"
+    },
+    {
+      "variant": 100,
+      "id": 65,
+      "name": "Anarchist Cookbook"
+    },
+    {
+      "variant": 100,
+      "id": 66,
+      "name": "The Hourglass"
+    },
+    {
+      "variant": 100,
+      "id": 67,
+      "name": "Sister Maggy"
+    },
+    {
+      "variant": 100,
+      "id": 68,
+      "name": "Technology"
+    },
+    {
+      "variant": 100,
+      "id": 69,
+      "name": "Chocolate Milk"
+    },
+    {
+      "variant": 100,
+      "id": 70,
+      "name": "Growth Hormones"
+    },
+    {
+      "variant": 100,
+      "id": 71,
+      "name": "Mini Mush"
+    },
+    {
+      "variant": 100,
+      "id": 72,
+      "name": "Rosary"
+    },
+    {
+      "variant": 100,
+      "id": 73,
+      "name": "Cube of Meat"
+    },
+    {
+      "variant": 100,
+      "id": 74,
+      "name": "A Quarter"
+    },
+    {
+      "variant": 100,
+      "id": 75,
+      "name": "PHD"
+    },
+    {
+      "variant": 100,
+      "id": 76,
+      "name": "X-Ray Vision"
+    },
+    {
+      "variant": 100,
+      "id": 77,
+      "name": "My Little Unicorn"
+    },
+    {
+      "variant": 100,
+      "id": 78,
+      "name": "Book of Revelations"
+    },
+    {
+      "variant": 100,
+      "id": 79,
+      "name": "The Mark"
+    },
+    {
+      "variant": 100,
+      "id": 80,
+      "name": "The Pact"
+    },
+    {
+      "variant": 100,
+      "id": 81,
+      "name": "Dead Cat"
+    },
+    {
+      "variant": 100,
+      "id": 82,
+      "name": "Lord of the Pit"
+    },
+    {
+      "variant": 100,
+      "id": 83,
+      "name": "The Nail"
+    },
+    {
+      "variant": 100,
+      "id": 84,
+      "name": "We Need To Go Deeper!"
+    },
+    {
+      "variant": 100,
+      "id": 85,
+      "name": "Deck of Cards"
+    },
+    {
+      "variant": 100,
+      "id": 86,
+      "name": "Monstro's Tooth"
+    },
+    {
+      "variant": 100,
+      "id": 87,
+      "name": "Loki's Horns"
+    },
+    {
+      "variant": 100,
+      "id": 88,
+      "name": "Little Chubby"
+    },
+    {
+      "variant": 100,
+      "id": 89,
+      "name": "Spider Bite"
+    },
+    {
+      "variant": 100,
+      "id": 90,
+      "name": "The Small Rock"
+    },
+    {
+      "variant": 100,
+      "id": 91,
+      "name": "Spelunker Hat"
+    },
+    {
+      "variant": 100,
+      "id": 92,
+      "name": "Super Bandage"
+    },
+    {
+      "variant": 100,
+      "id": 93,
+      "name": "The Gamekid"
+    },
+    {
+      "variant": 100,
+      "id": 94,
+      "name": "Sack of Pennies"
+    },
+    {
+      "variant": 100,
+      "id": 95,
+      "name": "Robo-Baby"
+    },
+    {
+      "variant": 100,
+      "id": 96,
+      "name": "Little C.H.A.D."
+    },
+    {
+      "variant": 100,
+      "id": 97,
+      "name": "The Book of Sin"
+    },
+    {
+      "variant": 100,
+      "id": 98,
+      "name": "The Relic"
+    },
+    {
+      "variant": 100,
+      "id": 99,
+      "name": "Little Gish"
+    },
+    {
+      "variant": 100,
+      "id": 100,
+      "name": "Little Steven"
+    },
+    {
+      "variant": 100,
+      "id": 101,
+      "name": "The Halo"
+    },
+    {
+      "variant": 100,
+      "id": 102,
+      "name": "Mom's Bottle of Pills"
+    },
+    {
+      "variant": 100,
+      "id": 103,
+      "name": "The Common Cold"
+    },
+    {
+      "variant": 100,
+      "id": 104,
+      "name": "The Parasite"
+    },
+    {
+      "variant": 100,
+      "id": 105,
+      "name": "The D6"
+    },
+    {
+      "variant": 100,
+      "id": 106,
+      "name": "Mr. Mega"
+    },
+    {
+      "variant": 100,
+      "id": 107,
+      "name": "The Pinking Shears"
+    },
+    {
+      "variant": 100,
+      "id": 108,
+      "name": "The Wafer"
+    },
+    {
+      "variant": 100,
+      "id": 109,
+      "name": "Money Power"
+    },
+    {
+      "variant": 100,
+      "id": 110,
+      "name": "Mom's Contacts"
+    },
+    {
+      "variant": 100,
+      "id": 111,
+      "name": "The Bean"
+    },
+    {
+      "variant": 100,
+      "id": 112,
+      "name": "Guardian Angel"
+    },
+    {
+      "variant": 100,
+      "id": 113,
+      "name": "Demon Baby"
+    },
+    {
+      "variant": 100,
+      "id": 114,
+      "name": "Mom's Knife"
+    },
+    {
+      "variant": 100,
+      "id": 115,
+      "name": "Ouija Board"
+    },
+    {
+      "variant": 100,
+      "id": 116,
+      "name": "9 Volt"
+    },
+    {
+      "variant": 100,
+      "id": 117,
+      "name": "Dead Bird"
+    },
+    {
+      "variant": 100,
+      "id": 118,
+      "name": "Brimstone"
+    },
+    {
+      "variant": 100,
+      "id": 119,
+      "name": "Blood Bag"
+    },
+    {
+      "variant": 100,
+      "id": 120,
+      "name": "Odd Mushroom (Thin)"
+    },
+    {
+      "variant": 100,
+      "id": 121,
+      "name": "Odd Mushroom (Large)"
+    },
+    {
+      "variant": 100,
+      "id": 122,
+      "name": "Whore of Babylon"
+    },
+    {
+      "variant": 100,
+      "id": 123,
+      "name": "Monster Manual"
+    },
+    {
+      "variant": 100,
+      "id": 124,
+      "name": "Dead Sea Scrolls"
+    },
+    {
+      "variant": 100,
+      "id": 125,
+      "name": "Bobby-Bomb"
+    },
+    {
+      "variant": 100,
+      "id": 126,
+      "name": "Razor Blade"
+    },
+    {
+      "variant": 100,
+      "id": 127,
+      "name": "Forget Me Now"
+    },
+    {
+      "variant": 100,
+      "id": 128,
+      "name": "Forever alone"
+    },
+    {
+      "variant": 100,
+      "id": 129,
+      "name": "Bucket of Lard"
+    },
+    {
+      "variant": 100,
+      "id": 130,
+      "name": "A Pony"
+    },
+    {
+      "variant": 100,
+      "id": 131,
+      "name": "Bomb Bag"
+    },
+    {
+      "variant": 100,
+      "id": 132,
+      "name": "A Lump of Coal"
+    },
+    {
+      "variant": 100,
+      "id": 133,
+      "name": "Guppy's Paw"
+    },
+    {
+      "variant": 100,
+      "id": 134,
+      "name": "Guppy's Tail"
+    },
+    {
+      "variant": 100,
+      "id": 135,
+      "name": "IV Bag"
+    },
+    {
+      "variant": 100,
+      "id": 136,
+      "name": "Best Friend"
+    },
+    {
+      "variant": 100,
+      "id": 137,
+      "name": "Remote Detonator"
+    },
+    {
+      "variant": 100,
+      "id": 138,
+      "name": "Stigmata"
+    },
+    {
+      "variant": 100,
+      "id": 139,
+      "name": "Mom's Purse"
+    },
+    {
+      "variant": 100,
+      "id": 140,
+      "name": "Bob's Curse"
+    },
+    {
+      "variant": 100,
+      "id": 141,
+      "name": "Pageant Boy"
+    },
+    {
+      "variant": 100,
+      "id": 142,
+      "name": "Scapular"
+    },
+    {
+      "variant": 100,
+      "id": 143,
+      "name": "Speed Ball"
+    },
+    {
+      "variant": 100,
+      "id": 144,
+      "name": "Bum Friend"
+    },
+    {
+      "variant": 100,
+      "id": 145,
+      "name": "Guppy's Head"
+    },
+    {
+      "variant": 100,
+      "id": 146,
+      "name": "Prayer Card"
+    },
+    {
+      "variant": 100,
+      "id": 147,
+      "name": "Notched Axe"
+    },
+    {
+      "variant": 100,
+      "id": 148,
+      "name": "Infestation"
+    },
+    {
+      "variant": 100,
+      "id": 149,
+      "name": "Ipecac"
+    },
+    {
+      "variant": 100,
+      "id": 150,
+      "name": "Tough Love"
+    },
+    {
+      "variant": 100,
+      "id": 151,
+      "name": "The Mulligan"
+    },
+    {
+      "variant": 100,
+      "id": 152,
+      "name": "Technology 2"
+    },
+    {
+      "variant": 100,
+      "id": 153,
+      "name": "Mutant Spider"
+    },
+    {
+      "variant": 100,
+      "id": 154,
+      "name": "Chemical Peel"
+    },
+    {
+      "variant": 100,
+      "id": 155,
+      "name": "The Peeper"
+    },
+    {
+      "variant": 100,
+      "id": 156,
+      "name": "Habit"
+    },
+    {
+      "variant": 100,
+      "id": 157,
+      "name": "Bloody Lust"
+    },
+    {
+      "variant": 100,
+      "id": 158,
+      "name": "Crystal Ball"
+    },
+    {
+      "variant": 100,
+      "id": 159,
+      "name": "Spirit of the Night"
+    },
+    {
+      "variant": 100,
+      "id": 160,
+      "name": "Crack the Sky"
+    },
+    {
+      "variant": 100,
+      "id": 161,
+      "name": "Ankh"
+    },
+    {
+      "variant": 100,
+      "id": 162,
+      "name": "Celtic Cross"
+    },
+    {
+      "variant": 100,
+      "id": 163,
+      "name": "Ghost Baby"
+    },
+    {
+      "variant": 100,
+      "id": 164,
+      "name": "The Candle"
+    },
+    {
+      "variant": 100,
+      "id": 165,
+      "name": "Cat-o-nine-tails"
+    },
+    {
+      "variant": 100,
+      "id": 166,
+      "name": "D20"
+    },
+    {
+      "variant": 100,
+      "id": 167,
+      "name": "Harlequin Baby"
+    },
+    {
+      "variant": 100,
+      "id": 168,
+      "name": "Epic Fetus"
+    },
+    {
+      "variant": 100,
+      "id": 169,
+      "name": "Polyphemus"
+    },
+    {
+      "variant": 100,
+      "id": 170,
+      "name": "Daddy Longlegs"
+    },
+    {
+      "variant": 100,
+      "id": 171,
+      "name": "Spider Butt"
+    },
+    {
+      "variant": 100,
+      "id": 172,
+      "name": "Sacrificial Dagger"
+    },
+    {
+      "variant": 100,
+      "id": 173,
+      "name": "Mitre"
+    },
+    {
+      "variant": 100,
+      "id": 174,
+      "name": "Rainbow Baby"
+    },
+    {
+      "variant": 100,
+      "id": 175,
+      "name": "Dad's Key"
+    },
+    {
+      "variant": 100,
+      "id": 176,
+      "name": "Stem Cells"
+    },
+    {
+      "variant": 100,
+      "id": 177,
+      "name": "Portable Slot"
+    },
+    {
+      "variant": 100,
+      "id": 178,
+      "name": "Holy Water"
+    },
+    {
+      "variant": 100,
+      "id": 179,
+      "name": "Fate"
+    },
+    {
+      "variant": 100,
+      "id": 180,
+      "name": "The Black Bean"
+    },
+    {
+      "variant": 100,
+      "id": 181,
+      "name": "White Pony"
+    },
+    {
+      "variant": 100,
+      "id": 182,
+      "name": "Sacred Heart"
+    },
+    {
+      "variant": 100,
+      "id": 183,
+      "name": "Tooth Picks"
+    },
+    {
+      "variant": 100,
+      "id": 184,
+      "name": "Holy Grail"
+    },
+    {
+      "variant": 100,
+      "id": 185,
+      "name": "Dead Dove"
+    },
+    {
+      "variant": 100,
+      "id": 186,
+      "name": "Blood Rights"
+    },
+    {
+      "variant": 100,
+      "id": 187,
+      "name": "Guppy's Hairball"
+    },
+    {
+      "variant": 100,
+      "id": 188,
+      "name": "Abel"
+    },
+    {
+      "variant": 100,
+      "id": 189,
+      "name": "SMB Super Fan"
+    },
+    {
+      "variant": 100,
+      "id": 190,
+      "name": "Pyro"
+    },
+    {
+      "variant": 100,
+      "id": 191,
+      "name": "3 Dollar Bill"
+    },
+    {
+      "variant": 100,
+      "id": 192,
+      "name": "Telepathy For Dummies"
+    },
+    {
+      "variant": 100,
+      "id": 193,
+      "name": "MEAT!"
+    },
+    {
+      "variant": 100,
+      "id": 194,
+      "name": "Magic 8 Ball"
+    },
+    {
+      "variant": 100,
+      "id": 195,
+      "name": "Mom's Coin Purse"
+    },
+    {
+      "variant": 100,
+      "id": 196,
+      "name": "Squeezy"
+    },
+    {
+      "variant": 100,
+      "id": 197,
+      "name": "Jesus Juice"
+    },
+    {
+      "variant": 100,
+      "id": 198,
+      "name": "Box"
+    },
+    {
+      "variant": 100,
+      "id": 199,
+      "name": "Mom's Key"
+    },
+    {
+      "variant": 100,
+      "id": 200,
+      "name": "Mom's Eyeshadow"
+    },
+    {
+      "variant": 100,
+      "id": 201,
+      "name": "Iron Bar"
+    },
+    {
+      "variant": 100,
+      "id": 202,
+      "name": "Midas' Touch"
+    },
+    {
+      "variant": 100,
+      "id": 203,
+      "name": "Humbleing Bundle"
+    },
+    {
+      "variant": 100,
+      "id": 204,
+      "name": "Fanny Pack"
+    },
+    {
+      "variant": 100,
+      "id": 205,
+      "name": "Sharp Plug"
+    },
+    {
+      "variant": 100,
+      "id": 206,
+      "name": "Guillotine"
+    },
+    {
+      "variant": 100,
+      "id": 207,
+      "name": "Ball of Bandages"
+    },
+    {
+      "variant": 100,
+      "id": 208,
+      "name": "Champion Belt"
+    },
+    {
+      "variant": 100,
+      "id": 209,
+      "name": "Butt Bombs"
+    },
+    {
+      "variant": 100,
+      "id": 210,
+      "name": "Gnawed Leaf"
+    },
+    {
+      "variant": 100,
+      "id": 211,
+      "name": "Spiderbaby"
+    },
+    {
+      "variant": 100,
+      "id": 212,
+      "name": "Guppy's Collar"
+    },
+    {
+      "variant": 100,
+      "id": 213,
+      "name": "Lost Contact"
+    },
+    {
+      "variant": 100,
+      "id": 214,
+      "name": "Anemic"
+    },
+    {
+      "variant": 100,
+      "id": 215,
+      "name": "Goat Head"
+    },
+    {
+      "variant": 100,
+      "id": 216,
+      "name": "Ceremonial Robes"
+    },
+    {
+      "variant": 100,
+      "id": 217,
+      "name": "Mom's Wig"
+    },
+    {
+      "variant": 100,
+      "id": 218,
+      "name": "Placenta"
+    },
+    {
+      "variant": 100,
+      "id": 219,
+      "name": "Old Bandage"
+    },
+    {
+      "variant": 100,
+      "id": 220,
+      "name": "Sad Bombs"
+    },
+    {
+      "variant": 100,
+      "id": 221,
+      "name": "Rubber Cement"
+    },
+    {
+      "variant": 100,
+      "id": 222,
+      "name": "Anti-Gravity"
+    },
+    {
+      "variant": 100,
+      "id": 223,
+      "name": "Pyromaniac"
+    },
+    {
+      "variant": 100,
+      "id": 224,
+      "name": "Cricket's Body"
+    },
+    {
+      "variant": 100,
+      "id": 225,
+      "name": "Gimpy"
+    },
+    {
+      "variant": 100,
+      "id": 226,
+      "name": "Black Lotus"
+    },
+    {
+      "variant": 100,
+      "id": 227,
+      "name": "Piggy Bank"
+    },
+    {
+      "variant": 100,
+      "id": 228,
+      "name": "Mom's Perfume"
+    },
+    {
+      "variant": 100,
+      "id": 229,
+      "name": "Monstro's Lung"
+    },
+    {
+      "variant": 100,
+      "id": 230,
+      "name": "Abaddon"
+    },
+    {
+      "variant": 100,
+      "id": 231,
+      "name": "Ball of Tar"
+    },
+    {
+      "variant": 100,
+      "id": 232,
+      "name": "Stop Watch"
+    },
+    {
+      "variant": 100,
+      "id": 233,
+      "name": "Tiny Planet"
+    },
+    {
+      "variant": 100,
+      "id": 234,
+      "name": "Infestation 2"
+    },
+    {
+      "variant": 100,
+      "id": 236,
+      "name": "E. Coli"
+    },
+    {
+      "variant": 100,
+      "id": 237,
+      "name": "Death's Touch"
+    },
+    {
+      "variant": 100,
+      "id": 238,
+      "name": "Key Piece 1"
+    },
+    {
+      "variant": 100,
+      "id": 239,
+      "name": "Key Piece 2"
+    },
+    {
+      "variant": 100,
+      "id": 240,
+      "name": "Experimental Treatment"
+    },
+    {
+      "variant": 100,
+      "id": 241,
+      "name": "Contract From Below"
+    },
+    {
+      "variant": 100,
+      "id": 242,
+      "name": "Infamy"
+    },
+    {
+      "variant": 100,
+      "id": 243,
+      "name": "Trinity Shield"
+    },
+    {
+      "variant": 100,
+      "id": 244,
+      "name": "Tech.5"
+    },
+    {
+      "variant": 100,
+      "id": 245,
+      "name": "20/20"
+    },
+    {
+      "variant": 100,
+      "id": 246,
+      "name": "Blue Map"
+    },
+    {
+      "variant": 100,
+      "id": 247,
+      "name": "BFFS!"
+    },
+    {
+      "variant": 100,
+      "id": 248,
+      "name": "Hive Mind"
+    },
+    {
+      "variant": 100,
+      "id": 249,
+      "name": "There's Options"
+    },
+    {
+      "variant": 100,
+      "id": 250,
+      "name": "BOGO Bombs"
+    },
+    {
+      "variant": 100,
+      "id": 251,
+      "name": "Starter Deck"
+    },
+    {
+      "variant": 100,
+      "id": 252,
+      "name": "Little Baggy"
+    },
+    {
+      "variant": 100,
+      "id": 253,
+      "name": "Magic Scab"
+    },
+    {
+      "variant": 100,
+      "id": 254,
+      "name": "Blood Clot"
+    },
+    {
+      "variant": 100,
+      "id": 255,
+      "name": "Screw"
+    },
+    {
+      "variant": 100,
+      "id": 256,
+      "name": "Hot Bombs"
+    },
+    {
+      "variant": 100,
+      "id": 257,
+      "name": "Fire Mind"
+    },
+    {
+      "variant": 100,
+      "id": 258,
+      "name": "Missing No."
+    },
+    {
+      "variant": 100,
+      "id": 259,
+      "name": "Dark Matter"
+    },
+    {
+      "variant": 100,
+      "id": 260,
+      "name": "Black Candle"
+    },
+    {
+      "variant": 100,
+      "id": 261,
+      "name": "Proptosis"
+    },
+    {
+      "variant": 100,
+      "id": 262,
+      "name": "Missing Page 2"
+    },
+    {
+      "variant": 100,
+      "id": 263,
+      "name": "Clear Rune"
+    },
+    {
+      "variant": 100,
+      "id": 264,
+      "name": "Smart Fly"
+    },
+    {
+      "variant": 100,
+      "id": 265,
+      "name": "Dry Baby"
+    },
+    {
+      "variant": 100,
+      "id": 266,
+      "name": "Juicy Sack"
+    },
+    {
+      "variant": 100,
+      "id": 267,
+      "name": "Robo-Baby 2.0"
+    },
+    {
+      "variant": 100,
+      "id": 268,
+      "name": "Rotten Baby"
+    },
+    {
+      "variant": 100,
+      "id": 269,
+      "name": "Headless Baby"
+    },
+    {
+      "variant": 100,
+      "id": 270,
+      "name": "Leech"
+    },
+    {
+      "variant": 100,
+      "id": 271,
+      "name": "Mystery Sack"
+    },
+    {
+      "variant": 100,
+      "id": 272,
+      "name": "BBF"
+    },
+    {
+      "variant": 100,
+      "id": 273,
+      "name": "Bob's Brain"
+    },
+    {
+      "variant": 100,
+      "id": 274,
+      "name": "Best Bud"
+    },
+    {
+      "variant": 100,
+      "id": 275,
+      "name": "Lil Brimstone"
+    },
+    {
+      "variant": 100,
+      "id": 276,
+      "name": "Isaac's Heart"
+    },
+    {
+      "variant": 100,
+      "id": 277,
+      "name": "Lil Haunt"
+    },
+    {
+      "variant": 100,
+      "id": 278,
+      "name": "Dark Bum"
+    },
+    {
+      "variant": 100,
+      "id": 279,
+      "name": "Big Fan"
+    },
+    {
+      "variant": 100,
+      "id": 280,
+      "name": "Sissy Longlegs"
+    },
+    {
+      "variant": 100,
+      "id": 281,
+      "name": "Punching Bag"
+    },
+    {
+      "variant": 100,
+      "id": 282,
+      "name": "How to Jump"
+    },
+    {
+      "variant": 100,
+      "id": 283,
+      "name": "D100"
+    },
+    {
+      "variant": 100,
+      "id": 284,
+      "name": "D4"
+    },
+    {
+      "variant": 100,
+      "id": 285,
+      "name": "D10"
+    },
+    {
+      "variant": 100,
+      "id": 286,
+      "name": "Blank Card"
+    },
+    {
+      "variant": 100,
+      "id": 287,
+      "name": "Book of Secrets"
+    },
+    {
+      "variant": 100,
+      "id": 288,
+      "name": "Box of Spiders"
+    },
+    {
+      "variant": 100,
+      "id": 289,
+      "name": "Red Candle"
+    },
+    {
+      "variant": 100,
+      "id": 290,
+      "name": "The Jar"
+    },
+    {
+      "variant": 100,
+      "id": 291,
+      "name": "Flush!"
+    },
+    {
+      "variant": 100,
+      "id": 292,
+      "name": "Satanic Bible"
+    },
+    {
+      "variant": 100,
+      "id": 293,
+      "name": "Head of Krampus"
+    },
+    {
+      "variant": 100,
+      "id": 294,
+      "name": "Butter Bean"
+    },
+    {
+      "variant": 100,
+      "id": 295,
+      "name": "Magic Fingers"
+    },
+    {
+      "variant": 100,
+      "id": 296,
+      "name": "Converter"
+    },
+    {
+      "variant": 100,
+      "id": 297,
+      "name": "Pandora's Box"
+    },
+    {
+      "variant": 100,
+      "id": 298,
+      "name": "Unicorn Stump"
+    },
+    {
+      "variant": 100,
+      "id": 299,
+      "name": "Taurus"
+    },
+    {
+      "variant": 100,
+      "id": 300,
+      "name": "Aries"
+    },
+    {
+      "variant": 100,
+      "id": 301,
+      "name": "Cancer"
+    },
+    {
+      "variant": 100,
+      "id": 302,
+      "name": "Leo"
+    },
+    {
+      "variant": 100,
+      "id": 303,
+      "name": "Virgo"
+    },
+    {
+      "variant": 100,
+      "id": 304,
+      "name": "Libra"
+    },
+    {
+      "variant": 100,
+      "id": 305,
+      "name": "Scorpio"
+    },
+    {
+      "variant": 100,
+      "id": 306,
+      "name": "Sagittarius"
+    },
+    {
+      "variant": 100,
+      "id": 307,
+      "name": "Capricorn"
+    },
+    {
+      "variant": 100,
+      "id": 308,
+      "name": "Aquarius"
+    },
+    {
+      "variant": 100,
+      "id": 309,
+      "name": "Pisces"
+    },
+    {
+      "variant": 100,
+      "id": 310,
+      "name": "Eve's Mascara"
+    },
+    {
+      "variant": 100,
+      "id": 311,
+      "name": "Judas' Shadow"
+    },
+    {
+      "variant": 100,
+      "id": 312,
+      "name": "Maggy's Bow"
+    },
+    {
+      "variant": 100,
+      "id": 313,
+      "name": "Holy Mantle"
+    },
+    {
+      "variant": 100,
+      "id": 314,
+      "name": "Thunder Thighs"
+    },
+    {
+      "variant": 100,
+      "id": 315,
+      "name": "Strange Attractor"
+    },
+    {
+      "variant": 100,
+      "id": 316,
+      "name": "Cursed Eye"
+    },
+    {
+      "variant": 100,
+      "id": 317,
+      "name": "Mysterious Liquid"
+    },
+    {
+      "variant": 100,
+      "id": 318,
+      "name": "Gemini"
+    },
+    {
+      "variant": 100,
+      "id": 319,
+      "name": "Cain's Other Eye"
+    },
+    {
+      "variant": 100,
+      "id": 320,
+      "name": "???'s Only Friend"
+    },
+    {
+      "variant": 100,
+      "id": 321,
+      "name": "Samson's Chains"
+    },
+    {
+      "variant": 100,
+      "id": 322,
+      "name": "Mongo Baby"
+    },
+    {
+      "variant": 100,
+      "id": 323,
+      "name": "Isaac's Tears"
+    },
+    {
+      "variant": 100,
+      "id": 324,
+      "name": "Undefined"
+    },
+    {
+      "variant": 100,
+      "id": 325,
+      "name": "Scissors"
+    },
+    {
+      "variant": 100,
+      "id": 326,
+      "name": "Breath of Life"
+    },
+    {
+      "variant": 100,
+      "id": 327,
+      "name": "The Polaroid"
+    },
+    {
+      "variant": 100,
+      "id": 328,
+      "name": "The Negative"
+    },
+    {
+      "variant": 100,
+      "id": 329,
+      "name": "The Ludovico Technique"
+    },
+    {
+      "variant": 100,
+      "id": 330,
+      "name": "Soy Milk"
+    },
+    {
+      "variant": 100,
+      "id": 331,
+      "name": "Godhead"
+    },
+    {
+      "variant": 100,
+      "id": 332,
+      "name": "Lazarus' Rags"
+    },
+    {
+      "variant": 100,
+      "id": 333,
+      "name": "The Mind"
+    },
+    {
+      "variant": 100,
+      "id": 334,
+      "name": "The Body"
+    },
+    {
+      "variant": 100,
+      "id": 335,
+      "name": "The Soul"
+    },
+    {
+      "variant": 100,
+      "id": 336,
+      "name": "Dead Onion"
+    },
+    {
+      "variant": 100,
+      "id": 337,
+      "name": "Broken Watch"
+    },
+    {
+      "variant": 100,
+      "id": 338,
+      "name": "The Boomerang"
+    },
+    {
+      "variant": 100,
+      "id": 339,
+      "name": "Safety Pin"
+    },
+    {
+      "variant": 100,
+      "id": 340,
+      "name": "Caffeine Pill"
+    },
+    {
+      "variant": 100,
+      "id": 341,
+      "name": "Torn Photo"
+    },
+    {
+      "variant": 100,
+      "id": 342,
+      "name": "Blue Cap"
+    },
+    {
+      "variant": 100,
+      "id": 343,
+      "name": "Latch Key"
+    },
+    {
+      "variant": 100,
+      "id": 344,
+      "name": "Match Book"
+    },
+    {
+      "variant": 100,
+      "id": 345,
+      "name": "Synthoil"
+    },
+    {
+      "variant": 100,
+      "id": 346,
+      "name": "A Snack"
+    },
+    {
+      "variant": 100,
+      "id": 347,
+      "name": "Diplopia"
+    },
+    {
+      "variant": 100,
+      "id": 348,
+      "name": "Placebo"
+    },
+    {
+      "variant": 100,
+      "id": 349,
+      "name": "Wooden Nickel"
+    },
+    {
+      "variant": 100,
+      "id": 350,
+      "name": "Toxic Shock"
+    },
+    {
+      "variant": 100,
+      "id": 351,
+      "name": "Mega Bean"
+    },
+    {
+      "variant": 100,
+      "id": 352,
+      "name": "Glass Cannon"
+    },
+    {
+      "variant": 100,
+      "id": 353,
+      "name": "Bomber Boy"
+    },
+    {
+      "variant": 100,
+      "id": 354,
+      "name": "Crack Jacks"
+    },
+    {
+      "variant": 100,
+      "id": 355,
+      "name": "Mom's Pearls"
+    },
+    {
+      "variant": 100,
+      "id": 356,
+      "name": "Car Battery"
+    },
+    {
+      "variant": 100,
+      "id": 357,
+      "name": "Box of Friends"
+    },
+    {
+      "variant": 100,
+      "id": 358,
+      "name": "The Wiz"
+    },
+    {
+      "variant": 100,
+      "id": 359,
+      "name": "8 Inch Nails"
+    },
+    {
+      "variant": 100,
+      "id": 360,
+      "name": "Incubus"
+    },
+    {
+      "variant": 100,
+      "id": 361,
+      "name": "Fate's Reward"
+    },
+    {
+      "variant": 100,
+      "id": 362,
+      "name": "Lil Chest"
+    },
+    {
+      "variant": 100,
+      "id": 363,
+      "name": "Sworn Protector"
+    },
+    {
+      "variant": 100,
+      "id": 364,
+      "name": "Friend Zone"
+    },
+    {
+      "variant": 100,
+      "id": 365,
+      "name": "Lost Fly"
+    },
+    {
+      "variant": 100,
+      "id": 366,
+      "name": "Scatter Bombs"
+    },
+    {
+      "variant": 100,
+      "id": 367,
+      "name": "Sticky Bombs"
+    },
+    {
+      "variant": 100,
+      "id": 368,
+      "name": "Epiphora"
+    },
+    {
+      "variant": 100,
+      "id": 369,
+      "name": "Continuum"
+    },
+    {
+      "variant": 100,
+      "id": 370,
+      "name": "Mr. Dolly"
+    },
+    {
+      "variant": 100,
+      "id": 371,
+      "name": "Curse of the Tower"
+    },
+    {
+      "variant": 100,
+      "id": 372,
+      "name": "Charged Baby"
+    },
+    {
+      "variant": 100,
+      "id": 373,
+      "name": "Dead Eye"
+    },
+    {
+      "variant": 100,
+      "id": 374,
+      "name": "Holy Light"
+    },
+    {
+      "variant": 100,
+      "id": 375,
+      "name": "Host Hat"
+    },
+    {
+      "variant": 100,
+      "id": 376,
+      "name": "Restock"
+    },
+    {
+      "variant": 100,
+      "id": 377,
+      "name": "Bursting Sack"
+    },
+    {
+      "variant": 100,
+      "id": 378,
+      "name": "No. 2"
+    },
+    {
+      "variant": 100,
+      "id": 379,
+      "name": "Pupula Duplex"
+    },
+    {
+      "variant": 100,
+      "id": 380,
+      "name": "Pay To Play"
+    },
+    {
+      "variant": 100,
+      "id": 381,
+      "name": "Eden's Blessing"
+    },
+    {
+      "variant": 100,
+      "id": 382,
+      "name": "Friendly Ball"
+    },
+    {
+      "variant": 100,
+      "id": 383,
+      "name": "Tear Detonator"
+    },
+    {
+      "variant": 100,
+      "id": 384,
+      "name": "Lil Gurdy"
+    },
+    {
+      "variant": 100,
+      "id": 385,
+      "name": "Bumbo"
+    },
+    {
+      "variant": 100,
+      "id": 386,
+      "name": "D12"
+    },
+    {
+      "variant": 100,
+      "id": 387,
+      "name": "Censer"
+    },
+    {
+      "variant": 100,
+      "id": 388,
+      "name": "Key Bum"
+    },
+    {
+      "variant": 100,
+      "id": 389,
+      "name": "Rune Bag"
+    },
+    {
+      "variant": 100,
+      "id": 390,
+      "name": "Seraphim"
+    },
+    {
+      "variant": 100,
+      "id": 391,
+      "name": "Betrayal"
+    },
+    {
+      "variant": 100,
+      "id": 392,
+      "name": "Zodiac"
+    },
+    {
+      "variant": 100,
+      "id": 393,
+      "name": "Serpent's Kiss"
+    },
+    {
+      "variant": 100,
+      "id": 394,
+      "name": "Marked"
+    },
+    {
+      "variant": 100,
+      "id": 395,
+      "name": "Tech X"
+    },
+    {
+      "variant": 100,
+      "id": 396,
+      "name": "Ventricle Razor"
+    },
+    {
+      "variant": 100,
+      "id": 397,
+      "name": "Tractor Beam"
+    },
+    {
+      "variant": 100,
+      "id": 398,
+      "name": "God's Flesh"
+    },
+    {
+      "variant": 100,
+      "id": 399,
+      "name": "Maw Of The Void"
+    },
+    {
+      "variant": 100,
+      "id": 400,
+      "name": "Spear Of Destiny"
+    },
+    {
+      "variant": 100,
+      "id": 401,
+      "name": "Explosivo"
+    },
+    {
+      "variant": 100,
+      "id": 402,
+      "name": "Chaos"
+    },
+    {
+      "variant": 100,
+      "id": 403,
+      "name": "Spider Mod"
+    },
+    {
+      "variant": 100,
+      "id": 404,
+      "name": "Farting Baby"
+    },
+    {
+      "variant": 100,
+      "id": 405,
+      "name": "GB Bug"
+    },
+    {
+      "variant": 100,
+      "id": 406,
+      "name": "D8"
+    },
+    {
+      "variant": 100,
+      "id": 407,
+      "name": "Purity"
+    },
+    {
+      "variant": 100,
+      "id": 408,
+      "name": "Athame"
+    },
+    {
+      "variant": 100,
+      "id": 409,
+      "name": "Empty Vessel"
+    },
+    {
+      "variant": 100,
+      "id": 410,
+      "name": "Evil Eye"
+    },
+    {
+      "variant": 100,
+      "id": 411,
+      "name": "Lusty Blood"
+    },
+    {
+      "variant": 100,
+      "id": 412,
+      "name": "Cambion Conception"
+    },
+    {
+      "variant": 100,
+      "id": 413,
+      "name": "Immaculate Conception"
+    },
+    {
+      "variant": 100,
+      "id": 414,
+      "name": "More Options"
+    },
+    {
+      "variant": 100,
+      "id": 415,
+      "name": "Crown Of Light"
+    },
+    {
+      "variant": 100,
+      "id": 416,
+      "name": "Deep Pockets"
+    },
+    {
+      "variant": 100,
+      "id": 417,
+      "name": "Succubus"
+    },
+    {
+      "variant": 100,
+      "id": 418,
+      "name": "Fruit Cake"
+    },
+    {
+      "variant": 100,
+      "id": 419,
+      "name": "Teleport 2.0"
+    },
+    {
+      "variant": 100,
+      "id": 420,
+      "name": "Black Powder"
+    },
+    {
+      "variant": 100,
+      "id": 421,
+      "name": "Kidney Bean"
+    },
+    {
+      "variant": 100,
+      "id": 422,
+      "name": "Glowing Hourglass"
+    },
+    {
+      "variant": 100,
+      "id": 423,
+      "name": "Circle of Protection"
+    },
+    {
+      "variant": 100,
+      "id": 424,
+      "name": "Sack Head"
+    },
+    {
+      "variant": 100,
+      "id": 425,
+      "name": "Night Light"
+    },
+    {
+      "variant": 100,
+      "id": 426,
+      "name": "Obsessed Fan"
+    },
+    {
+      "variant": 100,
+      "id": 427,
+      "name": "Mine Crafter"
+    },
+    {
+      "variant": 100,
+      "id": 428,
+      "name": "PJs"
+    },
+    {
+      "variant": 100,
+      "id": 429,
+      "name": "Head of the Keeper"
+    },
+    {
+      "variant": 100,
+      "id": 430,
+      "name": "Papa Fly"
+    },
+    {
+      "variant": 100,
+      "id": 431,
+      "name": "Multidimensional Baby"
+    },
+    {
+      "variant": 100,
+      "id": 432,
+      "name": "Glitter Bombs"
+    },
+    {
+      "variant": 100,
+      "id": 433,
+      "name": "My Shadow"
+    },
+    {
+      "variant": 100,
+      "id": 434,
+      "name": "Jar of Flies"
+    },
+    {
+      "variant": 100,
+      "id": 435,
+      "name": "Lil Loki"
+    },
+    {
+      "variant": 100,
+      "id": 436,
+      "name": "Milk!"
+    },
+    {
+      "variant": 100,
+      "id": 437,
+      "name": "D7"
+    },
+    {
+      "variant": 100,
+      "id": 438,
+      "name": "Binky"
+    },
+    {
+      "variant": 100,
+      "id": 439,
+      "name": "Mom's Box"
+    },
+    {
+      "variant": 100,
+      "id": 440,
+      "name": "Kidney Stone"
+    },
+    {
+      "variant": 100,
+      "id": 441,
+      "name": "Mega Blast"
+    },
+    {
+      "variant": 100,
+      "id": 442,
+      "name": "Dark Prince's Crown"
+    },
+    {
+      "variant": 100,
+      "id": 443,
+      "name": "Apple!"
+    },
+    {
+      "variant": 100,
+      "id": 444,
+      "name": "Lead Pencil"
+    },
+    {
+      "variant": 100,
+      "id": 445,
+      "name": "Dog Tooth"
+    },
+    {
+      "variant": 100,
+      "id": 446,
+      "name": "Dead Tooth"
+    },
+    {
+      "variant": 100,
+      "id": 447,
+      "name": "Linger Bean"
+    },
+    {
+      "variant": 100,
+      "id": 448,
+      "name": "Shard of Glass"
+    },
+    {
+      "variant": 100,
+      "id": 449,
+      "name": "Metal Plate"
+    },
+    {
+      "variant": 100,
+      "id": 450,
+      "name": "Eye of Greed"
+    },
+    {
+      "variant": 100,
+      "id": 451,
+      "name": "Tarot Cloth"
+    },
+    {
+      "variant": 100,
+      "id": 452,
+      "name": "Varicose Veins"
+    },
+    {
+      "variant": 100,
+      "id": 453,
+      "name": "Compound Fracture"
+    },
+    {
+      "variant": 100,
+      "id": 454,
+      "name": "Polydactyly"
+    },
+    {
+      "variant": 100,
+      "id": 455,
+      "name": "Dad's Lost Coin"
+    },
+    {
+      "variant": 100,
+      "id": 456,
+      "name": "Midnight Snack"
+    },
+    {
+      "variant": 100,
+      "id": 457,
+      "name": "Cone Head"
+    },
+    {
+      "variant": 100,
+      "id": 458,
+      "name": "Belly Button"
+    },
+    {
+      "variant": 100,
+      "id": 459,
+      "name": "Sinus Infection"
+    },
+    {
+      "variant": 100,
+      "id": 460,
+      "name": "Glaucoma"
+    },
+    {
+      "variant": 100,
+      "id": 461,
+      "name": "Parasitoid"
+    },
+    {
+      "variant": 100,
+      "id": 462,
+      "name": "Eye of Belial"
+    },
+    {
+      "variant": 100,
+      "id": 463,
+      "name": "Sulfuric Acid"
+    },
+    {
+      "variant": 100,
+      "id": 464,
+      "name": "Glyph of Balance"
+    },
+    {
+      "variant": 100,
+      "id": 465,
+      "name": "Analog Stick"
+    },
+    {
+      "variant": 100,
+      "id": 466,
+      "name": "Contagion"
+    },
+    {
+      "variant": 100,
+      "id": 467,
+      "name": "Finger!"
+    },
+    {
+      "variant": 100,
+      "id": 468,
+      "name": "Shade"
+    },
+    {
+      "variant": 100,
+      "id": 469,
+      "name": "Depression"
+    },
+    {
+      "variant": 100,
+      "id": 470,
+      "name": "Hushy"
+    },
+    {
+      "variant": 100,
+      "id": 471,
+      "name": "Lil Monstro"
+    },
+    {
+      "variant": 100,
+      "id": 472,
+      "name": "King Baby"
+    },
+    {
+      "variant": 100,
+      "id": 473,
+      "name": "Big Chubby"
+    },
+    {
+      "variant": 100,
+      "id": 474,
+      "name": "Broken Glass Cannon"
+    },
+    {
+      "variant": 100,
+      "id": 475,
+      "name": "Plan C"
+    },
+    {
+      "variant": 100,
+      "id": 476,
+      "name": "D1"
+    },
+    {
+      "variant": 100,
+      "id": 477,
+      "name": "Void"
+    },
+    {
+      "variant": 100,
+      "id": 478,
+      "name": "Pause"
+    },
+    {
+      "variant": 100,
+      "id": 479,
+      "name": "Smelter"
+    },
+    {
+      "variant": 100,
+      "id": 480,
+      "name": "Compost"
+    },
+    {
+      "variant": 100,
+      "id": 481,
+      "name": "Dataminer"
+    },
+    {
+      "variant": 100,
+      "id": 482,
+      "name": "Clicker"
+    },
+    {
+      "variant": 100,
+      "id": 483,
+      "name": "Mama Mega!"
+    },
+    {
+      "variant": 100,
+      "id": 484,
+      "name": "Wait What?"
+    },
+    {
+      "variant": 100,
+      "id": 485,
+      "name": "Crooked Penny"
+    },
+    {
+      "variant": 100,
+      "id": 486,
+      "name": "Dull Razor"
+    },
+    {
+      "variant": 100,
+      "id": 487,
+      "name": "Potato Peeler"
+    },
+    {
+      "variant": 100,
+      "id": 488,
+      "name": "Metronome"
+    },
+    {
+      "variant": 100,
+      "id": 489,
+      "name": "D infinity"
+    },
+    {
+      "variant": 100,
+      "id": 490,
+      "name": "Eden's Soul"
+    },
+    {
+      "variant": 100,
+      "id": 491,
+      "name": "Acid Baby"
+    },
+    {
+      "variant": 100,
+      "id": 492,
+      "name": "YO LISTEN!"
+    },
+    {
+      "variant": 100,
+      "id": 493,
+      "name": "Adrenaline"
+    },
+    {
+      "variant": 100,
+      "id": 494,
+      "name": "Jacob's Ladder"
+    },
+    {
+      "variant": 100,
+      "id": 495,
+      "name": "Ghost Pepper"
+    },
+    {
+      "variant": 100,
+      "id": 496,
+      "name": "Euthanasia"
+    },
+    {
+      "variant": 100,
+      "id": 497,
+      "name": "Camo Undies"
+    },
+    {
+      "variant": 100,
+      "id": 498,
+      "name": "Duality"
+    },
+    {
+      "variant": 100,
+      "id": 499,
+      "name": "Eucharist"
+    },
+    {
+      "variant": 100,
+      "id": 500,
+      "name": "Sack of Sacks"
+    },
+    {
+      "variant": 100,
+      "id": 501,
+      "name": "Greed's Gullet"
+    },
+    {
+      "variant": 100,
+      "id": 502,
+      "name": "Large Zit"
+    },
+    {
+      "variant": 100,
+      "id": 503,
+      "name": "Little Horn"
+    },
+    {
+      "variant": 100,
+      "id": 504,
+      "name": "Brown Nugget"
+    },
+    {
+      "variant": 100,
+      "id": 505,
+      "name": "Poke Go"
+    },
+    {
+      "variant": 100,
+      "id": 506,
+      "name": "Backstabber"
+    },
+    {
+      "variant": 100,
+      "id": 507,
+      "name": "Sharp Straw"
+    },
+    {
+      "variant": 100,
+      "id": 508,
+      "name": "Mom's Razor"
+    },
+    {
+      "variant": 100,
+      "id": 509,
+      "name": "Bloodshot Eye"
+    },
+    {
+      "variant": 100,
+      "id": 510,
+      "name": "Delirious"
+    },
+    {
+      "variant": 100,
+      "id": 511,
+      "name": "Angry Fly"
+    },
+    {
+      "variant": 100,
+      "id": 512,
+      "name": "Black Hole"
+    },
+    {
+      "variant": 100,
+      "id": 513,
+      "name": "Bozo"
+    },
+    {
+      "variant": 100,
+      "id": 514,
+      "name": "Broken Modem"
+    },
+    {
+      "variant": 100,
+      "id": 515,
+      "name": "Mystery Gift"
+    },
+    {
+      "variant": 100,
+      "id": 516,
+      "name": "Sprinkler"
+    },
+    {
+      "variant": 100,
+      "id": 517,
+      "name": "Fast Bombs"
+    },
+    {
+      "variant": 100,
+      "id": 518,
+      "name": "Buddy in a Box"
+    },
+    {
+      "variant": 100,
+      "id": 519,
+      "name": "Lil Delirium"
+    },
+    {
+      "variant": 100,
+      "id": 520,
+      "name": "Jumper Cables"
+    },
+    {
+      "variant": 100,
+      "id": 521,
+      "name": "Coupon"
+    },
+    {
+      "variant": 100,
+      "id": 522,
+      "name": "Telekinesis"
+    },
+    {
+      "variant": 100,
+      "id": 523,
+      "name": "Moving Box"
+    },
+    {
+      "variant": 100,
+      "id": 524,
+      "name": "Technology Zero"
+    },
+    {
+      "variant": 100,
+      "id": 525,
+      "name": "Leprosy"
+    },
+    {
+      "variant": 100,
+      "id": 526,
+      "name": "7 Seals"
+    },
+    {
+      "variant": 100,
+      "id": 527,
+      "name": "Mr. ME!"
+    },
+    {
+      "variant": 100,
+      "id": 528,
+      "name": "Angelic Prism"
+    },
+    {
+      "variant": 100,
+      "id": 529,
+      "name": "Pop!"
+    },
+    {
+      "variant": 100,
+      "id": 530,
+      "name": "Death's List"
+    },
+    {
+      "variant": 100,
+      "id": 531,
+      "name": "Haemolacria"
+    },
+    {
+      "variant": 100,
+      "id": 532,
+      "name": "Lachryphagy"
+    },
+    {
+      "variant": 100,
+      "id": 533,
+      "name": "Trisagion"
+    },
+    {
+      "variant": 100,
+      "id": 534,
+      "name": "Schoolbag"
+    },
+    {
+      "variant": 100,
+      "id": 535,
+      "name": "Blanket"
+    },
+    {
+      "variant": 100,
+      "id": 536,
+      "name": "Sacrificial Altar"
+    },
+    {
+      "variant": 100,
+      "id": 537,
+      "name": "Lil Spewer"
+    },
+    {
+      "variant": 100,
+      "id": 538,
+      "name": "Marbles"
+    },
+    {
+      "variant": 100,
+      "id": 539,
+      "name": "Mystery Egg"
+    },
+    {
+      "variant": 100,
+      "id": 540,
+      "name": "Flat Stone"
+    },
+    {
+      "variant": 100,
+      "id": 541,
+      "name": "Marrow"
+    },
+    {
+      "variant": 100,
+      "id": 542,
+      "name": "Slipped Rib"
+    },
+    {
+      "variant": 100,
+      "id": 543,
+      "name": "Hallowed Ground"
+    },
+    {
+      "variant": 100,
+      "id": 544,
+      "name": "Pointy Rib"
+    },
+    {
+      "variant": 100,
+      "id": 545,
+      "name": "Book of the Dead"
+    },
+    {
+      "variant": 100,
+      "id": 546,
+      "name": "Dad's Ring"
+    },
+    {
+      "variant": 100,
+      "id": 547,
+      "name": "Divorce Papers"
+    },
+    {
+      "variant": 100,
+      "id": 548,
+      "name": "Jaw Bone"
+    },
+    {
+      "variant": 100,
+      "id": 549,
+      "name": "Brittle Bones"
+    },
+    {
+      "variant": 100,
+      "id": 550,
+      "name": "Broken Shovel 1"
+    },
+    {
+      "variant": 100,
+      "id": 551,
+      "name": "Broken Shovel 2"
+    },
+    {
+      "variant": 100,
+      "id": 552,
+      "name": "Mom's Shovel"
+    },
+    {
+      "variant": 100,
+      "id": 553,
+      "name": "Mucormycosis"
+    },
+    {
+      "variant": 100,
+      "id": 554,
+      "name": "2Spooky"
+    },
+    {
+      "variant": 100,
+      "id": 555,
+      "name": "Golden Razor"
+    },
+    {
+      "variant": 100,
+      "id": 556,
+      "name": "Sulfur"
+    },
+    {
+      "variant": 100,
+      "id": 557,
+      "name": "Fortune Cookie"
+    },
+    {
+      "variant": 100,
+      "id": 558,
+      "name": "Eye Sore"
+    },
+    {
+      "variant": 100,
+      "id": 559,
+      "name": "120 Volt"
+    },
+    {
+      "variant": 100,
+      "id": 560,
+      "name": "It Hurts"
+    },
+    {
+      "variant": 100,
+      "id": 561,
+      "name": "Almond Milk"
+    },
+    {
+      "variant": 100,
+      "id": 562,
+      "name": "Rock Bottom"
+    },
+    {
+      "variant": 100,
+      "id": 563,
+      "name": "Nancy Bombs"
+    },
+    {
+      "variant": 100,
+      "id": 564,
+      "name": "A Bar of Soap"
+    },
+    {
+      "variant": 100,
+      "id": 565,
+      "name": "Blood Puppy"
+    },
+    {
+      "variant": 100,
+      "id": 566,
+      "name": "Dream Catcher"
+    },
+    {
+      "variant": 100,
+      "id": 567,
+      "name": "Paschal Candle"
+    },
+    {
+      "variant": 100,
+      "id": 568,
+      "name": "Divine Intervention"
+    },
+    {
+      "variant": 100,
+      "id": 569,
+      "name": "Blood Oath"
+    },
+    {
+      "variant": 100,
+      "id": 570,
+      "name": "Playdough Cookie"
+    },
+    {
+      "variant": 100,
+      "id": 571,
+      "name": "Orphan Socks"
+    },
+    {
+      "variant": 100,
+      "id": 572,
+      "name": "Eye of the Occult"
+    },
+    {
+      "variant": 100,
+      "id": 573,
+      "name": "Immaculate Heart"
+    },
+    {
+      "variant": 100,
+      "id": 574,
+      "name": "Monstrance"
+    },
+    {
+      "variant": 100,
+      "id": 575,
+      "name": "The Intruder"
+    },
+    {
+      "variant": 100,
+      "id": 576,
+      "name": "Dirty Mind"
+    },
+    {
+      "variant": 100,
+      "id": 577,
+      "name": "Damocles"
+    },
+    {
+      "variant": 100,
+      "id": 578,
+      "name": "Free Lemonade"
+    },
+    {
+      "variant": 100,
+      "id": 579,
+      "name": "Spirit Sword"
+    },
+    {
+      "variant": 100,
+      "id": 580,
+      "name": "Red Key"
+    },
+    {
+      "variant": 100,
+      "id": 581,
+      "name": "Psy Fly"
+    },
+    {
+      "variant": 100,
+      "id": 582,
+      "name": "Wavy Cap"
+    },
+    {
+      "variant": 100,
+      "id": 583,
+      "name": "Rocket in a Jar"
+    },
+    {
+      "variant": 100,
+      "id": 584,
+      "name": "Book of Virtues"
+    },
+    {
+      "variant": 100,
+      "id": 585,
+      "name": "Alabaster Box"
+    },
+    {
+      "variant": 100,
+      "id": 586,
+      "name": "The Stairway"
+    },
+    {
+      "variant": 100,
+      "id": 588,
+      "name": "Sol"
+    },
+    {
+      "variant": 100,
+      "id": 589,
+      "name": "Luna"
+    },
+    {
+      "variant": 100,
+      "id": 590,
+      "name": "Mercurius"
+    },
+    {
+      "variant": 100,
+      "id": 591,
+      "name": "Venus"
+    },
+    {
+      "variant": 100,
+      "id": 592,
+      "name": "Terra"
+    },
+    {
+      "variant": 100,
+      "id": 593,
+      "name": "Mars"
+    },
+    {
+      "variant": 100,
+      "id": 594,
+      "name": "Jupiter"
+    },
+    {
+      "variant": 100,
+      "id": 595,
+      "name": "Saturnus"
+    },
+    {
+      "variant": 100,
+      "id": 596,
+      "name": "Uranus"
+    },
+    {
+      "variant": 100,
+      "id": 597,
+      "name": "Neptunus"
+    },
+    {
+      "variant": 100,
+      "id": 598,
+      "name": "Pluto"
+    },
+    {
+      "variant": 100,
+      "id": 599,
+      "name": "Voodoo Head"
+    },
+    {
+      "variant": 100,
+      "id": 600,
+      "name": "Eye Drops"
+    },
+    {
+      "variant": 100,
+      "id": 601,
+      "name": "Act of Contrition"
+    },
+    {
+      "variant": 100,
+      "id": 602,
+      "name": "Member Card"
+    },
+    {
+      "variant": 100,
+      "id": 603,
+      "name": "Battery Pack"
+    },
+    {
+      "variant": 100,
+      "id": 604,
+      "name": "Mom's Bracelet"
+    },
+    {
+      "variant": 100,
+      "id": 605,
+      "name": "The Scooper"
+    },
+    {
+      "variant": 100,
+      "id": 606,
+      "name": "Ocular Rift"
+    },
+    {
+      "variant": 100,
+      "id": 607,
+      "name": "Boiled Baby"
+    },
+    {
+      "variant": 100,
+      "id": 608,
+      "name": "Freezer Baby"
+    },
+    {
+      "variant": 100,
+      "id": 609,
+      "name": "Eternal D6"
+    },
+    {
+      "variant": 100,
+      "id": 610,
+      "name": "Bird Cage"
+    },
+    {
+      "variant": 100,
+      "id": 611,
+      "name": "Larynx"
+    },
+    {
+      "variant": 100,
+      "id": 612,
+      "name": "Lost Soul"
+    },
+    {
+      "variant": 100,
+      "id": 614,
+      "name": "Blood Bombs"
+    },
+    {
+      "variant": 100,
+      "id": 615,
+      "name": "Lil Dumpy"
+    },
+    {
+      "variant": 100,
+      "id": 616,
+      "name": "Bird's Eye"
+    },
+    {
+      "variant": 100,
+      "id": 617,
+      "name": "Lodestone"
+    },
+    {
+      "variant": 100,
+      "id": 618,
+      "name": "Rotten Tomato"
+    },
+    {
+      "variant": 100,
+      "id": 619,
+      "name": "Birthright"
+    },
+    {
+      "variant": 100,
+      "id": 621,
+      "name": "Red Stew"
+    },
+    {
+      "variant": 100,
+      "id": 622,
+      "name": "Genesis"
+    },
+    {
+      "variant": 100,
+      "id": 623,
+      "name": "Sharp Key"
+    },
+    {
+      "variant": 100,
+      "id": 624,
+      "name": "Booster Pack"
+    },
+    {
+      "variant": 100,
+      "id": 625,
+      "name": "Mega Mush"
+    },
+    {
+      "variant": 100,
+      "id": 626,
+      "name": "Knife Piece 1"
+    },
+    {
+      "variant": 100,
+      "id": 627,
+      "name": "Knife Piece 2"
+    },
+    {
+      "variant": 100,
+      "id": 628,
+      "name": "Death Certificate"
+    },
+    {
+      "variant": 100,
+      "id": 629,
+      "name": "Bot Fly"
+    },
+    {
+      "variant": 100,
+      "id": 631,
+      "name": "Meat Cleaver"
+    },
+    {
+      "variant": 100,
+      "id": 632,
+      "name": "Evil Charm"
+    },
+    {
+      "variant": 100,
+      "id": 633,
+      "name": "Dogma"
+    },
+    {
+      "variant": 100,
+      "id": 634,
+      "name": "Purgatory"
+    },
+    {
+      "variant": 100,
+      "id": 635,
+      "name": "Stitches"
+    },
+    {
+      "variant": 100,
+      "id": 636,
+      "name": "R Key"
+    },
+    {
+      "variant": 100,
+      "id": 637,
+      "name": "Knockout Drops"
+    },
+    {
+      "variant": 100,
+      "id": 638,
+      "name": "Eraser"
+    },
+    {
+      "variant": 100,
+      "id": 639,
+      "name": "Yuck Heart"
+    },
+    {
+      "variant": 100,
+      "id": 640,
+      "name": "Urn of Souls"
+    },
+    {
+      "variant": 100,
+      "id": 641,
+      "name": "Akeldama"
+    },
+    {
+      "variant": 100,
+      "id": 642,
+      "name": "Magic Skin"
+    },
+    {
+      "variant": 100,
+      "id": 643,
+      "name": "Revelation"
+    },
+    {
+      "variant": 100,
+      "id": 644,
+      "name": "Consolation Prize"
+    },
+    {
+      "variant": 100,
+      "id": 645,
+      "name": "Tinytoma"
+    },
+    {
+      "variant": 100,
+      "id": 646,
+      "name": "Brimstone Bombs"
+    },
+    {
+      "variant": 100,
+      "id": 647,
+      "name": "4.5 Volt"
+    },
+    {
+      "variant": 100,
+      "id": 649,
+      "name": "Fruity Plum"
+    },
+    {
+      "variant": 100,
+      "id": 650,
+      "name": "Plum Flute"
+    },
+    {
+      "variant": 100,
+      "id": 651,
+      "name": "Star of Bethlehem"
+    },
+    {
+      "variant": 100,
+      "id": 652,
+      "name": "Cube Baby"
+    },
+    {
+      "variant": 100,
+      "id": 653,
+      "name": "Vade Retro"
+    },
+    {
+      "variant": 100,
+      "id": 654,
+      "name": "False PHD"
+    },
+    {
+      "variant": 100,
+      "id": 655,
+      "name": "Spin to Win"
+    },
+    {
+      "variant": 100,
+      "id": 657,
+      "name": "Vasculitis"
+    },
+    {
+      "variant": 100,
+      "id": 658,
+      "name": "Giant Cell"
+    },
+    {
+      "variant": 100,
+      "id": 659,
+      "name": "Tropicamide"
+    },
+    {
+      "variant": 100,
+      "id": 660,
+      "name": "Card Reading"
+    },
+    {
+      "variant": 100,
+      "id": 661,
+      "name": "Quints"
+    },
+    {
+      "variant": 100,
+      "id": 663,
+      "name": "Tooth and Nail"
+    },
+    {
+      "variant": 100,
+      "id": 664,
+      "name": "Binge Eater"
+    },
+    {
+      "variant": 100,
+      "id": 665,
+      "name": "Guppy's Eye"
+    },
+    {
+      "variant": 100,
+      "id": 667,
+      "name": "Strawman"
+    },
+    {
+      "variant": 100,
+      "id": 668,
+      "name": "Dad's Note"
+    },
+    {
+      "variant": 100,
+      "id": 669,
+      "name": "Sausage"
+    },
+    {
+      "variant": 100,
+      "id": 670,
+      "name": "Options?"
+    },
+    {
+      "variant": 100,
+      "id": 671,
+      "name": "Candy Heart"
+    },
+    {
+      "variant": 100,
+      "id": 672,
+      "name": "A Pound of Flesh"
+    },
+    {
+      "variant": 100,
+      "id": 673,
+      "name": "Redemption"
+    },
+    {
+      "variant": 100,
+      "id": 674,
+      "name": "Spirit Shackles"
+    },
+    {
+      "variant": 100,
+      "id": 675,
+      "name": "Cracked Orb"
+    },
+    {
+      "variant": 100,
+      "id": 676,
+      "name": "Empty Heart"
+    },
+    {
+      "variant": 100,
+      "id": 677,
+      "name": "Astral Projection"
+    },
+    {
+      "variant": 100,
+      "id": 678,
+      "name": "C Section"
+    },
+    {
+      "variant": 100,
+      "id": 679,
+      "name": "Lil Abaddon"
+    },
+    {
+      "variant": 100,
+      "id": 680,
+      "name": "Montezuma's Revenge"
+    },
+    {
+      "variant": 100,
+      "id": 681,
+      "name": "Lil Portal"
+    },
+    {
+      "variant": 100,
+      "id": 682,
+      "name": "Worm Friend"
+    },
+    {
+      "variant": 100,
+      "id": 683,
+      "name": "Bone Spurs"
+    },
+    {
+      "variant": 100,
+      "id": 684,
+      "name": "Hungry Soul"
+    },
+    {
+      "variant": 100,
+      "id": 685,
+      "name": "Jar of Wisps"
+    },
+    {
+      "variant": 100,
+      "id": 686,
+      "name": "Soul Locket"
+    },
+    {
+      "variant": 100,
+      "id": 687,
+      "name": "Friend Finder"
+    },
+    {
+      "variant": 100,
+      "id": 688,
+      "name": "Inner Child"
+    },
+    {
+      "variant": 100,
+      "id": 689,
+      "name": "Glitched Crown"
+    },
+    {
+      "variant": 100,
+      "id": 690,
+      "name": "Belly Jelly"
+    },
+    {
+      "variant": 100,
+      "id": 691,
+      "name": "Sacred Orb"
+    },
+    {
+      "variant": 100,
+      "id": 692,
+      "name": "Sanguine Bond"
+    },
+    {
+      "variant": 100,
+      "id": 693,
+      "name": "The Swarm"
+    },
+    {
+      "variant": 100,
+      "id": 694,
+      "name": "Heartbreak"
+    },
+    {
+      "variant": 100,
+      "id": 695,
+      "name": "Bloody Gust"
+    },
+    {
+      "variant": 100,
+      "id": 696,
+      "name": "Salvation"
+    },
+    {
+      "variant": 100,
+      "id": 697,
+      "name": "Vanishing Twin"
+    },
+    {
+      "variant": 100,
+      "id": 698,
+      "name": "Twisted Pair"
+    },
+    {
+      "variant": 100,
+      "id": 699,
+      "name": "Azazel's Rage"
+    },
+    {
+      "variant": 100,
+      "id": 700,
+      "name": "Echo Chamber"
+    },
+    {
+      "variant": 100,
+      "id": 701,
+      "name": "Isaac's Tomb"
+    },
+    {
+      "variant": 100,
+      "id": 702,
+      "name": "Vengeful Spirit"
+    },
+    {
+      "variant": 100,
+      "id": 703,
+      "name": "Esau Jr."
+    },
+    {
+      "variant": 100,
+      "id": 704,
+      "name": "Berserk!"
+    },
+    {
+      "variant": 100,
+      "id": 705,
+      "name": "Dark Arts"
+    },
+    {
+      "variant": 100,
+      "id": 706,
+      "name": "Abyss"
+    },
+    {
+      "variant": 100,
+      "id": 707,
+      "name": "Supper"
+    },
+    {
+      "variant": 100,
+      "id": 708,
+      "name": "Stapler"
+    },
+    {
+      "variant": 100,
+      "id": 709,
+      "name": "Suplex!"
+    },
+    {
+      "variant": 100,
+      "id": 710,
+      "name": "Bag of Crafting"
+    },
+    {
+      "variant": 100,
+      "id": 711,
+      "name": "Flip"
+    },
+    {
+      "variant": 100,
+      "id": 712,
+      "name": "Lemegeton"
+    },
+    {
+      "variant": 100,
+      "id": 713,
+      "name": "Sumptorium"
+    },
+    {
+      "variant": 100,
+      "id": 714,
+      "name": "Recall"
+    },
+    {
+      "variant": 100,
+      "id": 715,
+      "name": "Hold"
+    },
+    {
+      "variant": 100,
+      "id": 716,
+      "name": "Keeper's Sack"
+    },
+    {
+      "variant": 100,
+      "id": 717,
+      "name": "Keeper's Kin"
+    },
+    {
+      "variant": 100,
+      "id": 719,
+      "name": "Keeper's Box"
+    },
+    {
+      "variant": 100,
+      "id": 720,
+      "name": "Everything Jar"
+    },
+    {
+      "variant": 100,
+      "id": 721,
+      "name": "TMTRAINER"
+    },
+    {
+      "variant": 100,
+      "id": 722,
+      "name": "Anima Sola"
+    },
+    {
+      "variant": 100,
+      "id": 723,
+      "name": "Spindown Dice"
+    },
+    {
+      "variant": 100,
+      "id": 724,
+      "name": "Hypercoagulation"
+    },
+    {
+      "variant": 100,
+      "id": 725,
+      "name": "IBS"
+    },
+    {
+      "variant": 100,
+      "id": 726,
+      "name": "Hemoptysis"
+    },
+    {
+      "variant": 100,
+      "id": 727,
+      "name": "Ghost Bombs"
+    },
+    {
+      "variant": 100,
+      "id": 728,
+      "name": "Gello"
+    },
+    {
+      "variant": 100,
+      "id": 729,
+      "name": "Decap Attack"
+    },
+    {
+      "variant": 100,
+      "id": 730,
+      "name": "Glass Eye"
+    },
+    {
+      "variant": 100,
+      "id": 731,
+      "name": "Stye"
+    },
+    {
+      "variant": 100,
+      "id": 732,
+      "name": "Mom's Ring"
+    },
+    {
+      "variant": 300,
+      "id": 1,
+      "name": "0 - The Fool"
+    },
+    {
+      "variant": 300,
+      "id": 2,
+      "name": "I - The Magician"
+    },
+    {
+      "variant": 300,
+      "id": 3,
+      "name": "II - The High Priestess"
+    },
+    {
+      "variant": 300,
+      "id": 4,
+      "name": "III - The Empress"
+    },
+    {
+      "variant": 300,
+      "id": 5,
+      "name": "IV - The Emperor"
+    },
+    {
+      "variant": 300,
+      "id": 6,
+      "name": "V - The Hierophant"
+    },
+    {
+      "variant": 300,
+      "id": 7,
+      "name": "VI - The Lovers"
+    },
+    {
+      "variant": 300,
+      "id": 8,
+      "name": "VII - The Chariot"
+    },
+    {
+      "variant": 300,
+      "id": 9,
+      "name": "VIII - Justice"
+    },
+    {
+      "variant": 300,
+      "id": 10,
+      "name": "IX - The Hermit"
+    },
+    {
+      "variant": 300,
+      "id": 11,
+      "name": "X - Wheel of Fortune"
+    },
+    {
+      "variant": 300,
+      "id": 12,
+      "name": "XI - Strength"
+    },
+    {
+      "variant": 300,
+      "id": 13,
+      "name": "XII - The Hanged Man"
+    },
+    {
+      "variant": 300,
+      "id": 14,
+      "name": "XIII - Death"
+    },
+    {
+      "variant": 300,
+      "id": 15,
+      "name": "XIV - Temperance"
+    },
+    {
+      "variant": 300,
+      "id": 16,
+      "name": "XV - The Devil"
+    },
+    {
+      "variant": 300,
+      "id": 17,
+      "name": "XVI - The Tower"
+    },
+    {
+      "variant": 300,
+      "id": 18,
+      "name": "XVII - The Stars"
+    },
+    {
+      "variant": 300,
+      "id": 19,
+      "name": "XVIII - The Moon"
+    },
+    {
+      "variant": 300,
+      "id": 20,
+      "name": "XIX - The Sun"
+    },
+    {
+      "variant": 300,
+      "id": 21,
+      "name": "XX - Judgement"
+    },
+    {
+      "variant": 300,
+      "id": 22,
+      "name": "XXI - The World"
+    },
+    {
+      "variant": 300,
+      "id": 23,
+      "name": "2 of Clubs"
+    },
+    {
+      "variant": 300,
+      "id": 24,
+      "name": "2 of Diamonds"
+    },
+    {
+      "variant": 300,
+      "id": 25,
+      "name": "2 of Spades"
+    },
+    {
+      "variant": 300,
+      "id": 26,
+      "name": "2 of Hearts"
+    },
+    {
+      "variant": 300,
+      "id": 27,
+      "name": "Ace of Clubs"
+    },
+    {
+      "variant": 300,
+      "id": 28,
+      "name": "Ace of Diamonds"
+    },
+    {
+      "variant": 300,
+      "id": 29,
+      "name": "Ace of Spades"
+    },
+    {
+      "variant": 300,
+      "id": 30,
+      "name": "Ace of Hearts"
+    },
+    {
+      "variant": 300,
+      "id": 31,
+      "name": "Joker"
+    },
+    {
+      "variant": 300,
+      "id": 32,
+      "name": "Hagalaz"
+    },
+    {
+      "variant": 300,
+      "id": 33,
+      "name": "Jera"
+    },
+    {
+      "variant": 300,
+      "id": 34,
+      "name": "Ehwaz"
+    },
+    {
+      "variant": 300,
+      "id": 35,
+      "name": "Dagaz"
+    },
+    {
+      "variant": 300,
+      "id": 36,
+      "name": "Ansuz"
+    },
+    {
+      "variant": 300,
+      "id": 37,
+      "name": "Perthro"
+    },
+    {
+      "variant": 300,
+      "id": 38,
+      "name": "Berkano"
+    },
+    {
+      "variant": 300,
+      "id": 39,
+      "name": "Algiz"
+    },
+    {
+      "variant": 300,
+      "id": 40,
+      "name": "Blank Rune"
+    },
+    {
+      "variant": 300,
+      "id": 41,
+      "name": "Black Rune"
+    },
+    {
+      "variant": 300,
+      "id": 42,
+      "name": "Chaos Card"
+    },
+    {
+      "variant": 300,
+      "id": 43,
+      "name": "Credit Card"
+    },
+    {
+      "variant": 300,
+      "id": 44,
+      "name": "Rules Card"
+    },
+    {
+      "variant": 300,
+      "id": 45,
+      "name": "A Card Against Humanity"
+    },
+    {
+      "variant": 300,
+      "id": 46,
+      "name": "Suicide King"
+    },
+    {
+      "variant": 300,
+      "id": 47,
+      "name": "Get out of Jail Free Card"
+    },
+    {
+      "variant": 300,
+      "id": 48,
+      "name": "? Card"
+    },
+    {
+      "variant": 300,
+      "id": 49,
+      "name": "Dice Shard"
+    },
+    {
+      "variant": 300,
+      "id": 50,
+      "name": "Emergency Contact"
+    },
+    {
+      "variant": 300,
+      "id": 51,
+      "name": "Holy Card"
+    },
+    {
+      "variant": 300,
+      "id": 52,
+      "name": "Huge Growth"
+    },
+    {
+      "variant": 300,
+      "id": 53,
+      "name": "Ancient Recall"
+    },
+    {
+      "variant": 300,
+      "id": 54,
+      "name": "Era Walk"
+    },
+    {
+      "variant": 300,
+      "id": 55,
+      "name": "Rune Shard"
+    },
+    {
+      "variant": 300,
+      "id": 56,
+      "name": "0 - The Fool?"
+    },
+    {
+      "variant": 300,
+      "id": 57,
+      "name": "I - The Magician?"
+    },
+    {
+      "variant": 300,
+      "id": 58,
+      "name": "II - The High Priestess?"
+    },
+    {
+      "variant": 300,
+      "id": 59,
+      "name": "III - The Empress?"
+    },
+    {
+      "variant": 300,
+      "id": 60,
+      "name": "IV - The Emperor?"
+    },
+    {
+      "variant": 300,
+      "id": 61,
+      "name": "V - The Hierophant?"
+    },
+    {
+      "variant": 300,
+      "id": 62,
+      "name": "VI - The Lovers?"
+    },
+    {
+      "variant": 300,
+      "id": 63,
+      "name": "VII - The Chariot?"
+    },
+    {
+      "variant": 300,
+      "id": 64,
+      "name": "VIII - Justice?"
+    },
+    {
+      "variant": 300,
+      "id": 65,
+      "name": "IX - The Hermit?"
+    },
+    {
+      "variant": 300,
+      "id": 66,
+      "name": "X - Wheel of Fortune?"
+    },
+    {
+      "variant": 300,
+      "id": 67,
+      "name": "XI - Strength?"
+    },
+    {
+      "variant": 300,
+      "id": 68,
+      "name": "XII - The Hanged Man?"
+    },
+    {
+      "variant": 300,
+      "id": 69,
+      "name": "XIII - Death?"
+    },
+    {
+      "variant": 300,
+      "id": 70,
+      "name": "XIV - Temperance?"
+    },
+    {
+      "variant": 300,
+      "id": 71,
+      "name": "XV - The Devil?"
+    },
+    {
+      "variant": 300,
+      "id": 72,
+      "name": "XVI - The Tower?"
+    },
+    {
+      "variant": 300,
+      "id": 73,
+      "name": "XVII - The Stars?"
+    },
+    {
+      "variant": 300,
+      "id": 74,
+      "name": "XVIII - The Moon?"
+    },
+    {
+      "variant": 300,
+      "id": 75,
+      "name": "XIX - The Sun?"
+    },
+    {
+      "variant": 300,
+      "id": 76,
+      "name": "XX - Judgement?"
+    },
+    {
+      "variant": 300,
+      "id": 77,
+      "name": "XXI - The World?"
+    },
+    {
+      "variant": 300,
+      "id": 78,
+      "name": "Cracked Key"
+    },
+    {
+      "variant": 300,
+      "id": 79,
+      "name": "Queen of Hearts"
+    },
+    {
+      "variant": 300,
+      "id": 80,
+      "name": "Wild Card"
+    },
+    {
+      "variant": 300,
+      "id": 81,
+      "name": "Soul of Isaac"
+    },
+    {
+      "variant": 300,
+      "id": 82,
+      "name": "Soul of Magdalene"
+    },
+    {
+      "variant": 300,
+      "id": 83,
+      "name": "Soul of Cain"
+    },
+    {
+      "variant": 300,
+      "id": 84,
+      "name": "Soul of Judas"
+    },
+    {
+      "variant": 300,
+      "id": 85,
+      "name": "Soul of ???"
+    },
+    {
+      "variant": 300,
+      "id": 86,
+      "name": "Soul of Eve"
+    },
+    {
+      "variant": 300,
+      "id": 87,
+      "name": "Soul of Samson"
+    },
+    {
+      "variant": 300,
+      "id": 88,
+      "name": "Soul of Azazel"
+    },
+    {
+      "variant": 300,
+      "id": 89,
+      "name": "Soul of Lazarus"
+    },
+    {
+      "variant": 300,
+      "id": 90,
+      "name": "Soul of Eden"
+    },
+    {
+      "variant": 300,
+      "id": 91,
+      "name": "Soul of the Lost"
+    },
+    {
+      "variant": 300,
+      "id": 92,
+      "name": "Soul of Lilith"
+    },
+    {
+      "variant": 300,
+      "id": 93,
+      "name": "Soul of the Keeper"
+    },
+    {
+      "variant": 300,
+      "id": 94,
+      "name": "Soul of Apollyon"
+    },
+    {
+      "variant": 300,
+      "id": 95,
+      "name": "Soul of the Forgotten"
+    },
+    {
+      "variant": 300,
+      "id": 96,
+      "name": "Soul of Bethany"
+    },
+    {
+      "variant": 300,
+      "id": 97,
+      "name": "Soul of Jacob and Esau"
+    },
+    {
+      "variant": 350,
+      "id": 1,
+      "name": "Swallowed Penny"
+    },
+    {
+      "variant": 350,
+      "id": 2,
+      "name": "Petrified Poop"
+    },
+    {
+      "variant": 350,
+      "id": 3,
+      "name": "AAA Battery"
+    },
+    {
+      "variant": 350,
+      "id": 4,
+      "name": "Broken Remote"
+    },
+    {
+      "variant": 350,
+      "id": 5,
+      "name": "Purple Heart"
+    },
+    {
+      "variant": 350,
+      "id": 6,
+      "name": "Broken Magnet"
+    },
+    {
+      "variant": 350,
+      "id": 7,
+      "name": "Rosary Bead"
+    },
+    {
+      "variant": 350,
+      "id": 8,
+      "name": "Cartridge"
+    },
+    {
+      "variant": 350,
+      "id": 9,
+      "name": "Pulse Worm"
+    },
+    {
+      "variant": 350,
+      "id": 10,
+      "name": "Wiggle Worm"
+    },
+    {
+      "variant": 350,
+      "id": 11,
+      "name": "Ring Worm"
+    },
+    {
+      "variant": 350,
+      "id": 12,
+      "name": "Flat Worm"
+    },
+    {
+      "variant": 350,
+      "id": 13,
+      "name": "Store Credit"
+    },
+    {
+      "variant": 350,
+      "id": 14,
+      "name": "Callus"
+    },
+    {
+      "variant": 350,
+      "id": 15,
+      "name": "Lucky Rock"
+    },
+    {
+      "variant": 350,
+      "id": 16,
+      "name": "Mom's Toenail"
+    },
+    {
+      "variant": 350,
+      "id": 17,
+      "name": "Black Lipstick"
+    },
+    {
+      "variant": 350,
+      "id": 18,
+      "name": "Bible Tract"
+    },
+    {
+      "variant": 350,
+      "id": 19,
+      "name": "Paper Clip"
+    },
+    {
+      "variant": 350,
+      "id": 20,
+      "name": "Monkey Paw"
+    },
+    {
+      "variant": 350,
+      "id": 21,
+      "name": "Mysterious Paper"
+    },
+    {
+      "variant": 350,
+      "id": 22,
+      "name": "Daemon's Tail"
+    },
+    {
+      "variant": 350,
+      "id": 23,
+      "name": "Missing Poster"
+    },
+    {
+      "variant": 350,
+      "id": 24,
+      "name": "Butt Penny"
+    },
+    {
+      "variant": 350,
+      "id": 25,
+      "name": "Mysterious Candy"
+    },
+    {
+      "variant": 350,
+      "id": 26,
+      "name": "Hook Worm"
+    },
+    {
+      "variant": 350,
+      "id": 27,
+      "name": "Whip Worm"
+    },
+    {
+      "variant": 350,
+      "id": 28,
+      "name": "Broken Ankh"
+    },
+    {
+      "variant": 350,
+      "id": 29,
+      "name": "Fish Head"
+    },
+    {
+      "variant": 350,
+      "id": 30,
+      "name": "Pinky Eye"
+    },
+    {
+      "variant": 350,
+      "id": 31,
+      "name": "Push Pin"
+    },
+    {
+      "variant": 350,
+      "id": 32,
+      "name": "Liberty Cap"
+    },
+    {
+      "variant": 350,
+      "id": 33,
+      "name": "Umbilical Cord"
+    },
+    {
+      "variant": 350,
+      "id": 34,
+      "name": "Child's Heart"
+    },
+    {
+      "variant": 350,
+      "id": 35,
+      "name": "Curved Horn"
+    },
+    {
+      "variant": 350,
+      "id": 36,
+      "name": "Rusted Key"
+    },
+    {
+      "variant": 350,
+      "id": 37,
+      "name": "Goat Hoof"
+    },
+    {
+      "variant": 350,
+      "id": 38,
+      "name": "Mom's Pearl"
+    },
+    {
+      "variant": 350,
+      "id": 39,
+      "name": "Cancer"
+    },
+    {
+      "variant": 350,
+      "id": 40,
+      "name": "Red Patch"
+    },
+    {
+      "variant": 350,
+      "id": 41,
+      "name": "Match Stick"
+    },
+    {
+      "variant": 350,
+      "id": 42,
+      "name": "Lucky Toe"
+    },
+    {
+      "variant": 350,
+      "id": 43,
+      "name": "Cursed Skull"
+    },
+    {
+      "variant": 350,
+      "id": 44,
+      "name": "Safety Cap"
+    },
+    {
+      "variant": 350,
+      "id": 45,
+      "name": "Ace of Spades"
+    },
+    {
+      "variant": 350,
+      "id": 46,
+      "name": "Isaac's Fork"
+    },
+    {
+      "variant": 350,
+      "id": 48,
+      "name": "A Missing Page"
+    },
+    {
+      "variant": 350,
+      "id": 49,
+      "name": "Bloody Penny"
+    },
+    {
+      "variant": 350,
+      "id": 50,
+      "name": "Burnt Penny"
+    },
+    {
+      "variant": 350,
+      "id": 51,
+      "name": "Flat Penny"
+    },
+    {
+      "variant": 350,
+      "id": 52,
+      "name": "Counterfeit Penny"
+    },
+    {
+      "variant": 350,
+      "id": 53,
+      "name": "Tick"
+    },
+    {
+      "variant": 350,
+      "id": 54,
+      "name": "Isaac's Head"
+    },
+    {
+      "variant": 350,
+      "id": 55,
+      "name": "Maggy's Faith"
+    },
+    {
+      "variant": 350,
+      "id": 56,
+      "name": "Judas' Tongue"
+    },
+    {
+      "variant": 350,
+      "id": 57,
+      "name": "???'s Soul"
+    },
+    {
+      "variant": 350,
+      "id": 58,
+      "name": "Samson's Lock"
+    },
+    {
+      "variant": 350,
+      "id": 59,
+      "name": "Cain's Eye"
+    },
+    {
+      "variant": 350,
+      "id": 60,
+      "name": "Eve's Bird Foot"
+    },
+    {
+      "variant": 350,
+      "id": 61,
+      "name": "The Left Hand"
+    },
+    {
+      "variant": 350,
+      "id": 62,
+      "name": "Shiny Rock"
+    },
+    {
+      "variant": 350,
+      "id": 63,
+      "name": "Safety Scissors"
+    },
+    {
+      "variant": 350,
+      "id": 64,
+      "name": "Rainbow Worm"
+    },
+    {
+      "variant": 350,
+      "id": 65,
+      "name": "Tape Worm"
+    },
+    {
+      "variant": 350,
+      "id": 66,
+      "name": "Lazy Worm"
+    },
+    {
+      "variant": 350,
+      "id": 67,
+      "name": "Cracked Dice"
+    },
+    {
+      "variant": 350,
+      "id": 68,
+      "name": "Super Magnet"
+    },
+    {
+      "variant": 350,
+      "id": 69,
+      "name": "Faded Polaroid"
+    },
+    {
+      "variant": 350,
+      "id": 70,
+      "name": "Louse"
+    },
+    {
+      "variant": 350,
+      "id": 71,
+      "name": "Bob's Bladder"
+    },
+    {
+      "variant": 350,
+      "id": 72,
+      "name": "Watch Battery"
+    },
+    {
+      "variant": 350,
+      "id": 73,
+      "name": "Blasting Cap"
+    },
+    {
+      "variant": 350,
+      "id": 74,
+      "name": "Stud Finder"
+    },
+    {
+      "variant": 350,
+      "id": 75,
+      "name": "Error"
+    },
+    {
+      "variant": 350,
+      "id": 76,
+      "name": "Poker Chip"
+    },
+    {
+      "variant": 350,
+      "id": 77,
+      "name": "Blister"
+    },
+    {
+      "variant": 350,
+      "id": 78,
+      "name": "Second Hand"
+    },
+    {
+      "variant": 350,
+      "id": 79,
+      "name": "Endless Nameless"
+    },
+    {
+      "variant": 350,
+      "id": 80,
+      "name": "Black Feather"
+    },
+    {
+      "variant": 350,
+      "id": 81,
+      "name": "Blind Rage"
+    },
+    {
+      "variant": 350,
+      "id": 82,
+      "name": "Golden Horse Shoe"
+    },
+    {
+      "variant": 350,
+      "id": 83,
+      "name": "Store Key"
+    },
+    {
+      "variant": 350,
+      "id": 84,
+      "name": "Rib of Greed"
+    },
+    {
+      "variant": 350,
+      "id": 85,
+      "name": "Karma"
+    },
+    {
+      "variant": 350,
+      "id": 86,
+      "name": "Lil Larva"
+    },
+    {
+      "variant": 350,
+      "id": 87,
+      "name": "Mom's Locket"
+    },
+    {
+      "variant": 350,
+      "id": 88,
+      "name": "NO!"
+    },
+    {
+      "variant": 350,
+      "id": 89,
+      "name": "Child Leash"
+    },
+    {
+      "variant": 350,
+      "id": 90,
+      "name": "Brown Cap"
+    },
+    {
+      "variant": 350,
+      "id": 91,
+      "name": "Meconium"
+    },
+    {
+      "variant": 350,
+      "id": 92,
+      "name": "Cracked Crown"
+    },
+    {
+      "variant": 350,
+      "id": 93,
+      "name": "Used Diaper"
+    },
+    {
+      "variant": 350,
+      "id": 94,
+      "name": "Fish Tail"
+    },
+    {
+      "variant": 350,
+      "id": 95,
+      "name": "Black Tooth"
+    },
+    {
+      "variant": 350,
+      "id": 96,
+      "name": "Ouroboros Worm"
+    },
+    {
+      "variant": 350,
+      "id": 97,
+      "name": "Tonsil"
+    },
+    {
+      "variant": 350,
+      "id": 98,
+      "name": "Nose Goblin"
+    },
+    {
+      "variant": 350,
+      "id": 99,
+      "name": "Super Ball"
+    },
+    {
+      "variant": 350,
+      "id": 100,
+      "name": "Vibrant Bulb"
+    },
+    {
+      "variant": 350,
+      "id": 101,
+      "name": "Dim Bulb"
+    },
+    {
+      "variant": 350,
+      "id": 102,
+      "name": "Fragmented Card"
+    },
+    {
+      "variant": 350,
+      "id": 103,
+      "name": "Equality!"
+    },
+    {
+      "variant": 350,
+      "id": 104,
+      "name": "Wish Bone"
+    },
+    {
+      "variant": 350,
+      "id": 105,
+      "name": "Bag Lunch"
+    },
+    {
+      "variant": 350,
+      "id": 106,
+      "name": "Lost Cork"
+    },
+    {
+      "variant": 350,
+      "id": 107,
+      "name": "Crow Heart"
+    },
+    {
+      "variant": 350,
+      "id": 108,
+      "name": "Walnut"
+    },
+    {
+      "variant": 350,
+      "id": 109,
+      "name": "Duct Tape"
+    },
+    {
+      "variant": 350,
+      "id": 110,
+      "name": "Silver Dollar"
+    },
+    {
+      "variant": 350,
+      "id": 111,
+      "name": "Bloody Crown"
+    },
+    {
+      "variant": 350,
+      "id": 112,
+      "name": "Pay to Win"
+    },
+    {
+      "variant": 350,
+      "id": 113,
+      "name": "Locust of War"
+    },
+    {
+      "variant": 350,
+      "id": 114,
+      "name": "Locust of Pestilence"
+    },
+    {
+      "variant": 350,
+      "id": 115,
+      "name": "Locust of Famine"
+    },
+    {
+      "variant": 350,
+      "id": 116,
+      "name": "Locust of Death"
+    },
+    {
+      "variant": 350,
+      "id": 117,
+      "name": "Locust of Conquest"
+    },
+    {
+      "variant": 350,
+      "id": 118,
+      "name": "Bat Wing"
+    },
+    {
+      "variant": 350,
+      "id": 119,
+      "name": "Stem Cell"
+    },
+    {
+      "variant": 350,
+      "id": 120,
+      "name": "Hairpin"
+    },
+    {
+      "variant": 350,
+      "id": 121,
+      "name": "Wooden Cross"
+    },
+    {
+      "variant": 350,
+      "id": 122,
+      "name": "Butter!"
+    },
+    {
+      "variant": 350,
+      "id": 123,
+      "name": "Filigree Feather"
+    },
+    {
+      "variant": 350,
+      "id": 124,
+      "name": "Door Stop"
+    },
+    {
+      "variant": 350,
+      "id": 125,
+      "name": "Extension Cord"
+    },
+    {
+      "variant": 350,
+      "id": 126,
+      "name": "Rotten Penny"
+    },
+    {
+      "variant": 350,
+      "id": 127,
+      "name": "Baby-Bender"
+    },
+    {
+      "variant": 350,
+      "id": 128,
+      "name": "Finger Bone"
+    },
+    {
+      "variant": 350,
+      "id": 129,
+      "name": "Jawbreaker"
+    },
+    {
+      "variant": 350,
+      "id": 130,
+      "name": "Chewed Pen"
+    },
+    {
+      "variant": 350,
+      "id": 131,
+      "name": "Blessed Penny"
+    },
+    {
+      "variant": 350,
+      "id": 132,
+      "name": "Broken Syringe"
+    },
+    {
+      "variant": 350,
+      "id": 133,
+      "name": "Short Fuse"
+    },
+    {
+      "variant": 350,
+      "id": 134,
+      "name": "Gigante Bean"
+    },
+    {
+      "variant": 350,
+      "id": 135,
+      "name": "A Lighter"
+    },
+    {
+      "variant": 350,
+      "id": 136,
+      "name": "Broken Padlock"
+    },
+    {
+      "variant": 350,
+      "id": 137,
+      "name": "Myosotis"
+    },
+    {
+      "variant": 350,
+      "id": 138,
+      "name": "'M"
+    },
+    {
+      "variant": 350,
+      "id": 139,
+      "name": "Teardrop Charm"
+    },
+    {
+      "variant": 350,
+      "id": 140,
+      "name": "Apple of Sodom"
+    },
+    {
+      "variant": 350,
+      "id": 141,
+      "name": "Forgotten Lullaby"
+    },
+    {
+      "variant": 350,
+      "id": 142,
+      "name": "Beth's Faith"
+    },
+    {
+      "variant": 350,
+      "id": 143,
+      "name": "Old Capacitor"
+    },
+    {
+      "variant": 350,
+      "id": 144,
+      "name": "Brain Worm"
+    },
+    {
+      "variant": 350,
+      "id": 145,
+      "name": "Perfection"
+    },
+    {
+      "variant": 350,
+      "id": 146,
+      "name": "Devil's Crown"
+    },
+    {
+      "variant": 350,
+      "id": 147,
+      "name": "Charged Penny"
+    },
+    {
+      "variant": 350,
+      "id": 148,
+      "name": "Friendship Necklace"
+    },
+    {
+      "variant": 350,
+      "id": 149,
+      "name": "Panic Button"
+    },
+    {
+      "variant": 350,
+      "id": 150,
+      "name": "Blue Key"
+    },
+    {
+      "variant": 350,
+      "id": 151,
+      "name": "Flat File"
+    },
+    {
+      "variant": 350,
+      "id": 152,
+      "name": "Telescope Lens"
+    },
+    {
+      "variant": 350,
+      "id": 153,
+      "name": "Mom's Lock"
+    },
+    {
+      "variant": 350,
+      "id": 154,
+      "name": "Dice Bag"
+    },
+    {
+      "variant": 350,
+      "id": 155,
+      "name": "Holy Crown"
+    },
+    {
+      "variant": 350,
+      "id": 156,
+      "name": "Mother's Kiss"
+    },
+    {
+      "variant": 350,
+      "id": 157,
+      "name": "Torn Card"
+    },
+    {
+      "variant": 350,
+      "id": 158,
+      "name": "Torn Pocket"
+    },
+    {
+      "variant": 350,
+      "id": 159,
+      "name": "Gilded Key"
+    },
+    {
+      "variant": 350,
+      "id": 160,
+      "name": "Lucky Sack"
+    },
+    {
+      "variant": 350,
+      "id": 161,
+      "name": "Wicked Crown"
+    },
+    {
+      "variant": 350,
+      "id": 162,
+      "name": "Azazel's Stump"
+    },
+    {
+      "variant": 350,
+      "id": 163,
+      "name": "Dingle Berry"
+    },
+    {
+      "variant": 350,
+      "id": 164,
+      "name": "Ring Cap"
+    },
+    {
+      "variant": 350,
+      "id": 165,
+      "name": "Nuh Uh!"
+    },
+    {
+      "variant": 350,
+      "id": 166,
+      "name": "Modeling Clay"
+    },
+    {
+      "variant": 350,
+      "id": 167,
+      "name": "Polished Bone"
+    },
+    {
+      "variant": 350,
+      "id": 168,
+      "name": "Hollow Heart"
+    },
+    {
+      "variant": 350,
+      "id": 169,
+      "name": "Kid's Drawing"
+    },
+    {
+      "variant": 350,
+      "id": 170,
+      "name": "Crystal Key"
+    },
+    {
+      "variant": 350,
+      "id": 171,
+      "name": "Keeper's Bargain"
+    },
+    {
+      "variant": 350,
+      "id": 172,
+      "name": "Cursed Penny"
+    },
+    {
+      "variant": 350,
+      "id": 173,
+      "name": "Your Soul"
+    },
+    {
+      "variant": 350,
+      "id": 174,
+      "name": "Number Magnet"
+    },
+    {
+      "variant": 350,
+      "id": 175,
+      "name": "Strange Key"
+    },
+    {
+      "variant": 350,
+      "id": 176,
+      "name": "Lil Clot"
+    },
+    {
+      "variant": 350,
+      "id": 177,
+      "name": "Temporary Tattoo"
+    },
+    {
+      "variant": 350,
+      "id": 178,
+      "name": "Swallowed M80"
+    },
+    {
+      "variant": 350,
+      "id": 179,
+      "name": "RC Remote"
+    },
+    {
+      "variant": 350,
+      "id": 180,
+      "name": "Found Soul"
+    },
+    {
+      "variant": 350,
+      "id": 181,
+      "name": "Expansion Pack"
+    },
+    {
+      "variant": 350,
+      "id": 182,
+      "name": "Beth's Essence"
+    },
+    {
+      "variant": 350,
+      "id": 183,
+      "name": "The Twins"
+    },
+    {
+      "variant": 350,
+      "id": 184,
+      "name": "Adoption Papers"
+    },
+    {
+      "variant": 350,
+      "id": 185,
+      "name": "Cricket Leg"
+    },
+    {
+      "variant": 350,
+      "id": 186,
+      "name": "Apollyon's Best Friend"
+    },
+    {
+      "variant": 350,
+      "id": 187,
+      "name": "Broken Glasses"
+    },
+    {
+      "variant": 350,
+      "id": 188,
+      "name": "Ice Cube"
+    },
+    {
+      "variant": 350,
+      "id": 189,
+      "name": "Sigil of Baphomet"
+    }
+  ],
+  "pills": [
+    {
+      "id": 0,
+      "name": "Bad Gas"
+    },
+    {
+      "id": 1,
+      "name": "Bad Trip"
+    },
+    {
+      "id": 2,
+      "name": "Balls of Steel"
+    },
+    {
+      "id": 3,
+      "name": "Bombs Are Key"
+    },
+    {
+      "id": 4,
+      "name": "Explosive Diarrhea"
+    },
+    {
+      "id": 5,
+      "name": "Full Health"
+    },
+    {
+      "id": 6,
+      "name": "Health Down"
+    },
+    {
+      "id": 7,
+      "name": "Health Up"
+    },
+    {
+      "id": 8,
+      "name": "I Found Pills"
+    },
+    {
+      "id": 9,
+      "name": "Puberty"
+    },
+    {
+      "id": 10,
+      "name": "Pretty Fly"
+    },
+    {
+      "id": 11,
+      "name": "Range Down"
+    },
+    {
+      "id": 12,
+      "name": "Range Up"
+    },
+    {
+      "id": 13,
+      "name": "Speed Down"
+    },
+    {
+      "id": 14,
+      "name": "Speed Up"
+    },
+    {
+      "id": 15,
+      "name": "Tears Down"
+    },
+    {
+      "id": 16,
+      "name": "Tears Up"
+    },
+    {
+      "id": 17,
+      "name": "Luck Down"
+    },
+    {
+      "id": 18,
+      "name": "Luck Up"
+    },
+    {
+      "id": 19,
+      "name": "Telepills"
+    },
+    {
+      "id": 20,
+      "name": "48 Hour Energy"
+    },
+    {
+      "id": 21,
+      "name": "Hematemesis"
+    },
+    {
+      "id": 22,
+      "name": "Paralysis"
+    },
+    {
+      "id": 23,
+      "name": "I can see forever!"
+    },
+    {
+      "id": 24,
+      "name": "Pheromones"
+    },
+    {
+      "id": 25,
+      "name": "Amnesia"
+    },
+    {
+      "id": 26,
+      "name": "Lemon Party"
+    },
+    {
+      "id": 27,
+      "name": "R U a Wizard?"
+    },
+    {
+      "id": 28,
+      "name": "Percs!"
+    },
+    {
+      "id": 29,
+      "name": "Addicted!"
+    },
+    {
+      "id": 30,
+      "name": "Re-Lax"
+    },
+    {
+      "id": 31,
+      "name": "???"
+    },
+    {
+      "id": 32,
+      "name": "One makes you larger"
+    },
+    {
+      "id": 33,
+      "name": "One makes you small"
+    },
+    {
+      "id": 34,
+      "name": "Infested!"
+    },
+    {
+      "id": 35,
+      "name": "Infested?"
+    },
+    {
+      "id": 36,
+      "name": "Power Pill!"
+    },
+    {
+      "id": 37,
+      "name": "Retro Vision"
+    },
+    {
+      "id": 38,
+      "name": "Friends Till The End!"
+    },
+    {
+      "id": 39,
+      "name": "X-Lax"
+    },
+    {
+      "id": 40,
+      "name": "Something's wrong..."
+    },
+    {
+      "id": 41,
+      "name": "I'm Drowsy..."
+    },
+    {
+      "id": 42,
+      "name": "I'm Excited!!!"
+    },
+    {
+      "id": 43,
+      "name": "Gulp!"
+    },
+    {
+      "id": 44,
+      "name": "Horf!"
+    },
+    {
+      "id": 45,
+      "name": "Feels like I'm walking on sunshine!"
+    },
+    {
+      "id": 46,
+      "name": "Vurp!"
+    },
+    {
+      "id": 47,
+      "name": "Shot Speed Down"
+    },
+    {
+      "id": 48,
+      "name": "Shot Speed Up"
+    },
+    {
+      "id": 49,
+      "name": "Experimental Pill"
+    }
+  ]
+}
