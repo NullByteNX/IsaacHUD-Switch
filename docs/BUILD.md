@@ -73,8 +73,11 @@ dipendenze modificate, generatori, istruzioni, crediti e licenze applicabili.
 Conservare i file di dati e le loro attribuzioni separatamente dal software.
 Il packaging copia anche GPL-2.0, MIT, ISC, i testi relativi ai runtime GCC/newlib
 e gli avvisi `SOFTWARE_NOTICES.txt` e `NOTICE.md`. Il sorgente corrispondente
-va pubblicato con il tag `v0.6.0` e reso disponibile nella stessa release, anche
-come allegato `IsaacHUD-Switch.zip`. Questi avvisi accompagnano il binario;
+va pubblicato con il tag `v0.6.0`. Gli archivi automatici GitHub
+**Source code (zip)** e **Source code (tar.gz)** rendono disponibili i sorgenti
+del tag dalla pagina della release: non serve un ulteriore allegato manuale
+del progetto. Il tag deve contenere tutti i sorgenti corrispondenti, i file
+vendorizzati e gli script di build. Questi avvisi accompagnano il binario;
 le licenze originali e i dati non vengono riscritti.
 
 ## Percorsi di build e prove console

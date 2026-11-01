@@ -27,8 +27,10 @@ https://devkitpro.org/
 Corresponding application source, dependency revisions, original notices,
 modifications, build and installation scripts:
 https://github.com/NullByteNX/IsaacHUD-Switch/releases/tag/v0.6.0
-Release source asset: IsaacHUD-Switch.zip; repository tag: v0.6.0.
-Keep this source available alongside the binary package for this release.
+Repository tag: v0.6.0. GitHub supplies the matching Source code archives
+on the release page. Direct source archive:
+https://github.com/NullByteNX/IsaacHUD-Switch/archive/refs/tags/v0.6.0.zip
+Keep the complete corresponding source at this tag publicly available.
 
 Runtime data have separate CC BY-SA 4.0 attribution in CREDITI.txt and
 licenses/CC-BY-SA-4.0.txt. Game and platform rights remain with their holders.
