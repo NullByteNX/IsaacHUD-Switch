@@ -2,6 +2,7 @@
 # Generated build files
 switch_build/
 out/
+dist/
 
 # Compiled binaries
 *.ovl
