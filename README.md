@@ -1,88 +1,110 @@
 # Isaac HUD — Nintendo Switch
 
-**v0.5.1 · Overlay Tesla per *The Binding of Isaac: Repentance* · Descrizioni in italiano**
+**0.6.0 · cataloghi esterni · Repentance · descrizioni italiane**
 
-Isaac HUD è un overlay non ufficiale per Nintendo Switch che mostra il nome di un oggetto e una breve descrizione del suo effetto quando Isaac gli si avvicina. Funziona con **Atmosphère**, **Tesla Menu** e un overlay loader compatibile, senza PC o connessione di rete durante il gioco.
+Overlay Tesla non ufficiale: mostra nome, descrizione e, per i soli collectible,
+qualità 0–4 quando Isaac si avvicina. Titoli viola, descrizioni bianche, contorno
+nero e badge dorato originale preceduto da un trattino. Carte, rune, pillole e
+trinket non ricevono tier.
 
-> **Stato della release:** l'autore ha installato e verificato il funzionamento di `IsaacHUD.ovl` sulla build del gioco indicata sotto. Il file pubblicato è stato ottenuto dall'OVL compilato con devkitPro dai sorgenti del progetto; **dopo la compilazione è stata sostituita soltanto una stringa contenente un percorso locale di build**, con un percorso generico. La modifica non ha alterato le istruzioni macchina né la dimensione del file. Anche l'OVL con questa correzione è stato provato dall'autore sulla console. Non è garantita la compatibilità con altre build.
+Il progetto comprende il programma e i cataloghi da installare sulla SD.
+I pacchetti di release includono i file operativi; dai sorgenti è possibile
+compilare il programma seguendo [BUILD.md](docs/BUILD.md).
 
-## Funzionalità
+## Installazione della nuova versione
 
-- Descrizioni di **collectible** e **trinket** a terra.
-- Descrizioni di **carte e rune**.
-- Informazioni sulle **pillole normali già identificate**, quando i dati letti sono sufficienti; quelle sconosciute mostrano `???`.
-- Testo trasparente che appare vicino all'oggetto e scompare allontanandosi.
-- Comandi del gioco utilizzabili mentre la HUD è visibile.
-- Lettura locale **in sola lettura** della memoria del gioco tramite il servizio `dmnt` di Atmosphère.
+Usare il pacchetto di release 0.6.0 oppure compilare il programma dai sorgenti.
+Copiare la cartella `switch` del pacchetto nella radice della SD. I tre file
+operativi sono:
 
-Il catalogo comprende **719 collectible, 188 trinket, 97 carte/rune e 50 effetti base di pillole**. Le descrizioni e l'interfaccia sono in **italiano**; i nomi degli oggetti restano generalmente quelli inglesi del gioco. Non sono supportate tutte le sinergie, le modifiche agli effetti delle pillole, le statistiche dell'inventario o le modalità multigiocatore.
+| Percorso sulla SD | Contenuto |
+| --- | --- |
+| `switch/.overlays/IsaacHUD.ovl` | Programma 0.6.0 compilato |
+| `switch/IsaacHUD/catalog_it.tsv` | Nomi e descrizioni, comprese le pillole |
+| `switch/IsaacHUD/collectible_quality.tsv` | 719 coppie ID/qualità dei collectible |
 
-## Requisiti e compatibilità
+`CREDITI.txt`, `SOFTWARE_NOTICES.txt`, `NOTICE.md` e `licenses/` accompagnano
+il pacchetto: comprendono le attribuzioni dei dati, gli avvisi software e i
+riferimenti ai sorgenti corrispondenti. I due TSV sono sotto `runtime/` nei sorgenti.
+`make sdcard-data` prepara i cataloghi in `dist/sdcard/`.
+`make release-package OVL=/percorso/IsaacHUD.ovl` include anche il binario indicato.
 
-- Una Nintendo Switch con [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) configurato.
-- [Tesla Menu](https://github.com/WerWolv/Tesla-Menu) e relativo overlay loader installati e funzionanti.
-- Una copia legittimamente ottenuta di *The Binding of Isaac: Repentance*.
-- **Title ID:** `01009CD0167E2000`.
-- **Build ID:** prefisso di 8 byte `BDB0590D4BA00019` (non il Build ID completo).
+Il formato dei cataloghi esterni è supportato dalla versione 0.6.0.
+Se il catalogo è assente o non valido, la HUD mostra un messaggio.
+Un file dei tier assente o non valido lascia funzionare le descrizioni senza badge.
+Non servono Internet, XML del gioco o configurazioni manuali sulla console.
 
-Le prove documentate sono state condotte con **HOS 18.1.0** e **Atmosphère 1.7.1**. Questo non garantisce compatibilità con altre versioni del sistema, altre edizioni del gioco o aggiornamenti successivi. Per maggiori dettagli, consulta [Compatibilità e limitazioni](docs/COMPATIBILITY.md).
+## Utilizzo
 
-## Installazione
+Avviare il gioco, aprire Tesla Menu e selezionare Isaac HUD. La combinazione
+abituale di Tesla è L + freccia giù + pressione dello stick destro (R3), salvo
+configurazioni diverse. L'overlay non si avvia automaticamente al boot.
 
-1. Scarica `IsaacHUD.ovl` dalla sezione **Releases** del repository (versione `v0.5.1`) oppure compila i sorgenti seguendo [BUILD.md](docs/BUILD.md).
-2. Copia il file in `sd:/switch/.overlays/IsaacHUD.ovl` sulla scheda SD della console.
-3. Assicurati che Tesla Menu (`ovlmenu.ovl`) e il relativo loader siano già installati: **non sono inclusi** in questa release.
-4. Avvia la console con Atmosphère e apri il gioco.
-5. **Apri Tesla Menu e seleziona Isaac HUD** per attivarlo. L'overlay non si avvia automaticamente all'accensione della console.
+Avvicinandosi a un oggetto compare il testo; allontanandosi scompare. I comandi
+del gioco restano disponibili. Tenere premuti `+` e `−` per circa un secondo
+(o qualche secondo) consente di tornare a Tesla Menu finché l'overlay è attivo.
+Dopo HOME/sospensione può essere necessaria una riattivazione. I cataloghi vengono
+letti all'avvio della HUD: riaprirla dopo aver sostituito i dati.
 
-## Utilizzo e riattivazione
+## Dati e compatibilità
 
-Apri Tesla Menu usando la combinazione configurata sul tuo sistema. Quella comunemente utilizzata è **L + freccia giù + pressione dello stick destro (R3)**. Seleziona **IsaacHUD / Isaac HUD Automatico**.
+719 collectible, 188 trinket, 97 carte/rune e 50 effetti base di pillole. Nomi e
+descrizioni sono quelli già presenti nella v0.5.1, senza riscritture. Per le pillole
+restano le precedenti regole di identificazione: il colore non rivela l'effetto.
 
-Una volta attivato, avvicinati a un oggetto a terra. Il nome e la descrizione italiana compaiono automaticamente quando l'oggetto viene riconosciuto ed è abbastanza vicino; scompaiono quando ti allontani.
+Il profilo di lettura memoria resta quello della v0.5.1:
 
-**Se esci dal gioco o la HUD non riappare**, puoi tenere premuti **`+` e `−` contemporaneamente per qualche secondo** (soglia prevista dal codice: circa un secondo) per tornare a Tesla Menu e richiamare Isaac HUD, **purché l'overlay sia ancora in esecuzione**. Se è stato chiuso completamente, apri nuovamente Tesla con la sua combinazione abituale. I due tasti possono anche attivare le rispettive azioni all'interno del gioco.
+- Gioco: The Binding of Isaac: Repentance per Switch, **non Repentance+**.
+- Title ID: `01009CD0167E2000`.
+- Prefisso Build ID di 8 byte: `BDB0590D4BA00019`.
 
-Dopo HOME, sospensione o altri cambiamenti di stato potrebbe essere necessario riattivare la HUD. La combinazione configurata in Tesla può inoltre servire per nascondere o mostrare la HUD durante una sessione attiva.
+I tier provengono da una snapshot della wiki con selezione dei valori Repentance.
+Sono un indicatore generale del gioco, non una valutazione delle sinergie correnti.
+Il profilo dei valori e la loro provenienza sono documentati separatamente
+dal profilo di lettura memoria della console. Infestation 2 ha qualità **3**
+nel catalogo selezionato. Dettagli: [provenienza tier](catalog/QUALITY_SOURCE.md)
+e [compatibilità](docs/COMPATIBILITY.md).
 
-## File binario della Release
+## Compilazione e verifica
 
-Il file `IsaacHUD.ovl` pubblicato nella Release **non è byte-identico all'OVL appena compilato**: è stata applicata **una sola correzione successiva alla compilazione** per eliminare dalla stringa associata a `stb_truetype.h` un percorso assoluto del PC usato per la build. La stringa ora contiene il percorso generico `libs/libtesla/include/stb_truetype.h`, seguito dal riempimento necessario a mantenere il layout binario.
+Servono devkitPro/devkitA64/libnx per Switch, GNU Make, Bash e Python 3. I test
+host usano un compilatore C++20. Le dipendenze vendorizzate non cambiano.
 
-- **File:** `IsaacHUD.ovl`
-- **Dimensione:** `417848` byte
-- **SHA-256 della versione pubblicabile e testata:**
-
-```text
-eb0f2bee733e6e0e414fe5c3463fbb05f1383e79ac3e2c9a1691f2802df6a4fe
-```
-
-La correzione riguarda esclusivamente una stringa di percorso, non il codice macchina. La build standard dai sorgenti può produrre un hash diverso, anche a parità di funzionalità: il file della Release è la variante con il percorso neutralizzato, **testata dall'autore sulla console**. L'hash permette di identificare il file esatto; non certifica da solo sicurezza o compatibilità.
-
-## Compilazione dai sorgenti
-
-Sono necessari **devkitPro**, **devkitA64/libnx**, GNU Make, Bash e Python 3. La cartella `third_party/` include i sorgenti necessari delle dipendenze utilizzate, con revisioni e licenze documentate. Dalla shell devkitPro MSYS, nella cartella principale del repository:
-
-```bash
+```sh
+make data
 make host-test
+make publication-audit
 make switch-prepare
+python3 tests/test_hud_runtime.py
 make -C switch_build clean
 make switch-build
+make release-package OVL=switch_build/IsaacHUD.ovl
 ```
 
-Il risultato della compilazione è `switch_build/IsaacHUD.ovl`. Questa compilazione **non applica automaticamente la correzione della stringa** descritta sopra. Per riprodurla su una build nuova si può usare `scripts/neutralize_ovl_build_path.py` (istruzioni in `docs/BUILD.md`); il nuovo binario va comunque verificato sulla console prima della distribuzione. Per informazioni sul processo di build e sulle dipendenze consulta [docs/BUILD.md](docs/BUILD.md).
+Il risultato compilato è `switch_build/IsaacHUD.ovl`; il pacchetto SD è sotto
+`dist/sdcard/`. La build usa percorsi neutri nei riferimenti ai sorgenti;
+compilazione e packaging controllano i binari per rilevare percorsi locali.
+Per ogni release si associano al binario il relativo hash,
+le informazioni di compatibilità e il sorgente corrispondente.
+I dati si rigenerano offline; solo la reimportazione esplicita della snapshot wiki
+richiede una sorgente locale o un download. Istruzioni complete: [BUILD.md](docs/BUILD.md).
 
 ## Licenze e attribuzioni
 
-- Il programma include componenti **GPL-2.0**, tra cui libtesla, Tesla Template e il client `dmnt` di Atmosphère. La distribuzione del file `.ovl` deve rispettare i requisiti GPL-2.0 per la disponibilità del codice sorgente corrispondente, delle modifiche e delle istruzioni di compilazione. Vedi [LICENSE](LICENSE), [NOTICE.md](NOTICE.md) e [third_party/](third_party/).
-- Il testo della licenza **MIT** presente nell'archivio originale del progetto è conservato in [LICENSES/MIT-original.txt](LICENSES/MIT-original.txt).
-- Le descrizioni italiane riassumono effetti e meccaniche di gioco. Fonti, contributori, modifiche e informazioni sulla licenza **CC BY-SA 4.0** sono documentati in [catalog/ATTRIBUZIONE.md](catalog/ATTRIBUZIONE.md) e [LICENSES/CC-BY-SA-4.0.txt](LICENSES/CC-BY-SA-4.0.txt).
-- *The Binding of Isaac*, Nintendo, Nintendo Switch ed *External Item Descriptions* appartengono ai rispettivi titolari. Isaac HUD **non è affiliato né approvato** da Nintendo, dagli autori del gioco, dalla wiki o dai creatori di EID; non è un port del codice Lua di EID.
+- Programma e componenti GPL: [LICENSE](LICENSE), [NOTICE.md](NOTICE.md), [third_party](third_party/README.md).
+- Avviso MIT originale conservato: [MIT-original.txt](LICENSES/MIT-original.txt).
+- Descrizioni: [catalog/ATTRIBUZIONE.md](catalog/ATTRIBUZIONE.md), CC BY-SA 4.0 per i contenuti derivati dalla wiki.
+- Tier: [catalog/ATTRIBUZIONE_TIER.md](catalog/ATTRIBUZIONE_TIER.md), CC BY-SA 4.0 per i diritti applicabili al dataset.
+- Testo CC invariato: [CC-BY-SA-4.0.txt](LICENSES/CC-BY-SA-4.0.txt).
 
-Questo repository **non distribuisce il gioco, ROM, asset proprietari estratti, firmware, chiavi di cifratura o dump**. Per gli obblighi e i crediti dei componenti di terzi, leggi [NOTICE.md](NOTICE.md).
+Il codice e i dati sono identificati dalle rispettive licenze e attribuzioni.
+I diritti sui contenuti del gioco restano dei rispettivi titolari. Il badge è
+un disegno originale realizzato nel codice del progetto.
 
-## Limiti noti
+Progetto indipendente e non approvato da Nintendo, Nicalis, dagli autori del gioco,
+dalla wiki o da EID. Non sono inclusi gioco, ROM, firmware, chiavi, dump o asset
+proprietari estratti. Restano i limiti su sinergie, co-op, inventario e varianti
+non supportate descritti in [COMPATIBILITY.md](docs/COMPATIBILITY.md).
 
-La HUD è pensata per la build indicata; altre edizioni, aggiornamenti e configurazioni non sono garantiti. Gli effetti delle pillole sconosciute o modificati da altri elementi del gioco potrebbero non essere descritti. In caso di dati incoerenti la HUD può non mostrare alcun testo; le letture non sono atomiche. L'avvio automatico al boot non è implementato.
-
-Consulta [RELEASE_NOTES.md](RELEASE_NOTES.md) per le note della versione 0.5.1.
+[Note di versione](RELEASE_NOTES.md) · [Formato dati](docs/DATA_FORMAT.md) ·
+[Riepilogo per file](docs/RIEPILOGO_MODIFICHE.md)

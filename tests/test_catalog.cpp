@@ -1,8 +1,10 @@
 #include "isaac/hud.hpp"
+#include "test_catalog_setup.hpp"
 #include <iostream>
 #include <stdexcept>
 
 int main() {
+    testLoadCatalog();
     using namespace isaac;int checks=0;
     const auto check=[&](bool ok,const char* why){++checks;if(!ok)throw std::runtime_error(why);};
     check(Descriptions.size()==1004&&PillEffects.size()==50,"Full pinned coverage");
@@ -10,7 +12,7 @@ int main() {
     for(const auto& e:Descriptions) {
         const auto key=(std::uint64_t(e.variant)<<32)|e.id;
         check(key>previous,"Ordered unique variant/ID namespace");previous=key;
-        check(describe(e.variant,e.id)==&e,"Lookup finds every embedded entry");
+        check(describe(e.variant,e.id)==&e,"Lookup finds every external entry");
         check(e.name[0]&&e.text[0],"Nonempty Italian summary");
     }
     check(std::string(describe(100,5)->name)=="My Reflection","Same number collectible");

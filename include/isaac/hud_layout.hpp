@@ -3,6 +3,8 @@
 #include <string>
 #include <string_view>
 #include <vector>
+#include <utility>
+#include "isaac/hud_style.hpp"
 
 namespace isaac {
 // Framebuffer coordinates (448x720 in the validated libtesla), not game XY.
@@ -42,5 +44,22 @@ std::vector<std::string> wrapHudText(std::string_view text, int width, Measure m
     }
     if (!line.empty()) flush();
     return lines;
+}
+
+// Reserve room for the indivisible dash + icon on title lines. The suffix is
+// drawn immediately after the LAST line, never at a fixed screen position.
+// With an unusually narrow framebuffer keep the title and omit the badge.
+struct HudTitleLayout {
+    std::vector<std::string> lines;
+    int suffixX{};
+    bool badge{};
+};
+template<class Measure>
+HudTitleLayout layoutHudTitle(std::string_view title,int width,bool quality,Measure measure) {
+    const int suffixWidth=static_cast<int>(measure(" -"))+HudBadgeGap+HudBadgeWidth;
+    const bool badge=quality && !title.empty() && width>suffixWidth+static_cast<int>(measure("W"));
+    auto lines=wrapHudText(title,width-(badge?suffixWidth:0),measure);
+    const int suffixX=lines.empty()?0:static_cast<int>(measure(lines.back()));
+    return {std::move(lines),suffixX,badge};
 }
 } // namespace isaac

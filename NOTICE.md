@@ -24,3 +24,34 @@ Italian catalog descriptions include summaries, translations and reworkings base
 - [libnx](https://github.com/switchbrew/libnx) — Nintendo Switch library linked using `-lnx`. Copyright 2017-2018 libnx Authors. ISC License. Full license notice: `LICENSES/ISC-libnx.txt`.
 
 This is an unofficial fan project, not affiliated with or endorsed by Nintendo, the game's authors/publisher, wiki.gg or EID contributors. No game dumps, decryption keys, firmware images or extracted game assets are provided.
+
+## External runtime catalogs (0.6.0)
+
+The program reads names/descriptions from `runtime/catalog_it.tsv` and collectible
+qualities from `runtime/collectible_quality.tsv`, installed under
+`sd:/switch/IsaacHUD/`. These data are not compiled into the OVL. The existing
+catalog text attribution above is retained, and the descriptions are unchanged.
+
+Quality data are a minimal ID/quality extraction from a pinned wiki-derived
+snapshot. Where dataset rights apply, they are distributed under CC BY-SA 4.0;
+source, selection of Repentance values, contributors and provenance are recorded
+in `catalog/ATTRIBUZIONE_TIER.md` and `catalog/quality_source.json`. Rights in
+third-party game content remain with their respective holders. Attribution is
+carried into the SD package as `CREDITI.txt`, with
+the unmodified CC license in `licenses/CC-BY-SA-4.0.txt`.
+
+## Compiler runtime and binary package notices
+
+The binary package carries the software notices and license texts alongside
+its runtime catalogs, including the original GPL-2.0, MIT and ISC notices.
+`docs/SOFTWARE_NOTICES.txt` identifies components and the matching release
+source. newlib's collected notices and GCC's GPLv3 runtime terms with the
+GCC Runtime Library Exception 3.1 are included under `LICENSES/`; they apply to
+the respective runtime components and do not replace the application's GPL-2.0
+license. `stb_truetype` uses its supplied MIT alternative. Notice sources and
+hashes are recorded in `LICENSES/RUNTIME_SOURCES.json`. These files are copied
+into `switch/IsaacHUD/licenses/` when preparing an SD package.
+
+The numbered shield is original procedural artwork implemented in this project.
+Original software license notices and third-party revisions are retained.
+Software and runtime data carry their respective notices and attributions.

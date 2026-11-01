@@ -1,0 +1,48 @@
+{
+  "format": "isaac-hud-quality-source-v1",
+  "status": "complete",
+  "source_kind": "wiki_export",
+  "license": "CC-BY-SA-4.0",
+  "collectibles": 719,
+  "expected_collectibles": 719,
+  "game_version": "Repentance (not Repentance+), wiki snapshot profile",
+  "game_version_verification": "Repentance values selected from the cited wiki snapshot; runtime compatibility is documented separately",
+  "wiki_page": "https://bindingofisaacrebirth.wiki.gg/wiki/Items",
+  "wiki_revision": null,
+  "wiki_revision_note": "The acquired source is identified by the pinned intermediate commit, path and SHA-256",
+  "wiki_contributors": "https://bindingofisaacrebirth.wiki.gg/index.php?title=Items&action=history",
+  "wiki_license_policy": "https://bindingofisaacrebirth.wiki.gg/wiki/The_Binding_of_Isaac_Rebirth_Wiki:Copyrights",
+  "intermediate_repository": "https://github.com/lubna-ishaq/binding-of-isaac-oracle",
+  "intermediate_commit": "0026f8343069f689582176cf7b061743ea7decb6",
+  "intermediate_data_license_notice": "https://github.com/lubna-ishaq/binding-of-isaac-oracle/blob/5845596d8038c924871979a439b6d5e3ac588cc9/SOURCES.md",
+  "retrieved_date": "2026-11-01",
+  "selection": "gameId plus first value of qualityRaw from the exact pinned snapshot; no other fields retained",
+  "versioned_rows_selected": 143,
+  "inputs": [
+    {
+      "url": "https://raw.githubusercontent.com/lubna-ishaq/binding-of-isaac-oracle/0026f8343069f689582176cf7b061743ea7decb6/frontend/src/data/items.generated.json",
+      "kind": "wiki-derived-export",
+      "sha256": "fd4cd09b981b41e5543331ce7f175b0dadc7d49968f0c2d48543fb6e2e982c54",
+      "matched_collectibles": 719
+    }
+  ],
+  "missing_ids": [],
+  "profile_spot_checks": {
+    "706": {
+      "quality": 4,
+      "source": "https://bindingofisaacrebirth.wiki.gg/wiki/Abyss"
+    },
+    "562": {
+      "quality": 3,
+      "source": "https://bindingofisaacrebirth.wiki.gg/wiki/Rock_Bottom"
+    },
+    "292": {
+      "quality": 4,
+      "source": "https://bindingofisaacrebirth.wiki.gg/wiki/Satanic_Bible"
+    },
+    "234": {
+      "quality": 3,
+      "source": "https://bindingofisaacrebirth.wiki.gg/wiki/Infestation_2"
+    }
+  }
+}

@@ -9,6 +9,15 @@
 #include <exception>
 
 namespace {
+// Called on the main thread before the worker starts. Catalogs are immutable
+// during gameplay; the SD is mounted only while loading the two data files.
+void loadRuntimeDataFromSd() {
+    isaac::clearCatalog();
+    if (R_FAILED(fsdevMountSdmc())) return;
+    try { isaac::loadHudDataFromFiles(); }
+    catch (const std::exception&) { isaac::clearCatalog(); }
+    fsdevUnmountDevice("sdmc");
+}
 // Diagnostic worker: no network, no writes, no pause/resume commands.
 class Worker {
     DmntMemory memory_;
@@ -81,38 +90,56 @@ class HudGui final : public tsl::Gui {
     u64 firstFrame_{};
     int cachedWidth_=-1;
     std::string cachedTitle_, cachedDescription_;
-    std::vector<std::string> titleLines_, descriptionLines_;
+    std::optional<std::uint8_t> cachedQuality_;
+    isaac::HudTitleLayout titleLayout_;
+    std::vector<std::string> descriptionLines_;
     static void drawText(tsl::gfx::Renderer* renderer, const std::string& text,
-                         s32 x, s32 y, float size) {
+                         s32 x, s32 y, float size, std::uint16_t color) {
         const auto shadow=tsl::gfx::Renderer::a(tsl::Color(0xF000));
-        const auto foreground=tsl::gfx::Renderer::a(tsl::Color(0xFFFF));
+        const auto foreground=tsl::gfx::Renderer::a(tsl::Color(color));
         for (const auto& offset : std::array<std::array<s32,2>,4>{{{{-1,0}},{{1,0}},{{0,-1}},{{0,1}}}})
             renderer->drawString(text.c_str(),false,x+offset[0],y+offset[1],size,shadow);
         renderer->drawString(text.c_str(),false,x,y,size,foreground);
     }
     void drawPresentation(tsl::gfx::Renderer* renderer, const std::string& title,
-                          const std::string& description) {
+                          const std::string& description,
+                          std::optional<std::uint8_t> quality={}) {
+        if (quality && *quality>4) quality.reset();
         const int width=isaac::hudTextWidth(tsl::cfg::FramebufferWidth);
         if (width<=0) return;
-        if (width!=cachedWidth_ || title!=cachedTitle_ || description!=cachedDescription_) {
+        if (width!=cachedWidth_ || title!=cachedTitle_ || description!=cachedDescription_
+            || quality!=cachedQuality_) {
             const auto measure=[&](float size) {
                 return [renderer,size](const std::string& text) {
                     // Alpha zero measures without drawing into the framebuffer.
                     return renderer->drawString(text.c_str(),false,0,0,size,tsl::Color(0x0000)).first;
                 };
             };
-            titleLines_=isaac::wrapHudText(title,width,measure(isaac::HudTitleSize));
+            titleLayout_=isaac::layoutHudTitle(title,width,quality.has_value(),measure(isaac::HudTitleSize));
             descriptionLines_=isaac::wrapHudText(description,width,measure(isaac::HudBodySize));
             cachedWidth_=width; cachedTitle_=title; cachedDescription_=description;
+            cachedQuality_=quality;
         }
         int y=isaac::HudTitleY;
-        for (const auto& line : titleLines_) {
-            drawText(renderer,line,isaac::HudTextX,y,isaac::HudTitleSize);
+        for (std::size_t i=0;i<titleLayout_.lines.size();++i) {
+            drawText(renderer,titleLayout_.lines[i],isaac::HudTextX,y,isaac::HudTitleSize,
+                     isaac::HudTitleColor);
+            if (quality && titleLayout_.badge && i+1==titleLayout_.lines.size()) {
+                const int suffixX=isaac::HudTextX+titleLayout_.suffixX;
+                drawText(renderer," -",suffixX,y,isaac::HudTitleSize,isaac::HudTitleColor);
+                const auto dashWidth=renderer->drawString(" -",false,0,0,
+                    isaac::HudTitleSize,tsl::Color(0x0000)).first;
+                isaac::drawHudQualityBadge(*quality,suffixX+static_cast<int>(dashWidth)+isaac::HudBadgeGap,
+                    y+isaac::HudBadgeTopOffset,
+                    [renderer](int x,int top,int w,int h,std::uint16_t color) {
+                        renderer->drawRect(x,top,w,h,tsl::gfx::Renderer::a(tsl::Color(color)));
+                    });
+            }
             y+=isaac::HudTitleLineHeight;
         }
-        if (!titleLines_.empty()) y+=isaac::HudTitleBodyGap-isaac::HudTitleLineHeight;
+        if (!titleLayout_.lines.empty()) y+=isaac::HudTitleBodyGap-isaac::HudTitleLineHeight;
         for (const auto& line : descriptionLines_) {
-            drawText(renderer,line,isaac::HudTextX,y,isaac::HudBodySize);
+            drawText(renderer,line,isaac::HudTextX,y,isaac::HudBodySize,isaac::HudBodyColor);
             y+=isaac::HudBodyLineHeight;
         }
     }
@@ -123,11 +150,16 @@ public:
                 // Every buffer must be cleared, including when nothing is shown.
                 // Merely skipping draw calls would retain an earlier description.
                 renderer->clearScreen();
-                if (presentation_) {
-                    drawPresentation(renderer,presentation_->title,presentation_->description);
+                if (!isaac::CatalogLoaded) {
+                    drawPresentation(renderer,"Isaac HUD - catalogo",
+                        "Catalogo mancante o non valido.\nCopia i file dati in switch/IsaacHUD e riapri la HUD.");
+                } else if (presentation_) {
+                    drawPresentation(renderer,presentation_->title,presentation_->description,presentation_->quality);
                 } else if (firstFrame_ && armTicksToNs(armGetSystemTick()-firstFrame_)<2'000'000'000ULL) {
-                    drawPresentation(renderer,"Isaac HUD 0.5.1 attivo",
-                                     "Avvicinati a un oggetto.\nPer Tesla: tieni + e -.");
+                    drawPresentation(renderer,"Isaac HUD 0.6.0 attivo",
+                        isaac::CollectibleQualities.empty()
+                            ?"Avvicinati a un oggetto.\nTier non disponibili.\nPer Tesla: tieni + e -."
+                            :"Avvicinati a un oggetto.\nPer Tesla: tieni + e -.");
                 }
             });
         // Unlike OverlayFrame, a root CustomDrawer does not lay itself out.
@@ -151,6 +183,7 @@ class IsaacHudOverlay final : public tsl::Overlay {
     bool visible_{};
 public:
     void initServices() override {
+        loadRuntimeDataFromSd();
         padInitializeAny(&pad_);
         worker.start();
     }

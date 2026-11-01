@@ -1,0 +1,26 @@
+[
+  {
+    "file": "LICENSES/NEWLIB.txt",
+    "source": "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob_plain;f=COPYING.NEWLIB;hb=newlib-4.6.0",
+    "sha256": "f3afe48e4bc6ed8466a42e9dacb6be1d8f9cbf5aac15cb8e474a5ccde8b40ef6",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "file": "LICENSES/GCC-RUNTIME-EXCEPTION-3.1.txt",
+    "source": "https://raw.githubusercontent.com/gcc-mirror/gcc/releases/gcc-16.1.0/COPYING.RUNTIME",
+    "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "file": "LICENSES/GPL-3.0-GCC-RUNTIME.txt",
+    "source": "https://raw.githubusercontent.com/gcc-mirror/gcc/releases/gcc-16.1.0/COPYING3",
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "retrieved": "2026-11-01"
+  },
+  {
+    "file": "LICENSES/MIT-stb_truetype.txt",
+    "source": "third_party/libtesla/include/stb_truetype.h, ALTERNATIVE A",
+    "sha256": "c5d1e0e499700d8ae2fc2c342210184d603d5bd7640c82a734efa9c2f914c659",
+    "retrieved": "2026-11-01"
+  }
+]

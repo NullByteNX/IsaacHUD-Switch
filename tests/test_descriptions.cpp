@@ -1,8 +1,10 @@
 #include "isaac/descriptions.hpp"
+#include "test_catalog_setup.hpp"
 #include <iostream>
 #include <stdexcept>
 
 int main() {
+    testLoadCatalog();
     using namespace isaac;
     int checks=0;
     const auto check=[&](bool ok) { ++checks; if (!ok) throw std::runtime_error("Catalog/presentation check failed"); };

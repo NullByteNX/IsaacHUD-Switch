@@ -1,0 +1,34 @@
+Isaac HUD 0.6.0 - Software notices and corresponding source
+
+Application and GPL components: GNU GPL version 2; see licenses/GPL-2.0.txt.
+The original project MIT notice is retained in licenses/MIT-original.txt.
+Copyright (c) 2026 Isaac Switch Native contributors.
+
+libtesla: Copyright (C) 2020 werwolv; GPL version 2 or, at your option, later.
+Tesla-Template: WerWolv and contributors; GNU GPL version 2.
+Atmosphere dmnt client: Copyright (c) Atmosphere-NX; GNU GPL version 2.
+Pinned revisions and corresponding adaptation scripts accompany the source.
+
+libnx: Copyright 2017-2018 libnx Authors; ISC License.
+stb_truetype: Copyright (c) 2017 Sean Barrett; MIT License, alternative A.
+Full notices: licenses/ISC-libnx.txt and licenses/MIT-stb_truetype.txt.
+
+Compiler runtime libraries
+The executable links devkitA64 runtime code, including newlib and GCC runtime
+libraries. newlib's collected copyright and license notices are reproduced in
+licenses/NEWLIB.txt. They apply to their respective components, not to the
+application as a whole. GCC runtime terms: licenses/GPL-3.0-GCC-RUNTIME.txt and
+licenses/GCC-RUNTIME-EXCEPTION-3.1.txt. These runtime notices do not replace the
+application's GPL version 2 license. Compiler/runtime sources and notices:
+https://sourceware.org/newlib/
+https://gcc.gnu.org/onlinedocs/libstdc++/manual/license.html
+https://devkitpro.org/
+
+Corresponding application source, dependency revisions, original notices,
+modifications, build and installation scripts:
+https://github.com/NullByteNX/IsaacHUD-Switch/releases/tag/v0.6.0
+Release source asset: IsaacHUD-Switch.zip; repository tag: v0.6.0.
+Keep this source available alongside the binary package for this release.
+
+Runtime data have separate CC BY-SA 4.0 attribution in CREDITI.txt and
+licenses/CC-BY-SA-4.0.txt. Game and platform rights remain with their holders.

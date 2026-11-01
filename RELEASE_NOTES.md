@@ -1,6 +1,46 @@
+# Isaac HUD 0.6.0 — cataloghi esterni e tier
+
+La versione 0.6.0 introduce i cataloghi esterni e la visualizzazione della
+qualità dei collectible. I nomi e i testi descrittivi mantengono il contenuto
+della v0.5.1.
+
+## Cambiamenti
+
+- Titoli viola, testo descrittivo bianco e contorno nero.
+- Badge dorato originale 0–4 preceduto da un trattino, solo per collectible.
+- Catalogo dei nomi/descrizioni e tabella tier esterni all'OVL, letti all'avvio.
+- Testi e nomi della v0.5.1 conservati; regole di identificazione pillole invariate.
+- 719 tier dal profilo Repentance della snapshot wiki attribuita; 143 righe con
+  due valori vengono selezionate per versione, senza usare i valori Repentance+.
+- Cataloghi validati per formato, limiti, ordine, duplicati e namespace; file
+  tier mancante/errato: descrizioni disponibili senza badge.
+- Preparazione offline della struttura SD, avvisi software e dati, licenze dei
+  componenti e registrazione degli hash del contenuto.
+- Percorsi neutri nei riferimenti compilati ai sorgenti e nei dati di debug;
+  controllo dei percorsi locali nei binari prima del packaging.
+- Rimozione dei vecchi header contenenti il catalogo e la tabella compilati.
+
+## Migrazione dalla v0.5.1
+
+Installare il nuovo OVL e i due TSV nei percorsi descritti nel README. Conservare
+crediti e licenza CC nel pacchetto. Il formato esterno richiede il programma
+0.6.0. Ogni release è identificata dal proprio binario e relativo hash.
+
+## Documentazione e diritti
+
+I testi di `LICENSE` e `LICENSES/*` e le dipendenze vendorizzate non cambiano.
+Aggiornati i riferimenti tecnici; crediti storici delle descrizioni conservati.
+Aggiunta un'attribuzione distinta per i tier. Il riepilogo completo dei file è in
+[docs/RIEPILOGO_MODIFICHE.md](docs/RIEPILOGO_MODIFICHE.md).
+
+---
+
+Le note seguenti descrivono la **v0.5.1**, con il relativo binario, hash e
+verifiche confermate dall’autore.
+
 # Isaac HUD v0.5.1 — note di pubblicazione
 
-Release unica della HUD per **The Binding of Isaac: Repentance** su Nintendo Switch, con overlay Tesla e descrizioni in italiano. Include le ultime correzioni a 223 descrizioni italiane, già presenti nel catalogo della release v0.5.1.
+Release v0.5.1 della HUD per **The Binding of Isaac: Repentance** su Nintendo Switch, con overlay Tesla e descrizioni in italiano. Il catalogo comprende una revisione testuale di 223 descrizioni italiane.
 
 ## Funzioni
 - HUD trasparente che legge in sola lettura la memoria tramite Atmosphère `dmnt`.
@@ -23,4 +63,4 @@ Release unica della HUD per **The Binding of Isaac: Repentance** su Nintendo Swi
 ## Importante
 Licenze e attribuzioni sono documentate in `LICENSE`, `LICENSES/`, `NOTICE.md`, `catalog/ATTRIBUZIONE.md` e `third_party/`.
 
-**Pulizia repository:** i dataset inglesi estratti dalla wiki non sono inclusi. Le descrizioni visualizzate dall'OVL non sono state cambiate durante la pulizia; nel binario è stata neutralizzata unicamente la stringa del percorso di compilazione. Le fonti e le attribuzioni del catalogo sono documentate in `catalog/ATTRIBUZIONE.md`.
+**Contenuto del repository:** il catalogo comprende i nomi e i testi italiani visualizzati dalla HUD. Fonti e attribuzioni sono documentate in `catalog/ATTRIBUZIONE.md`. La normalizzazione del percorso di compilazione nel binario conserva il contenuto delle descrizioni.

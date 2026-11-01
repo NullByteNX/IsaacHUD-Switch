@@ -132,6 +132,9 @@ struct MockWorker {
         return s;
     }
 } worker;
+void loadRuntimeDataFromSd() {
+    require(isaac::loadHudDataFromFiles("runtime/catalog_it.tsv","runtime/collectible_quality.tsv"));
+}
 class HudGui:public tsl::Gui {
     isaac::HudGate gate;
     void update() override { (void)gate.update(worker.current()); }

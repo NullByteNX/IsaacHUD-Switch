@@ -1,0 +1,11 @@
+{
+  "LICENSE": "189b1af95d661151e054cea10c91b3d754e4de4d3fecfb074c1fb29476f7167b",
+  "LICENSES/CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+  "LICENSES/MIT-original.txt": "df1401e84b13b463ae60ea7394673c905132d55c461870a2f06efd86fbe85870",
+  "LICENSES/ISC-libnx.txt": "5b6675f85016009624d29c9222201d3c0fc6a2d5c59253367f27d3e15011cdb2",
+  "catalog/id_names.json": "3322c7be3d57f21a4e45e7bc0e313f2b27a64578d6aa8b4494b8fa7d84e214d9",
+  "catalog/it_collectibles.tsv": "14c3de7e9a58d9ec99f69b684dc4f3ee3cc79759a607645485c6852b25ce4a0d",
+  "catalog/it_trinkets.tsv": "031b940388effbedb561ddefdf5d702dcb20b1b12a6052b4ae8f55bfc1ade9e6",
+  "catalog/it_cards.tsv": "180212801b5f7d121fa518479cecc9f27f8f748b6b10aacdb119b8c0b237725f",
+  "catalog/it_pills.tsv": "1334b0199cc9288be01f428cf0d2e93967fe9cb994a309c39180323c501f8bf1"
+}

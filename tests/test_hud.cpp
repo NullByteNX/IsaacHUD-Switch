@@ -1,9 +1,11 @@
 #include "isaac/hud.hpp"
+#include "test_catalog_setup.hpp"
 #include <iostream>
 #include <limits>
 #include <stdexcept>
 
 int main() {
+    testLoadCatalog();
     using namespace isaac;
     int checks=0;
     const auto check=[&](bool ok) { ++checks; if (!ok) throw std::runtime_error("HUD proximity check failed"); };

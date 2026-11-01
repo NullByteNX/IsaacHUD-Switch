@@ -14,8 +14,17 @@ I testi del catalogo derivati da contenuti della wiki sono attribuiti ai relativ
 
 ## Modifiche apportate
 
-Dati selezionati per **Repentance** (non Repentance+), identificati per Variant e ID, e riassunti in italiano con stile funzionale. Sono state riformulate o corrette ulteriormente 223 descrizioni nella revisione testuale successiva, incorporata nella release pubblica **v0.5.1**. Non sono incluse le descrizioni inglesi estratte, HTML della wiki, copie di articoli o file grafici del gioco.
+Dati selezionati per **Repentance** (non Repentance+), identificati per Variant e ID, e riassunti in italiano con stile funzionale. La release pubblica **v0.5.1** comprende una revisione testuale di 223 descrizioni italiane. Non sono incluse le descrizioni inglesi estratte, HTML della wiki, copie di articoli o file grafici del gioco.
 
-Il repository contiene soltanto `id_names.json` (identificatori e nomi degli oggetti del gioco), `it_*.tsv` (riassunti in italiano) e `include/isaac/catalog_data.hpp` (dati C++ generati). `scripts/generate_catalog.py` opera esclusivamente su questi file, senza rete e senza scaricare la wiki.
+I sorgenti del catalogo rimangono `id_names.json` (ID e nomi) e `it_*.tsv`
+(riassunti italiani). Nella 0.6.0 `scripts/generate_catalog.py` li esporta offline
+in `runtime/catalog_it.tsv`, letto dalla SD. Nomi e descrizioni sono conservati
+nel catalogo esterno. L’esportazione conserva esattamente nomi, testi
+normali e testi delle pillole giganti della v0.5.1; non introduce nuove traduzioni.
+
+La tabella separata `runtime/collectible_quality.tsv` ha provenienza e attribuzione
+in [ATTRIBUZIONE_TIER.md](ATTRIBUZIONE_TIER.md). Gli avvisi storici, le revisioni e
+la licenza delle descrizioni riportati sopra sono conservati. Gli hash dei file
+sorgente e delle licenze conservati sono in `docs/PRESERVED_SHA256.json`.
 
 I diritti sul gioco, i suoi nomi, loghi e asset restano dei rispettivi titolari. Il progetto è indipendente e non affiliato a Nintendo o agli autori del gioco. [External Item Descriptions (EID)](https://github.com/wofsauge/External-Item-Descriptions) è soltanto un riferimento concettuale: non sono distribuiti i suoi file Lua o asset.

@@ -1,11 +1,32 @@
-# Organizzazione
+# Organizzazione 0.6.0
 
-- `native/`, `core/`, `include/isaac/`: sorgente applicativo originale v0.5.1, compreso il catalogo compilato.
-- `catalog/`: solo identificatori/nomi, testi italiani, origine storica e attribuzione quando applicabile; nessun dataset inglese della wiki.
-- `scripts/`: generatori, preparazione della build e neutralizzazione del percorso locale nell'OVL; le modifiche libtesla e dmnt sono riproducibili.
-- `third_party/`: sorgente corrispondente delle dipendenze GPL usate, revisioni pin e licenze originali.
-- `tests/`: test host isolati senza dump del gioco.
-- `docs/`: compilazione, compatibilità e documentazione tecnica.
-- `switch_build/`: cartella generata localmente, NON va nel repository Git.
+| Percorso | Contenuto |
+| --- | --- |
+| `native/` | Overlay Tesla, avvio del caricamento SD e lettore memoria |
+| `core/` | Campionamento del gioco, invariato rispetto alla base |
+| `include/isaac/catalog.hpp` | Parser dei cataloghi esterni e indici in memoria |
+| `include/isaac/quality.hpp` | Ricerca della qualità solo per variant 100 |
+| `include/isaac/hud_style.hpp` | Colori e scudo numerato originali |
+| `include/isaac/hud_layout.hpp` | Wrapping e spazio riservato al badge |
+| `catalog/` | Sorgenti dei testi, tabella numerica, attribuzioni e provenienza |
+| `runtime/` | I due TSV da installare, generati e verificabili offline |
+| `scripts/` | Generatori, importatori, preparazione Switch, packaging e audit |
+| `third_party/` | Dipendenze GPL vendorizzate, con hash e licenze invariati |
+| `tests/` | Test host e fixture sintetiche; nessun dump del gioco |
+| `docs/` | Build, formato dati, limiti, verifica documenti e riepilogo modifiche |
+| `LICENSE`, `LICENSES/` | Testi originali conservati; avvisi runtime e loro provenienza |
 
-Nell'archivio di consegna, **fuori dal repository**: `RELEASE_ASSETS/IsaacHUD.ovl` con hash e istruzioni di pubblicazione come asset della GitHub Release, non nel controllo versione del codice.
+I cataloghi sono conservati nei due TSV sotto `runtime/`. Dopo il caricamento
+dalla SD il programma usa vettori ordinati, immutabili durante la sessione,
+e ricerca binaria.
+
+## Directory generate
+
+- `out/`: eseguibili dei test host.
+- `switch_build/`: copie per la compilazione Switch e relativo OVL.
+- `dist/sdcard/`: albero da copiare sulla SD, con o senza OVL secondo il comando.
+
+Queste tre directory sono escluse da Git. `make sdcard-data` prepara il
+pacchetto dei cataloghi; `make release-package OVL=...` prepara il pacchetto
+operativo con il binario indicato. Le note di ciascuna release riportano
+gli identificativi del relativo eseguibile.

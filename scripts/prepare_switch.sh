@@ -30,7 +30,10 @@ cp third_party/Tesla-Template/Makefile switch_build/Makefile
 cp third_party/Tesla-Template/LICENSE switch_build/LICENSE
 cp third_party/libtesla/include/tesla.hpp third_party/libtesla/include/stb_truetype.h switch_build/libs/libtesla/include/
 cp third_party/libtesla/LICENSE switch_build/libs/libtesla/LICENSE
-cp include/isaac/core.hpp include/isaac/descriptions.hpp include/isaac/catalog_data.hpp include/isaac/pills.hpp include/isaac/hud.hpp include/isaac/hud_layout.hpp include/isaac/hud_controls.hpp switch_build/include/isaac/
+cp include/isaac/core.hpp include/isaac/descriptions.hpp include/isaac/catalog.hpp include/isaac/pills.hpp include/isaac/hud.hpp include/isaac/hud_layout.hpp include/isaac/hud_controls.hpp switch_build/include/isaac/
+cp include/isaac/quality.hpp include/isaac/hud_style.hpp switch_build/include/isaac/
+# Remove obsolete generated tables after preparing over a v0.5.1 build tree.
+rm -f switch_build/include/isaac/catalog_data.hpp switch_build/include/isaac/collectible_quality_data.hpp
 cp core/core.cpp switch_build/source/isaac_core.cpp
 cp native/hud_main.cpp switch_build/source/main.cpp
 cp native/dmnt_memory.cpp switch_build/source/dmnt_memory.cpp
@@ -54,11 +57,23 @@ notice = (
 )
 p.write_text(notice + patched, encoding='utf-8')
 p=Path('switch_build/Makefile');s=p.read_text(encoding='utf-8')
-for field,value in [('TARGET','IsaacHUD'),('APP_TITLE','Isaac HUD Automatico'),('APP_VERSION','0.5.1')]:
+for field,value in [('TARGET','IsaacHUD'),('APP_TITLE','Isaac HUD Automatico'),('APP_VERSION','0.6.0')]:
     s,n=re.subn(r'(?m)^'+field+r'\s*:?=.*$',field+' := '+value,s)
     if n!=1:raise SystemExit('Template incompatibile: '+field)
 s,n=re.subn(r'(?m)^CXXFLAGS\s*:=.*$', 'CXXFLAGS := $(CFLAGS) -std=gnu++20 -fexceptions',s)
 if n!=1:raise SystemExit('Template incompatibile: CXXFLAGS')
+# Modified for Isaac HUD 0.6.0: map compiler filenames before compiling C/C++.
+needle='CXXFLAGS := $(CFLAGS) -std=gnu++20 -fexceptions'
+privacy = '''# Modified for Isaac HUD 0.6.0: neutral compiler paths.
+ISAAC_PRIVACY_FLAGS := $(shell python3 "$(TOPDIR)/../scripts/build_privacy.py" flags)
+ifeq ($(strip $(ISAAC_PRIVACY_FLAGS)),)
+$(error Unable to generate build privacy flags)
+endif
+CFLAGS += $(ISAAC_PRIVACY_FLAGS)
+
+'''
+assert s.count(needle)==1
+s=s.replace(needle,privacy+needle)
 p.write_text(s,encoding='utf-8')
 PY_PATCH
 cat > switch_build/DEPENDENCY_REVISIONS.txt <<'EOF'
