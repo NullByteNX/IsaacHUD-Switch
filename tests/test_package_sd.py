@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Verify real packaging, credits, preservation and rejection before writes."""
+# Modified 2026-11-25: expect the source link for release 0.6.1.
 import hashlib
 import json
 from pathlib import Path
@@ -29,7 +30,7 @@ class PackageTests(unittest.TestCase):
             self.assertEqual((ROOT / "docs/SOFTWARE_NOTICES.txt").read_bytes(),
                              (data / "SOFTWARE_NOTICES.txt").read_bytes())
             self.assertEqual((ROOT / "NOTICE.md").read_bytes(), (data / "NOTICE.md").read_bytes())
-            self.assertIn("releases/tag/v0.6.0", (data / "SOFTWARE_NOTICES.txt").read_text())
+            self.assertIn("releases/tag/v0.6.1", (data / "SOFTWARE_NOTICES.txt").read_text())
             fixture = Path(directory) / "fixture.ovl"
             fixture.write_bytes(b"SYNTHETIC PACKAGING FIXTURE, NOT A SWITCH BINARY\0"
                                 b"/home/davem/projects/devkitpro/pacman-packages/devkita64/"

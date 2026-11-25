@@ -1,4 +1,4 @@
-Isaac HUD 0.6.0 - Software notices and corresponding source
+Isaac HUD 0.6.1 - Software notices and corresponding source
 
 Application and GPL components: GNU GPL version 2; see licenses/GPL-2.0.txt.
 The original project MIT notice is retained in licenses/MIT-original.txt.
@@ -26,10 +26,10 @@ https://devkitpro.org/
 
 Corresponding application source, dependency revisions, original notices,
 modifications, build and installation scripts:
-https://github.com/NullByteNX/IsaacHUD-Switch/releases/tag/v0.6.0
-Repository tag: v0.6.0. GitHub supplies the matching Source code archives
+https://github.com/NullByteNX/IsaacHUD-Switch/releases/tag/v0.6.1
+Repository tag: v0.6.1. GitHub supplies the matching Source code archives
 on the release page. Direct source archive:
-https://github.com/NullByteNX/IsaacHUD-Switch/archive/refs/tags/v0.6.0.zip
+https://github.com/NullByteNX/IsaacHUD-Switch/archive/refs/tags/v0.6.1.zip
 Keep the complete corresponding source at this tag publicly available.
 
 Runtime data have separate CC BY-SA 4.0 attribution in CREDITI.txt and

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Prepare the SD layout, credits and file hashes offline."""
+# Modified 2026-11-25: update the SD package labels for 0.6.1.
 import argparse
 import hashlib
 import json
@@ -53,7 +54,7 @@ def package(output, ovl=None, require_quality=False):
     shutil.copyfile(ROOT / "docs/SOFTWARE_NOTICES.txt", data / "SOFTWARE_NOTICES.txt")
     shutil.copyfile(ROOT / "NOTICE.md", data / "NOTICE.md")
     credits = [
-        "Isaac HUD 0.6.0 - attribuzioni dei dati\n",
+        "Isaac HUD 0.6.1 - attribuzioni dei dati\n",
         "Licenza completa: licenses/CC-BY-SA-4.0.txt\n",
         "I collegamenti relativi nei documenti riportati sotto si riferiscono al repository:\n",
         "https://github.com/NullByteNX/IsaacHUD-Switch\n\n",
@@ -69,7 +70,7 @@ def package(output, ovl=None, require_quality=False):
         binary.unlink() # Do not leave an older OVL in a newly staged data-only package.
     status = "Contenuto: programma IsaacHUD.ovl, cataloghi e crediti." if ovl else "Contenuto: cataloghi e crediti. Per il programma usare l’OVL compilato dai sorgenti della release."
     instructions = (
-        "Isaac HUD 0.6.0 - pacchetto SD\n\n" + status + "\n\n"
+        "Isaac HUD 0.6.1 - pacchetto SD\n\n" + status + "\n\n"
         "Copiare la cartella switch nella radice della SD.\n"
         "File operativi: switch/.overlays/IsaacHUD.ovl, switch/IsaacHUD/catalog_it.tsv, "
         "switch/IsaacHUD/collectible_quality.tsv.\n"

@@ -1,6 +1,6 @@
 # Isaac HUD — Nintendo Switch
 
-**0.6.0 · cataloghi esterni · Repentance · descrizioni italiane**
+**0.6.1 · cataloghi esterni · Repentance · descrizioni italiane**
 
 Overlay Tesla non ufficiale: mostra nome, descrizione e, per i soli collectible,
 qualità 0–4 quando Isaac si avvicina. Titoli viola, descrizioni bianche, contorno
@@ -13,13 +13,13 @@ compilare il programma seguendo [BUILD.md](docs/BUILD.md).
 
 ## Installazione della nuova versione
 
-Usare il pacchetto di release 0.6.0 oppure compilare il programma dai sorgenti.
+Usare il pacchetto di release 0.6.1 oppure compilare il programma dai sorgenti.
 Copiare la cartella `switch` del pacchetto nella radice della SD. I tre file
 operativi sono:
 
 | Percorso sulla SD | Contenuto |
 | --- | --- |
-| `switch/.overlays/IsaacHUD.ovl` | Programma 0.6.0 compilato |
+| `switch/.overlays/IsaacHUD.ovl` | Programma 0.6.1 compilato |
 | `switch/IsaacHUD/catalog_it.tsv` | Nomi e descrizioni, comprese le pillole |
 | `switch/IsaacHUD/collectible_quality.tsv` | 719 coppie ID/qualità dei collectible |
 

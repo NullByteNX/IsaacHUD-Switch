@@ -1,4 +1,5 @@
 #pragma once
+// Modified 2026-11-25: show only ??? for a hidden collectible.
 #include "isaac/core.hpp"
 #include "isaac/catalog.hpp"
 #include "isaac/pills.hpp"
@@ -16,6 +17,7 @@ inline const PillDescription* identifiedPillDescription(const Item& item) {
         ?describePillEffect(*item.pillBaseEffect):nullptr;
 }
 inline std::string itemCaption(const Item& item) {
+    if (item.variant==100 && item.hideCollectibleIdentity) return "???";
     if(item.variant==70) {
         const auto* e=identifiedPillDescription(item);
         return (e?std::string(e->name):"Pillola ???")+" ["+rawItemLabel(item)+"]";
@@ -28,6 +30,7 @@ struct Presentation {
     std::optional<std::uint8_t> quality{};
 };
 inline Presentation presentItem(const Item& item,bool diagnostic) {
+    if (item.variant==100 && item.hideCollectibleIdentity) return {"???", {}};
     if(item.variant==70) {
         if(const auto* e=identifiedPillDescription(item))
             return {diagnostic?itemCaption(item):e->name,e->text};

@@ -6,9 +6,9 @@
 - Title ID: `01009CD0167E2000`.
 - Prefisso Build ID (8 byte): `BDB0590D4BA00019`, non il Build ID completo.
 
-Offset, firme, campionamento e lettura in sola lettura del gioco non vengono
-cambiati in questa modifica. Il profilo è specifico del Title ID e del
-prefisso Build ID indicati sopra.
+Il profilo di lettura in sola lettura è specifico del Title ID e del prefisso
+Build ID indicati sopra. Dalla v0.6.1 la HUD legge anche la texture del
+singolo piedistallo.
 
 ## Verifiche su Nintendo Switch
 
@@ -37,9 +37,10 @@ La fonte della tabella e la selezione dei valori sono documentate in
 - Una selezione descritta alla volta, pensata per un singolo giocatore.
 - Pillole non identificate: il colore non rivela l’effetto. Il supporto riguarda
   gli effetti base identificati e le varianti gestite dal lettore.
-- La HUD descrive gli oggetti riconosciuti dal lettore. Sinergie complete,
-  inventario, multiplayer e gestione generale della Curse of the Blind
-  restano fuori dall’ambito di questa versione.
+- I collectible coperti dal punto interrogativo mostrano solo `???`, anche
+  quando il gioco nasconde un solo piedistallo.
+- Sinergie complete, inventario e multiplayer restano fuori dall’ambito di
+  questa versione.
 - La qualità non stima l'utilità dell'oggetto per la run corrente.
 - Nessun avvio automatico al boot. HOME/sospensione possono richiedere una
   riattivazione; il ritorno a Tesla usa la gestione `+` e `−` già esistente.

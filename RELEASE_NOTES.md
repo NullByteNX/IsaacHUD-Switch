@@ -1,3 +1,10 @@
+# Isaac HUD 0.6.1 — piedistalli nascosti
+
+Modifica del 25 novembre 2026. La HUD mostra solo `???` quando il gioco
+copre un collectible sul piedistallo, sia con Curse of the Blind sia per
+un singolo oggetto nascosto. Per i collectible visibili mostra nome,
+descrizione e qualità quando disponibile.
+
 # Isaac HUD 0.6.0 — cataloghi esterni e tier
 
 La versione 0.6.0 introduce i cataloghi esterni e la visualizzazione della

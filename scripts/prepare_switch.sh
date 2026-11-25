@@ -57,7 +57,8 @@ notice = (
 )
 p.write_text(notice + patched, encoding='utf-8')
 p=Path('switch_build/Makefile');s=p.read_text(encoding='utf-8')
-for field,value in [('TARGET','IsaacHUD'),('APP_TITLE','Isaac HUD Automatico'),('APP_VERSION','0.6.0')]:
+# Modified 2026-11-25: stamp release 0.6.1 in the overlay metadata.
+for field,value in [('TARGET','IsaacHUD'),('APP_TITLE','Isaac HUD Automatico'),('APP_VERSION','0.6.1')]:
     s,n=re.subn(r'(?m)^'+field+r'\s*:?=.*$',field+' := '+value,s)
     if n!=1:raise SystemExit('Template incompatibile: '+field)
 s,n=re.subn(r'(?m)^CXXFLAGS\s*:=.*$', 'CXXFLAGS := $(CFLAGS) -std=gnu++20 -fexceptions',s)

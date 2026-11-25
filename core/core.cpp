@@ -1,3 +1,4 @@
+// Modified 2026-11-25: respect the question-mark spritesheet of each collectible.
 #include "isaac/core.hpp"
 #include "isaac/pills.hpp"
 
@@ -154,10 +155,59 @@ Entities classifyList(Reader& reader, const List& list, Context prefixCtx, Conte
     }
     return result;
 }
+
+// The collectible graphics routine sets sheet 1 of the pickup's Sprite.
+constexpr char QuestionMarkSheet[] = "gfx/items/collectibles/questionmark.png";
+
+std::string collectibleSpritePath(Reader& reader, Address pickup, Context ctx) {
+    try {
+        // Pickup + 0x50 is the Sprite; its sheet array and count are at +0xA8/+0xB0.
+        reader.heapPointer(pickup,0x104);
+        const auto sheets = reader.read(pickup+0xF8,12,ctx);
+        const auto count = integer<std::uint32_t>(sheets,8);
+        if (count < 2 || count > 256) return {};
+        const auto array = integer<Address>(sheets);
+        // Sheets have stride 0xB0 and store a libc++ string at +0x10.
+        reader.heapPointer(array,0xC0+24);
+        const auto string = reader.read(array+0xC0,24,ctx);
+
+        std::vector<std::uint8_t> allocated;
+        std::span<const std::uint8_t> bytes;
+        if (string[0] & 1) {
+            const auto length = integer<Address>(string,8);
+            if (length < 1 || length > 256) return {};
+            const auto data = integer<Address>(string,16);
+            reader.heapPointer(data,length+1);
+            allocated = reader.read(data,length+1,ctx);
+            bytes = allocated;
+        } else {
+            const std::size_t length = string[0] >> 1;
+            if (length < 1 || length > 22) return {};
+            bytes = std::span(string).subspan(1,length+1);
+        }
+        if (bytes.back() != 0) return {};
+
+        std::string path;
+        path.reserve(bytes.size()-1);
+        for (const auto byte : bytes.first(bytes.size()-1)) {
+            if (byte < 32 || byte > 126) return {};
+            char c = static_cast<char>(byte);
+            if (c == '\\') c = '/';
+            if (c >= 'A' && c <= 'Z') c += 'a'-'A';
+            path += c;
+        }
+        if (!path.starts_with("gfx/items/collectibles/") || !path.ends_with(".png")) return {};
+        return path;
+    } catch (const Failure&) {
+        return {};
+    }
+}
+
 struct View {
     std::vector<std::uint8_t> header;
     List list{};
     Entities entities;
+    std::map<Address,std::string> collectibleSprites;
 };
 View view(Reader& reader, Address room, std::uint8_t index) {
     const auto ctx = [index](Phase p) { return Context{p,index}; };
@@ -177,7 +227,11 @@ View view(Reader& reader, Address room, std::uint8_t index) {
     if (!sameIdentities(projected,projection(finalEntities,reader.coverage)))
         reject(Status::Changed,"Player o pickup descrivibile cambiato nella lista finale");
     Entities reread;
-    for (const auto& [p,e] : projected) { (void)e; reread.emplace(p,classify(reader,p,ctx(Phase::RelevantAfter))); }
+    for (const auto& [p,e] : projected) {
+        if (e.type==5 && e.variant==100 && e.subtype)
+            v.collectibleSprites.emplace(p,collectibleSpritePath(reader,p,ctx(Phase::CollectibleGraphics)));
+        reread.emplace(p,classify(reader,p,ctx(Phase::RelevantAfter)));
+    }
     if (!sameIdentities(projected,reread)) reject(Status::Changed,"Identita' cambiata alla rilettura");
     v.entities = std::move(reread);
     v.list.count = listAfter.count;
@@ -254,6 +308,12 @@ Snapshot sample(Memory& memory,PickupCoverage coverage) {
                 Item item{p,e.subtype,e.x,e.y,e.variant};
                 if(e.variant==70 && pillBefore && pillAfter && *pillBefore==*pillAfter)
                     item.pillBaseEffect=revealedBaseEffect(*pillAfter,e.subtype);
+                if (e.variant==100) {
+                    const auto& sprite = second.collectibleSprites.at(p);
+                    // Reveal only with a confirmed current sprite in both views.
+                    item.hideCollectibleIdentity = sprite.empty() || sprite == QuestionMarkSheet
+                        || sprite != first.collectibleSprites.at(p);
+                }
                 result.items.push_back(std::move(item));
             }
         }

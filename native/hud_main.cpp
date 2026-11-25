@@ -1,3 +1,4 @@
+// Modified 2026-11-25: update the active HUD banner to 0.6.1.
 #define TESLA_INIT_IMPL
 #include "isaac/tesla_hud.hpp"
 #include "dmnt_memory.hpp"
@@ -156,7 +157,7 @@ public:
                 } else if (presentation_) {
                     drawPresentation(renderer,presentation_->title,presentation_->description,presentation_->quality);
                 } else if (firstFrame_ && armTicksToNs(armGetSystemTick()-firstFrame_)<2'000'000'000ULL) {
-                    drawPresentation(renderer,"Isaac HUD 0.6.0 attivo",
+                    drawPresentation(renderer,"Isaac HUD 0.6.1 attivo",
                         isaac::CollectibleQualities.empty()
                             ?"Avvicinati a un oggetto.\nTier non disponibili.\nPer Tesla: tieni + e -."
                             :"Avvicinati a un oggetto.\nPer Tesla: tieni + e -.");

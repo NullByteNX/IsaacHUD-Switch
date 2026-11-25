@@ -1,4 +1,4 @@
-# Compilazione e pacchetto 0.6.0
+# Compilazione e pacchetto 0.6.1
 
 Servono devkitPro con devkitA64/libnx, GNU Make, Bash e Python 3. Per i test host
 serve un compilatore C++20, ad esempio `g++`. Le dipendenze effettive
@@ -49,7 +49,7 @@ Per creare lo ZIP installabile, dopo `make release-package`:
 
 ```sh
 mkdir -p out
-python3 -m zipfile -c out/IsaacHUD-0.6.0-SD.zip dist/sdcard/switch dist/sdcard/LEGGIMI.txt dist/sdcard/SHA256SUMS.json
+python3 -m zipfile -c out/IsaacHUD-0.6.1-SD.zip dist/sdcard/switch dist/sdcard/LEGGIMI.txt dist/sdcard/SHA256SUMS.json
 ```
 
 Lo ZIP ha `switch/` alla radice, inclusa la sottocartella `.overlays`. Estrarne
@@ -73,7 +73,7 @@ dipendenze modificate, generatori, istruzioni, crediti e licenze applicabili.
 Conservare i file di dati e le loro attribuzioni separatamente dal software.
 Il packaging copia anche GPL-2.0, MIT, ISC, i testi relativi ai runtime GCC/newlib
 e gli avvisi `SOFTWARE_NOTICES.txt` e `NOTICE.md`. Il sorgente corrispondente
-va pubblicato con il tag `v0.6.0`. Gli archivi automatici GitHub
+va pubblicato con il tag `v0.6.1`. Gli archivi automatici GitHub
 **Source code (zip)** e **Source code (tar.gz)** rendono disponibili i sorgenti
 del tag dalla pagina della release: non serve un ulteriore allegato manuale
 del progetto. Il tag deve contenere tutti i sorgenti corrispondenti, i file

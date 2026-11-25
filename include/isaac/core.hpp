@@ -1,4 +1,5 @@
 #pragma once
+// Modified 2026-11-25: track whether a collectible identity is hidden.
 
 #include <array>
 #include <cstdint>
@@ -26,7 +27,8 @@ struct Metadata {
 // Contexts identify repeated reads in recorded fixtures. The Switch backend ignores them.
 enum class Phase : std::uint8_t {
     Bootstrap, CodeBefore, RootBefore, Before, Entities, After,
-    EntitiesAfter, RelevantAfter, RootAfter, CodeAfter, PillBefore, PillAfter
+    EntitiesAfter, RelevantAfter, RootAfter, CodeAfter, PillBefore, PillAfter,
+    CollectibleGraphics
 };
 struct Context {
     Phase phase{};
@@ -54,6 +56,7 @@ struct Item {
     // Set only from two matching current-run table reads with reveal byte 1.
     // This is the base effect; player-dependent conversions remain separate.
     std::optional<std::uint32_t> pillBaseEffect{};
+    bool hideCollectibleIdentity{};
 };
 inline constexpr bool descriptiveVariant(std::uint32_t variant) {
     return variant==70 || variant==100 || variant==300 || variant==350;
